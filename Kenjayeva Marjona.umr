@@ -1,0 +1,2993 @@
+################################################################################
+# meta-info
+# :: snt1
+Index: 1 2 3 4 5 6 7
+Words: Olamni suv bosgani haqida rivoyatlar bor .
+
+# sentence level graph:
+(s1b1 / bor
+    :theme (s1r / rivoyatlar
+        :theme (s1s / suv)
+        :theme (s1o / Olamni))
+        :manner (s1b / bosgani-haqida))
+
+# alignment:
+s1b: 3-4
+s1b1: 6-6
+s1o: 1-1
+s1r: 5-5
+s1s: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt2
+Index: 1 2 3 4 5 6
+Words: Bu rivoyatlar diniy kitoblarda uchraydi .
+
+# sentence level graph:
+(s2u1 / uchraydi
+    :theme (s2k / kitoblarda
+        :mod (s2d / diniy))
+    :ARG1 (s2r / rivoyatlar)
+        :mod (s2b / Bu))
+
+# alignment:
+s2b: 1-1
+s2d: 3-3
+s2k: 4-4
+s2r: 2-2
+s2u1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt3
+Index: 1 2 3 4 5 6 7
+Words: Tofon Xudo jazosi sifatida talqin qilinadi .
+
+# sentence level graph:
+(s3t1 / talqin-qilinadi
+    :manner (s3j / jazosi-sifatida
+        :manner-of (s3x / Xudo))
+    :theme (s3t / Tofon))
+
+# alignment:
+s3j: 3-4
+s3t: 1-1
+s3t1: 5-5-6-6
+s3x: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt4
+Index: 1 2 3 4 5
+Words: Bu jazo insonlarga yuborilgan .
+
+# sentence level graph:
+(s4y1 / yuborilgan
+    :theme (s4j / jazo
+        :mod (s4b / Bu))
+    :ARG1 (s4i / insonlarga))
+
+# alignment:
+s4b: 1-1
+s4i: 3-3
+s4j: 2-2
+s4y1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt5
+Index: 1 2 3 4 5 6
+Words: Yunon mifologiyasida ham tofon tasvirlanadi .
+
+# sentence level graph:
+(s5t1 / tasvirlanadi
+    :ARG0 (s5m / mifologiyasida-ham
+        :ARG0-of (s5y / Yunon))
+    :theme (s5t / tofon))
+
+# alignment:
+s5m: 2-3
+s5t: 4-4
+s5t1: 5-5
+s5y: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt6
+Index: 1 2 3 4 5
+Words: Zevs oliy xudo hisoblanadi .
+
+# sentence level graph:
+(s6x1 / xudo-hisoblanadi
+    :mod (s6o / oliy)
+    :actor (s6z / Zevs))
+
+# alignment:
+s6o: 2-2
+s6x1: 3-3-4-4
+s6z: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt7
+Index: 1 2 3 4
+Words: Zevs insonlardan g‘azablangan .
+
+# sentence level graph:
+(s7g1 / g‘azablangan
+    :ARG1 (s7i / insonlardan)
+    :actor (s7z / Zevs))
+
+# alignment:
+s7g1: 3-3
+s7i: 2-2
+s7z: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt8
+Index: 1 2 3 4 5 6
+Words: U insonlarni yüq qilishni xohlagan .
+
+# sentence level graph:
+(s8x1 / xohlagan
+    :ARG0 (s8y / yüq-qilishni
+        :ARG1 (s8i / insonlarni))
+    :actor (s8u / U))
+
+# alignment:
+s8i: 2-2
+s8u: 1-1
+s8x1: 5-5
+s8y: 3-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt9
+Index: 1 2 3 4 5
+Words: Zevs kuchli büron yuborgan .
+
+# sentence level graph:
+(s9y1 / yuborgan
+    :actor (s9z / Zevs)
+    :theme (s9b / büron)
+        :mod (s9k / kuchli))
+
+# alignment:
+s9b: 3-3
+s9k: 2-2
+s9y1: 4-4
+s9z: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt10
+Index: 1 2 3 4 5
+Words: Yer yuzida toshqin boshlangan .
+
+# sentence level graph:
+(s10b1 / boshlangan
+    :place (s10y / Yer-yuzida)
+    :theme (s10t / toshqin))
+
+# alignment:
+s10b1: 4-4
+s10t: 3-3
+s10y: 1-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt11
+Index: 1 2 3 4 5
+Words: Küp odamlar halok bo‘lgan .
+
+# sentence level graph:
+(s11h1 / halok-bo‘lgan
+    :actor (s11o / odamlar)
+        :mod (s11k / Küp))
+
+# alignment:
+s11h1: 3-3-4-4
+s11k: 1-1
+s11o: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt12
+Index: 1 2 3 4 5
+Words: Pirra uning xotini edi .
+
+# sentence level graph:
+(s12x1 / xotini-edi
+    :manner (s12u / uning)
+    :actor (s12p / Pirra))
+
+# alignment:
+s12p: 1-1
+s12u: 2-2
+s12x1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt13
+Index: 1 2 3 4
+Words: Xudolar ularni asragan .
+
+# sentence level graph:
+(s13a1 / asragan
+    :ARG1 (s13u / ularni)
+    :actor (s13x / Xudolar))
+
+# alignment:
+s13a1: 3-3
+s13u: 2-2
+s13x: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt14
+Index: 1 2 3 4 5 6
+Words: Insoniyat qadimdan tarix bilan qiziqqan .
+
+# sentence level graph:
+(s14q1 / qiziqqan
+    :time (s14q / qadimdan)
+    :manner (s14t / tarix-bilan)
+    :theme (s14i / Insoniyat))
+
+# alignment:
+s14i: 1-1
+s14q: 2-2
+s14q1: 5-5
+s14t: 3-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt15
+Index: 1 2 3 4 5
+Words: Odamlar ütmishni bilishni istagan .
+
+# sentence level graph:
+(s15i1 / istagan
+    :ARG0 (s15x / ütmishni)
+    :ARG1 (s15b / bilishni)
+    :actor (s15o / Odamlar))
+
+# alignment:
+s15b: 3-3
+s15i1: 4-4
+s15o: 1-1
+s15x: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt16
+Index: 1 2 3 4
+Words: Tarix voqealarni ürganadi .
+
+# sentence level graph:
+(s16r1 / ürganadi
+    :ARG0 (s16v / voqealarni)
+    :theme (s16t / Tarix))
+
+# alignment:
+s16r1: 3-3
+s16t: 1-1
+s16v: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt17
+Index: 1 2 3 4 5 6
+Words: Tarix inson hayoti bilan bog‘liq .
+
+# sentence level graph:
+(s17b1 / bog‘liq
+    :ARG0 (s17h / hayoti-bilan
+        :ARG0-of (s17i / inson))
+    :theme (s17t / Tarix))
+
+# alignment:
+s17b1: 5-5
+s17h: 3-4
+s17i: 2-2
+s17t: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt18
+Index: 1 2 3 4 5
+Words: Qadimgi odamlar tabiatdan qo‘rqqan .
+
+# sentence level graph:
+(s18q1 / qo‘rqqan
+    :ARG1 (s18t / tabiatdan)
+    :actor (s18o / odamlar)
+        :mod (s18q / Qadimgi))
+
+# alignment:
+s18o: 2-2
+s18q: 1-1
+s18q1: 4-4
+s18t: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt19
+Index: 1 2 3 4 5
+Words: Tabiat hodisalari tushunarsiz bo‘lgan .
+
+# sentence level graph:
+(s19t1 / tushunarsiz-bo‘lgan
+    :theme (s19h / hodisalari)
+        :theme-of (s19t / Tabiat))
+
+# alignment:
+s19h: 2-2
+s19t: 1-1
+s19t1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt20
+Index: 1 2 3 4 5 6
+Words: Odamlar hodisalarni afsona bilan izohlagan .
+
+# sentence level graph:
+(s20i1 / izohlagan
+    :ARG1 (s20h / hodisalarni)
+    :ARG0 (s20a / afsona-bilan)
+    :actor (s20o / Odamlar))
+
+# alignment:
+s20a: 3-4
+s20h: 2-2
+s20i1: 5-5
+s20o: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt21
+Index: 1 2 3 4 5
+Words: Afsonalar avloddan avlodga o‘tgan .
+
+# sentence level graph:
+(s21o1 / o‘tgan
+    :theme (s21a2 / Afsonalar)
+    :ARG0 (s21a / avloddan)
+        :ARG1 (s21a1 / avlodga))
+
+# alignment:
+s21a: 2-2
+s21a1: 3-3
+s21a2: 1-1
+s21o1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt22
+Index: 1 2 3 4 5 6
+Words: Qadimgi dunyo uzoq davrni qamraydi .
+
+# sentence level graph:
+(s22q1 / qamraydi
+    :theme (s22d1 / dunyo
+        :extent (s22q / Qadimgi))
+    :ARG0 (s22d / davrni)
+        :extent (s22u / uzoq))
+
+# alignment:
+s22d: 4-4
+s22d1: 2-2
+s22q: 1-1
+s22q1: 5-5
+s22u: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt23
+Index: 1 2 3 4 5 6 7 8
+Words: Bu davr yozuv paydo bülishidan oldin boshlangan .
+
+# sentence level graph:
+(s23b1 / boshlangan
+    :theme (s23d / davr
+        :mod (s23b / Bu))
+    :time (s23p / paydo-bülishidan-oldin)
+        :theme (s23y / yozuv))
+
+# alignment:
+s23b: 1-1
+s23b1: 7-7
+s23d: 2-2
+s23p: 4-6
+s23y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt24
+Index: 1 2 3 4 5 6
+Words: Odamlar dastlab ovchilik bilan shug‘ullangan .
+
+# sentence level graph:
+(s24s1 / shug‘ullangan
+    :time (s24d / dastlab)
+    :ARG0 (s24o1 / ovchilik-bilan)
+    :actor (s24o / Odamlar))
+
+# alignment:
+s24d: 2-2
+s24o: 1-1
+s24o1: 3-4
+s24s1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt25
+Index: 1 2 3 4
+Words: Odamlar ğorlarda yashagan .
+
+# sentence level graph:
+(s25y1 / yashagan)
+
+# alignment:
+s25y1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt26
+Index: 1 2 3 4 5
+Words: Mehnat qurollari sodda bo‘lgan .
+
+# sentence level graph:
+(s26s1 / sodda-bo‘lgan
+    :theme (s26q / qurollari)
+        :theme-of (s26m / Mehnat))
+
+# alignment:
+s26m: 1-1
+s26q: 2-2
+s26s1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt27
+Index: 1 2 3 4 5
+Words: Odamlar olovni kashf etgan .
+
+# sentence level graph:
+(s27k1 / kashf-etgan
+    :ARG0 (s27o1 / olovni)
+    :actor (s27o / Odamlar))
+
+# alignment:
+s27k1: 3-3-4-4
+s27o: 1-1
+s27o1: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt28
+Index: 1 2 3 4
+Words: Olov hayotni osonlashtirgan .
+
+# sentence level graph:
+(s28o1 / osonlashtirgan
+    :ARG0 (s28h / hayotni)
+    :theme (s28o / Olov))
+
+# alignment:
+s28h: 2-2
+s28o: 1-1
+s28o1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt29
+Index: 1 2 3 4 5
+Words: Odamlar jamoa bülib yashagan .
+
+# sentence level graph:
+(s29y1 / yashagan
+    :manner (s29j / jamoa-bo)
+    :actor (s29o / Odamlar))
+
+# alignment:
+s29j: 2-3
+s29o: 1-1
+s29y1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt30
+Index: 1 2 3 4 5
+Words: Ular birgalikda ov qilgan .
+
+# sentence level graph:
+(s30o1 / ov-qilgan
+    :manner (s30b / birgalikda)
+    :actor (s30u / Ular))
+
+# alignment:
+s30b: 2-2
+s30o1: 3-3-4-4
+s30u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt31
+Index: 1 2 3 4 5
+Words: Asta-sekin dehqonchilik paydo bo‘lgan .
+
+# sentence level graph:
+(s31p1 / paydo-bo‘lgan
+    :manner (s31a / Asta-sekin)
+    :theme (s31d / dehqonchilik))
+
+# alignment:
+s31a: 1-1
+s31d: 2-2
+s31p1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt32
+Index: 1 2 3 4 5 6 7
+Words: Odamlar doimiy yashash joylariga ega bülgan .
+
+# sentence level graph:
+(s32e1 / ega-bülgan
+    :ARG0 (s32j / joylariga
+        :ARG0-of (s32y / yashash)
+            :mod (s32d / doimiy))
+    :actor (s32o / Odamlar))
+
+# alignment:
+s32d: 2-2
+s32e1: 5-5-6-6
+s32j: 4-4
+s32o: 1-1
+s32y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt33
+Index: 1 2 3 4 5 6
+Words: Qadimgi odamlar yerga ishlov bergan .
+
+# sentence level graph:
+(s33i1 / ishlov-bergan
+    :ARG1 (s33y / yerga)
+    :actor (s33o / odamlar)
+        :mod (s33q / Qadimgi))
+
+# alignment:
+s33i1: 4-4-5-5
+s33o: 2-2
+s33q: 1-1
+s33y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt34
+Index: 1 2 3 4
+Words: Odamlar oziq-ovqat tayyorlagan .
+
+# sentence level graph:
+(s34t1 / tayyorlagan
+    :ARG0 (s34o1 / oziq-ovqat)
+    :actor (s34o / Odamlar))
+
+# alignment:
+s34o: 1-1
+s34o1: 2-2
+s34t1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt35
+Index: 1 2 3 4
+Words: Idishlar loydan yasalgan .
+
+# sentence level graph:
+(s35y1 / yasalgan
+    :ARG0 (s35l / loydan)
+    :theme (s35i / Idishlar))
+
+# alignment:
+s35i: 1-1
+s35l: 2-2
+s35y1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt36
+Index: 1 2 3 4
+Words: Qurilish tajribasi ortgan .
+
+# sentence level graph:
+(s36o1 / ortgan
+    :theme (s36t / tajribasi)
+        :theme-of (s36q / Qurilish))
+
+# alignment:
+s36o1: 3-3
+s36q: 1-1
+s36t: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt37
+Index: 1 2 3
+Words: Hunarmandchilik rivojlangan .
+
+# sentence level graph:
+(s37r1 / rivojlangan
+    :theme (s37h / Hunarmandchilik))
+
+# alignment:
+s37h: 1-1
+s37r1: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt38
+Index: 1 2 3 4
+Words: Mehnat turlari ko‘paygan .
+
+# sentence level graph:
+(s38k1 / ko‘paygan
+    :theme (s38t / turlari)
+        :theme-of (s38m / Mehnat))
+
+# alignment:
+s38k1: 3-3
+s38m: 1-1
+s38t: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt39
+Index: 1 2 3 4
+Words: Jamiyat qatlamlarga bo‘lingan .
+
+# sentence level graph:
+(s39b1 / bo‘lingan
+    :theme (s39j / Jamiyat)
+    :ARG0 (s39q / qatlamlarga))
+
+# alignment:
+s39b1: 3-3
+s39j: 1-1
+s39q: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt40
+Index: 1 2 3 4
+Words: Diniy tasavvurlar kengaygan .
+
+# sentence level graph:
+(s40k1 / kengaygan
+    :theme (s40t / tasavvurlar)
+        :mod (s40d / Diniy))
+
+# alignment:
+s40d: 1-1
+s40k1: 3-3
+s40t: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt41
+Index: 1 2 3 4 5
+Words: Odamlar ülimga ishonch bildirgan .
+
+# sentence level graph:
+(s41i1 / ishonch-bildirgan
+    :ARG0 (s41x / ülimga)
+    :actor (s41o / Odamlar))
+
+# alignment:
+s41i1: 3-3-4-4
+s41o: 1-1
+s41x: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt42
+Index: 1 2 3 4 5 6
+Words: Hayot va ülim tushunchalari shakllangan .
+
+# sentence level graph:
+(s42s1 / shakllangan
+    :theme (s42t / tushunchalari
+        :theme (s42x / ülim))
+        :mod (s42h / Hayot))
+
+# alignment:
+s42h: 1-1
+s42s1: 5-5
+s42t: 4-4
+s42x: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt43
+Index: 1 2 3 4
+Words: Tarixiy manbalar yaratilgan .
+
+# sentence level graph:
+(s43y1 / yaratilgan
+    :theme (s43m / manbalar)
+        :mod (s43t / Tarixiy))
+
+# alignment:
+s43m: 2-2
+s43t: 1-1
+s43y1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt44
+Index: 1 2 3 4
+Words: Shaharlar markazga aylangan .
+
+# sentence level graph:
+(s44a1 / aylangan
+    :ARG0 (s44m / markazga)
+    :theme (s44s / Shaharlar))
+
+# alignment:
+s44a1: 3-3
+s44m: 2-2
+s44s: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt45
+Index: 1 2 3 4 5
+Words: Qadimgi Misr davlati shakllangan .
+
+# sentence level graph:
+(s45s1 / shakllangan
+    :place (s45m / Misr
+        :mod (s45q / Qadimgi))
+    :theme (s45d / davlati))
+
+# alignment:
+s45d: 3-3
+s45m: 2-2
+s45q: 1-1
+s45s1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt46
+Index: 1 2 3 4 5
+Words: Nil daryosi muhim bo‘lgan .
+
+# sentence level graph:
+(s46m1 / muhim-bo‘lgan
+    :theme (s46d / daryosi)
+        :place (s46n / Nil))
+
+# alignment:
+s46d: 2-2
+s46m1: 3-3-4-4
+s46n: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt47
+Index: 1 2 3 4 5
+Words: Bu inshootlar yirik bo‘lgan .
+
+# sentence level graph:
+(s47y1 / yirik-bo‘lgan
+    :theme (s47i / inshootlar)
+        :mod (s47b / Bu))
+
+# alignment:
+s47b: 1-1
+s47i: 2-2
+s47y1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt48
+Index: 1 2 3 4 5
+Words: Misrliklar ilm bilan shug‘ullangan .
+
+# sentence level graph:
+(s48s1 / shug‘ullangan
+    :actor (s48m / Misrliklar)
+    :ARG0 (s48i / ilm-bilan))
+
+# alignment:
+s48i: 2-3
+s48m: 1-1
+s48s1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt49
+Index: 1 2 3 4 5
+Words: Qadimgi Mesopotamiya vujudga kelgan .
+
+# sentence level graph:
+(s49v1 / vujudga-kelgan
+    :place (s49m / Mesopotamiya)
+        :extent (s49q / Qadimgi))
+
+# alignment:
+s49m: 2-2
+s49q: 1-1
+s49v1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt50
+Index: 1 2 3 4 5 6
+Words: Qadimgi odamlar sovuq ğorlarda yashagan .
+
+# sentence level graph:
+(s50y1 / yashagan
+    :place (s50x / ğorlarda
+        :extent (s50s / sovuq))
+    :actor (s50o / odamlar)
+        :mod (s50q / Qadimgi))
+
+# alignment:
+s50o: 2-2
+s50q: 1-1
+s50s: 3-3
+s50x: 4-4
+s50y1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt51
+Index: 1 2 3 4 5 6
+Words: Dastlabki insonlar yovvoyi hayvonlarni ovlagan .
+
+# sentence level graph:
+(s51o1 / ovlagan
+    :ARG0 (s51h / hayvonlarni
+        :mod (s51y / yovvoyi))
+    :actor (s51i / insonlar)
+        :extent (s51d / Dastlabki))
+
+# alignment:
+s51d: 1-1
+s51h: 4-4
+s51i: 2-2
+s51o1: 5-5
+s51y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt52
+Index: 1 2 3 4 5 6
+Words: Odamlar ütkir toshlardan qurol yasagan .
+
+# sentence level graph:
+(s52y1 / yasagan
+    :ARG1 (s52t / toshlardan
+        :extent (s52x / ütkir))
+    :ARG0 (s52q / qurol)
+    :actor (s52o / Odamlar))
+
+# alignment:
+s52o: 1-1
+s52q: 4-4
+s52t: 3-3
+s52x: 2-2
+s52y1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt53
+Index: 1 2 3 4 5 6
+Words: Ovchilar keng ürmonlarda ov qilgan .
+
+# sentence level graph:
+(s53o1 / ov-qilgan
+    :ARG0 (s53x / ürmonlarda
+        :extent (s53k / keng))
+    :actor (s53o / Ovchilar))
+
+# alignment:
+s53k: 2-2
+s53o: 1-1
+s53o1: 4-4-5-5
+s53x: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt54
+Index: 1 2 3 4 5 6
+Words: Qadimgi ayollar mevani terib yegan .
+
+# sentence level graph:
+(s54t1 / terib-yegan
+    :actor (s54a / ayollar
+        :mod (s54q / Qadimgi))
+    :ARG0 (s54m / mevani))
+
+# alignment:
+s54a: 2-2
+s54m: 3-3
+s54q: 1-1
+s54t1: 4-4-5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt55
+Index: 1 2 3 4 5 6
+Words: Odamlar olovni ehtiyot bilan saqlagan .
+
+# sentence level graph:
+(s55s1 / saqlagan
+    :ARG0 (s55o1 / olovni)
+    :manner (s55e / ehtiyot-bilan)
+    :actor (s55o / Odamlar))
+
+# alignment:
+s55e: 3-4
+s55o: 1-1
+s55o1: 2-2
+s55s1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt56
+Index: 1 2 3 4 5 6
+Words: Issiq olov sovuqdan himoya qilgan .
+
+# sentence level graph:
+(s56h1 / himoya-qilgan
+    :theme (s56o / olov
+        :mod (s56i / Issiq))
+    :ARG0 (s56s / sovuqdan))
+
+# alignment:
+s56h1: 4-4-5-5
+s56i: 1-1
+s56o: 2-2
+s56s: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt57
+Index: 1 2 3 4 5
+Words: Odamlar ovqatni olovda pishirgan .
+
+# sentence level graph:
+(s57p1 / pishirgan
+    :ARG1 (s57o2 / ovqatni)
+    :ARG0 (s57o1 / olovda)
+    :actor (s57o / Odamlar))
+
+# alignment:
+s57o: 1-1
+s57o1: 3-3
+s57o2: 2-2
+s57p1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt58
+Index: 1 2 3 4 5
+Words: Jamoa azolari birgalikda yashagan .
+
+# sentence level graph:
+(s58y1 / yashagan
+    :actor (s58a / azolari
+        :actor-of (s58j / Jamoa))
+    :manner (s58b / birgalikda))
+
+# alignment:
+s58a: 2-2
+s58b: 3-3
+s58j: 1-1
+s58y1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt59
+Index: 1 2 3 4 5 6
+Words: Katta yoshdagilar bolalarga yordam bergan .
+
+# sentence level graph:
+(s59y1 / yordam-bergan
+    :ARG0 (s59b / bolalarga)
+    :actor (s59y / yoshdagilar)
+        :mod (s59k / Katta))
+
+# alignment:
+s59b: 3-3
+s59k: 1-1
+s59y: 2-2
+s59y1: 4-4-5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt60
+Index: 1 2 3 4 5
+Words: Qadimgi odamlar tabiatdan qürqqan .
+
+# sentence level graph:
+(s60q1 / qürqqan
+    :ARG0 (s60t / tabiatdan)
+    :actor (s60o / odamlar)
+        :mod (s60q / Qadimgi))
+
+# alignment:
+s60o: 2-2
+s60q: 1-1
+s60q1: 4-4
+s60t: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt61
+Index: 1 2 3 4 5 6
+Words: Kuchli yomğir odamlarni hayratga solgan .
+
+# sentence level graph:
+(s61h1 / hayratga-solgan
+    :theme (s61y / yomğir
+        :extent (s61k / Kuchli))
+    :ARG0 (s61o / odamlarni))
+
+# alignment:
+s61h1: 4-4-5-5
+s61k: 1-1
+s61o: 3-3
+s61y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt62
+Index: 1 2 3 4 5
+Words: Odamlar momaqaldiroqdan qo‘rqib ketgan .
+
+# sentence level graph:
+(s62q1 / qo‘rqib-ketgan
+    :ARG0 (s62m / momaqaldiroqdan)
+    :actor (s62o / Odamlar))
+
+# alignment:
+s62m: 2-2
+s62o: 1-1
+s62q1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt63
+Index: 1 2 3 4 5
+Words: Tabiiy hodisalar tushunarsiz bülgan .
+
+# sentence level graph:
+(s63b1 / bülgan
+    :manner (s63t1 / tushunarsiz)
+    :theme (s63h / hodisalar)
+        :mod (s63t / Tabiiy))
+
+# alignment:
+s63b1: 4-4
+s63h: 2-2
+s63t: 1-1
+s63t1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt64
+Index: 1 2 3 4 5 6
+Words: Odamlar hodisalarni afsona bilan izohlagan .
+
+# sentence level graph:
+(s64i1 / izohlagan
+    :ARG1 (s64a / afsona-bilan)
+    :ARG0 (s64h / hodisalarni)
+    :actor (s64o / Odamlar))
+
+# alignment:
+s64a: 3-4
+s64h: 2-2
+s64i1: 5-5
+s64o: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt65
+Index: 1 2 3 4 5
+Words: Afsonalar xalq orasida tarqalgan .
+
+# sentence level graph:
+(s65t1 / tarqalgan
+    :place (s65x / xalq-orasida)
+    :theme (s65a / Afsonalar))
+
+# alignment:
+s65a: 1-1
+s65t1: 4-4
+s65x: 2-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt66
+Index: 1 2 3 4 5
+Words: Rivoyatlar oğzaki tarzda yetkazilgan .
+
+# sentence level graph:
+(s66y1 / yetkazilgan
+    :manner (s66o / oğzaki-tarzda)
+    :theme (s66r / Rivoyatlar))
+
+# alignment:
+s66o: 2-3
+s66r: 1-1
+s66y1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt67
+Index: 1 2 3 4 5 6
+Words: Keksa odamlar voqealarni so‘zlab bergan .
+
+# sentence level graph:
+(s67s1 / so‘zlab-bergan
+    :actor (s67o / odamlar
+        :mod (s67k / Keksa))
+    :ARG0 (s67v / voqealarni))
+
+# alignment:
+s67k: 1-1
+s67o: 2-2
+s67s1: 4-4-5-5
+s67v: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt68
+Index: 1 2 3 4
+Words: Afsonalarda xudolar tasvirlangan .
+
+# sentence level graph:
+(s68t1 / tasvirlangan
+    :ARG0 (s68a / Afsonalarda)
+    :actor (s68x / xudolar))
+
+# alignment:
+s68a: 1-1
+s68t1: 3-3
+s68x: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt69
+Index: 1 2 3 4 5
+Words: Xudolar kuchli mavjudot hisoblangan .
+
+# sentence level graph:
+(s69m1 / mavjudot-hisoblangan
+    :mod (s69k / kuchli)
+    :actor (s69x / Xudolar))
+
+# alignment:
+s69k: 2-2
+s69m1: 3-3-4-4
+s69x: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt70
+Index: 1 2 3 4 5
+Words: Qadimgi jamiyat sekin rivojlangan .
+
+# sentence level graph:
+(s70r1 / rivojlangan
+    :manner (s70s / sekin)
+    :theme (s70j / jamiyat)
+        :extent (s70q / Qadimgi))
+
+# alignment:
+s70j: 2-2
+s70q: 1-1
+s70r1: 4-4
+s70s: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt71
+Index: 1 2 3 4 5
+Words: Dehqonlar don ekinlarini yetishtirgan .
+
+# sentence level graph:
+(s71y1 / yetishtirgan
+    :actor (s71d1 / Dehqonlar)
+    :ARG0 (s71e / ekinlarini)
+        :ARG0-of (s71d / don))
+
+# alignment:
+s71d: 2-2
+s71d1: 1-1
+s71e: 3-3
+s71y1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt72
+Index: 1 2 3 4 5
+Words: Hosil kuzda yiğib olingan .
+
+# sentence level graph:
+(s72y1 / yiğib-olingan
+    :time (s72k / kuzda)
+    :theme (s72h / Hosil))
+
+# alignment:
+s72h: 1-1
+s72k: 2-2
+s72y1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt73
+Index: 1 2 3 4 5
+Words: Odamlar ortiqcha ovqatni saqlagan .
+
+# sentence level graph:
+(s73s1 / saqlagan
+    :ARG0 (s73o1 / ovqatni
+        :extent (s73o2 / ortiqcha))
+    :actor (s73o / Odamlar))
+
+# alignment:
+s73o: 1-1
+s73o1: 3-3
+s73o2: 2-2
+s73s1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt74
+Index: 1 2 3 4 5
+Words: Qishloqlar daryo büyida joylashgan .
+
+# sentence level graph:
+(s74j1 / joylashgan
+    :place (s74d / daryo-büyida)
+    :theme (s74q / Qishloqlar))
+
+# alignment:
+s74d: 2-3
+s74j1: 4-4
+s74q: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt75
+Index: 1 2 3 4 5
+Words: Daryolar dehqonchilikka yordam bergan .
+
+# sentence level graph:
+(s75y1 / yordam-bergan
+    :ARG0 (s75d1 / dehqonchilikka)
+    :theme (s75d / Daryolar))
+
+# alignment:
+s75d: 1-1
+s75d1: 2-2
+s75y1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt76
+Index: 1 2 3 4 5
+Words: Suğorish ariqlari qülda qazilgan .
+
+# sentence level graph:
+(s76q1 / qazilgan
+    :manner (s76q / qülda)
+    :theme (s76a / ariqlari)
+        :mod (s76s / Suğorish))
+
+# alignment:
+s76a: 2-2
+s76q: 3-3
+s76q1: 4-4
+s76s: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt77
+Index: 1 2 3 4 5
+Words: Odamlar loydan idish yasagan .
+
+# sentence level graph:
+(s77y1 / yasagan
+    :ARG0 (s77l / loydan)
+    :theme (s77i / idish)
+    :actor (s77o / Odamlar))
+
+# alignment:
+s77i: 3-3
+s77l: 2-2
+s77o: 1-1
+s77y1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt78
+Index: 1 2 3 4 5
+Words: Kulollar idishlarni quyoshda quritgan .
+
+# sentence level graph:
+(s78q1 / quritgan
+    :manner (s78q / quyoshda)
+    :ARG0 (s78i / idishlarni)
+    :actor (s78k / Kulollar))
+
+# alignment:
+s78i: 2-2
+s78k: 1-1
+s78q: 3-3
+s78q1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt79
+Index: 1 2 3 4 5
+Words: Hunarmandlar mehnat bilan shuğullangan .
+
+# sentence level graph:
+(s79s1 / shuğullangan
+    :ARG0 (s79m / mehnat-bilan)
+    :actor (s79h / Hunarmandlar))
+
+# alignment:
+s79h: 1-1
+s79m: 2-3
+s79s1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt80
+Index: 1 2 3 4 5 6
+Words: Temir qurollar keyinroq paydo bülgan .
+
+# sentence level graph:
+(s80p1 / paydo-bülgan
+    :time (s80k / keyinroq)
+    :actor (s80q / qurollar)
+        :mod (s80t / Temir))
+
+# alignment:
+s80k: 3-3
+s80p1: 4-4-5-5
+s80q: 2-2
+s80t: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt81
+Index: 1 2 3 4 5
+Words: Mehnat qurollari ishni yengillashtirgan .
+
+# sentence level graph:
+(s81y1 / yengillashtirgan
+    :ARG0 (s81i / ishni)
+    :theme (s81q / qurollari)
+        :theme-of (s81m / Mehnat))
+
+# alignment:
+s81i: 3-3
+s81m: 1-1
+s81q: 2-2
+s81y1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt82
+Index: 1 2 3 4 5
+Words: Odamlar yoğochdan uy qurgan .
+
+# sentence level graph:
+(s82q1 / qurgan
+    :ARG1 (s82y / yoğochdan)
+    :actor (s82o / Odamlar)
+    :ARG0 (s82u / uy))
+
+# alignment:
+s82o: 1-1
+s82q1: 4-4
+s82u: 3-3
+s82y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt83
+Index: 1 2 3 4 5 6
+Words: Uylar qalin devorlar bilan qurilgan .
+
+# sentence level graph:
+(s83q1 / qurilgan
+    :manner (s83d / devorlar-bilan
+        :extent (s83q / qalin))
+    :theme (s83u / Uylar))
+
+# alignment:
+s83d: 3-4
+s83q: 2-2
+s83q1: 5-5
+s83u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt84
+Index: 1 2 3 4 5
+Words: Jamoada qoidalar paydo bülgan .
+
+# sentence level graph:
+(s84p1 / paydo-bülgan
+    :theme (s84q / qoidalar)
+        :place (s84j / Jamoada))
+
+# alignment:
+s84j: 1-1
+s84p1: 3-3-4-4
+s84q: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt85
+Index: 1 2 3 4 5
+Words: Kattalar qoidalarga amal qilgan .
+
+# sentence level graph:
+(s85a1 / amal-qilgan
+    :actor (s85k / Kattalar)
+    :ARG0 (s85q / qoidalarga))
+
+# alignment:
+s85a1: 3-3-4-4
+s85k: 1-1
+s85q: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt86
+Index: 1 2 3 4 5
+Words: Jamiyatda rahbarlar ajralib chiqqan .
+
+# sentence level graph:
+(s86a1 / ajralib-chiqqan
+    :ARG0 (s86j / Jamiyatda)
+    :actor (s86r / rahbarlar))
+
+# alignment:
+s86a1: 3-3-4-4
+s86j: 1-1
+s86r: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt87
+Index: 1 2 3 4
+Words: Rahbarlar jamoani boshqargan .
+
+# sentence level graph:
+(s87b1 / boshqargan
+    :ARG0 (s87j / jamoani)
+    :actor (s87r / Rahbarlar))
+
+# alignment:
+s87b1: 3-3
+s87j: 2-2
+s87r: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt88
+Index: 1 2 3 4
+Words: Odamlar rahbarlarga bo‘ysungan .
+
+# sentence level graph:
+(s88b1 / bo‘ysungan
+    :ARG0 (s88r / rahbarlarga)
+    :actor (s88o / Odamlar))
+
+# alignment:
+s88b1: 3-3
+s88o: 1-1
+s88r: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt89
+Index: 1 2 3 4 5
+Words: Qadimgi davlatlar asta shakllangan .
+
+# sentence level graph:
+(s89s1 / shakllangan
+    :theme (s89d / davlatlar
+        :mod (s89q / Qadimgi))
+    :manner (s89a / asta))
+
+# alignment:
+s89a: 3-3
+s89d: 2-2
+s89q: 1-1
+s89s1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt90
+Index: 1 2 3 4 5
+Words: Davlat hududi aniq belgilangan .
+
+# sentence level graph:
+(s90b1 / belgilangan
+    :manner (s90a / aniq)
+    :theme (s90h / hududi)
+        :theme-of (s90d / Davlat))
+
+# alignment:
+s90a: 3-3
+s90b1: 4-4
+s90d: 1-1
+s90h: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt91
+Index: 1 2 3 4 5
+Words: Podshoh davlatni yakka boshqargan .
+
+# sentence level graph:
+(s91b1 / boshqargan
+    :ARG0 (s91d / davlatni)
+    :actor (s91p / Podshoh)
+    :manner (s91y / yakka))
+
+# alignment:
+s91b1: 4-4
+s91d: 2-2
+s91p: 1-1
+s91y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt92
+Index: 1 2 3 4 5
+Words: Qo‘shinlar davlatni himoya qilgan .
+
+# sentence level graph:
+(s92h1 / himoya-qilgan
+    :actor (s92q / Qo)
+    :theme (s92d / davlatni))
+
+# alignment:
+s92d: 2-2
+s92h1: 3-3-4-4
+s92q: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt93
+Index: 1 2 3 4 5
+Words: Askarlar maxsus tayyorgarlikdan o‘tgan .
+
+# sentence level graph:
+(s93o1 / o‘tgan
+    :actor (s93a / Askarlar)
+    :ARG0 (s93t / tayyorgarlikdan)
+        :mod (s93m / maxsus))
+
+# alignment:
+s93a: 1-1
+s93m: 2-2
+s93o1: 4-4
+s93t: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt94
+Index: 1 2 3 4 5
+Words: Daryolar hayot manbai bo‘lgan .
+
+# sentence level graph:
+(s94m1 / manbai-bo‘lgan
+    :theme (s94d / Daryolar)
+    :theme (s94h / hayot))
+
+# alignment:
+s94d: 1-1
+s94h: 2-2
+s94m1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt95
+Index: 1 2 3 4 5
+Words: Frot daryosi muhim bo‘lgan .
+
+# sentence level graph:
+(s95m1 / muhim-bo‘lgan
+    :theme (s95d / daryosi)
+    :place (s95f / Frot))
+
+# alignment:
+s95d: 2-2
+s95f: 1-1
+s95m1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt96
+Index: 1 2 3 4
+Words: Sug‘orish tizimlari qurilgan .
+
+# sentence level graph:
+(s96q1 / qurilgan
+    :theme-of (s96s / Sug)
+    :theme (s96t / tizimlari))
+
+# alignment:
+s96q1: 3-3
+s96s: 1-1
+s96t: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt97
+Index: 1 2 3 4
+Words: Olimpiya üyinlari ütkazilgan .
+
+# sentence level graph:
+(s97t1 / ütkazilgan
+    :theme (s97x / üyinlari)
+        :theme-of (s97o / Olimpiya))
+
+# alignment:
+s97o: 1-1
+s97t1: 3-3
+s97x: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt98
+Index: 1 2 3 4 5
+Words: Sportchilar uzoq mashq qilgan .
+
+# sentence level graph:
+(s98m1 / mashq-qilgan
+    :time (s98u / uzoq)
+    :actor (s98s / Sportchilar))
+
+# alignment:
+s98m1: 3-3-4-4
+s98s: 1-1
+s98u: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt99
+Index: 1 2 3 4 5
+Words: Musobaqalar tinchlik ramzi bo‘lgan .
+
+# sentence level graph:
+(s99r1 / ramzi-bo‘lgan
+    :theme (s99m / Musobaqalar)
+    :theme (s99t / tinchlik))
+
+# alignment:
+s99m: 1-1
+s99r1: 3-3-4-4
+s99t: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt100
+Index: 1 2 3 4 5 6
+Words: Qadimgi Rim kuchli davlat bo‘lgan .
+
+# sentence level graph:
+(s100d1 / davlat-bo‘lgan
+    :mod (s100k / kuchli)
+    :place (s100r / Rim)
+        :mod (s100q / Qadimgi))
+
+# alignment:
+s100d1: 4-4-5-5
+s100k: 3-3
+s100q: 1-1
+s100r: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt101
+Index: 1 2 3 4 5
+Words: Rimliklar keng yüllar qurgan .
+
+# sentence level graph:
+(s101q1 / qurgan
+    :actor (s101r / Rimliklar)
+    :theme (s101y / yüllar)
+        :extent (s101k / keng))
+
+# alignment:
+s101k: 2-2
+s101q1: 4-4
+s101r: 1-1
+s101y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt102
+Index: 1 2 3 4 5 6
+Words: Yüllar qüshinlar uchun xizmat qilgan .
+
+# sentence level graph:
+(s102x1 / xizmat-qilgan
+    :theme (s102y / Yüllar)
+    :ARG0 (s102q / qüshinlar-uchun))
+
+# alignment:
+s102q: 2-3
+s102x1: 4-4-5-5
+s102y: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt103
+Index: 1 2 3 4 5
+Words: Armiya davlat tayanchi bo‘lgan .
+
+# sentence level graph:
+(s103t1 / tayanchi-bo‘lgan
+    :theme (s103a / Armiya)
+    :theme (s103d / davlat))
+
+# alignment:
+s103a: 1-1
+s103d: 2-2
+s103t1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt104
+Index: 1 2 3 4 5
+Words: Rim qonunlari tartibni ta’minlagan .
+
+# sentence level graph:
+(s104t1 / ta’minlagan
+    :theme (s104q / qonunlari
+        :theme-of (s104r / Rim))
+    :ARG0 (s104t / tartibni))
+
+# alignment:
+s104q: 2-2
+s104r: 1-1
+s104t: 3-3
+s104t1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt105
+Index: 1 2 3 4 5
+Words: Senat muhim qarorlar chiqargan .
+
+# sentence level graph:
+(s105c1 / chiqargan
+    :theme (s105s / Senat)
+    :theme (s105q / qarorlar)
+        :mod (s105m / muhim))
+
+# alignment:
+s105c1: 4-4
+s105m: 2-2
+s105q: 3-3
+s105s: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt106
+Index: 1 2 3 4 5 6
+Words: Imperatorlar katta hokimiyatga ega bo‘lgan .
+
+# sentence level graph:
+(s106e1 / ega-bo‘lgan
+    :ARG0 (s106h / hokimiyatga
+        :extent (s106k / katta))
+    :actor (s106i / Imperatorlar))
+
+# alignment:
+s106e1: 4-4-5-5
+s106h: 3-3
+s106i: 1-1
+s106k: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt107
+Index: 1 2 3 4 5
+Words: Amfiteatrlar xalq uchun qurilgan .
+
+# sentence level graph:
+(s107q1 / qurilgan
+    :ARG0 (s107x / xalq-uchun)
+    :theme (s107a / Amfiteatrlar))
+
+# alignment:
+s107a: 1-1
+s107q1: 4-4
+s107x: 2-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt108
+Index: 1 2 3 4
+Words: Tomoshabinlar jangni kuzatgan .
+
+# sentence level graph:
+(s108k1 / kuzatgan
+    :actor (s108t / Tomoshabinlar)
+    :ARG0 (s108j / jangni))
+
+# alignment:
+s108j: 2-2
+s108k1: 3-3
+s108t: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt109
+Index: 1 2 3 4 5
+Words: Suv inshootlari shaharni ta’minlagan .
+
+# sentence level graph:
+(s109t1 / ta’minlagan
+    :theme (s109i / inshootlari
+        :theme-of (s109s1 / Suv))
+    :ARG0 (s109s / shaharni))
+
+# alignment:
+s109i: 2-2
+s109s: 3-3
+s109s1: 1-1
+s109t1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt110
+Index: 1 2 3 4 5 6 7
+Words: Rim madaniyati boshqa xalqlarga ta’sir qilgan .
+
+# sentence level graph:
+(s110t1 / ta’sir-qilgan
+    :theme (s110m / madaniyati)
+    :ARG0 (s110x / xalqlarga
+        :mod (s110b / boshqa))
+    :place (s110r / Rim))
+
+# alignment:
+s110b: 3-3
+s110m: 2-2
+s110r: 1-1
+s110t1: 5-5-6-6
+s110x: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt111
+Index: 1 2 3 4 5 6
+Words: Qadimgi dunyo boy tarix qoldirgan .
+
+# sentence level graph:
+(s111t1 / tarix-qoldirgan
+    :mod (s111b / boy)
+    :mod (s111q / Qadimgi)
+    :theme (s111d / dunyo))
+
+# alignment:
+s111b: 3-3
+s111d: 2-2
+s111q: 1-1
+s111t1: 4-4-5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt112
+Index: 1 2 3 4 5 6
+Words: Tarixiy manbalar bizgacha yetib kelgan .
+
+# sentence level graph:
+(s112y1 / yetib-kelgan
+    :place (s112b / bizgacha)
+    :theme (s112m / manbalar)
+        :mod (s112t / Tarixiy))
+
+# alignment:
+s112b: 3-3
+s112m: 2-2
+s112t: 1-1
+s112y1: 4-4-5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt113
+Index: 1 2 3 4
+Words: Olimlar ütmishni ürganadi .
+
+# sentence level graph:
+(s113r1 / ürganadi
+    :ARG0 (s113x / ütmishni)
+    :actor (s113o / Olimlar))
+
+# alignment:
+s113o: 1-1
+s113r1: 3-3
+s113x: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt114
+Index: 1 2 3 4 5
+Words: Tarix insoniyat tajribasini kürsatadi .
+
+# sentence level graph:
+(s114k1 / kürsatadi
+    :theme (s114t1 / Tarix)
+    :ARG0-of (s114i / insoniyat)
+    :ARG0 (s114t / tajribasini))
+
+# alignment:
+s114i: 2-2
+s114k1: 4-4
+s114t: 3-3
+s114t1: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt115
+Index: 1 2 3 4 5
+Words: Ütmish xatolari saboq büladi .
+
+# sentence level graph:
+(s115s1 / saboq-büladi
+    :theme (s115x / xatolari)
+        :theme-of (s115x1 / Ütmish))
+
+# alignment:
+s115s1: 3-3-4-4
+s115x: 2-2
+s115x1: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt116
+Index: 1 2 3 4 5
+Words: Tarixiy bilimlar muhim hisoblanadi .
+
+# sentence level graph:
+(s116m1 / muhim-hisoblanadi
+    :theme (s116b / bilimlar)
+        :mod (s116t / Tarixiy))
+
+# alignment:
+s116b: 2-2
+s116m1: 3-3-4-4
+s116t: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt117
+Index: 1 2 3 4 5
+Words: Maktablarda tarix fani üqitiladi .
+
+# sentence level graph:
+(s117q1 / üqitiladi
+    :theme (s117f / fani
+        :mod (s117t / tarix))
+    :place (s117m / Maktablarda))
+
+# alignment:
+s117f: 3-3
+s117m: 1-1
+s117q1: 4-4
+s117t: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt118
+Index: 1 2 3 4 5
+Words: Üquvchilar qadimgi davrni ürganadi .
+
+# sentence level graph:
+(s118r1 / ürganadi
+    :group (s118x / Üquvchilar)
+    :ARG0 (s118d / davrni)
+        :mod (s118q / qadimgi))
+
+# alignment:
+s118d: 3-3
+s118q: 2-2
+s118r1: 4-4
+s118x: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt119
+Index: 1 2 3 4
+Words: Bilim insonni rivojlantiradi .
+
+# sentence level graph:
+(s119r1 / rivojlantiradi
+    :theme (s119b / Bilim)
+    :ARG0 (s119i / insonni))
+
+# alignment:
+s119b: 1-1
+s119i: 2-2
+s119r1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt120
+Index: 1 2 3 4
+Words: Tarix tafakkurni kengaytiradi .
+
+# sentence level graph:
+(s120k1 / kengaytiradi
+    :ARG0 (s120t / tafakkurni)
+        :theme (s120t1 / Tarix))
+
+# alignment:
+s120k1: 3-3
+s120t: 2-2
+s120t1: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt121
+Index: 1 2 3 4 5 6 7
+Words: Har bir davr üz izini qoldirgan .
+
+# sentence level graph:
+(s121q1 / qoldirgan
+    :theme (s121d / davr
+        :mod (s121h / Har-bir))
+    :ARG0 (s121i / izini)
+        :ARG0-of (s121x / üz))
+
+# alignment:
+s121d: 3-3
+s121h: 1-2
+s121i: 5-5
+s121q1: 6-6
+s121x: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt122
+Index: 1 2 3 4 5
+Words: Qadimgi xalqlar madaniyat yaratgan .
+
+# sentence level graph:
+(s122y1 / yaratgan
+    :mod (s122q / Qadimgi)
+    :theme (s122m / madaniyat)
+    :theme (s122x / xalqlar))
+
+# alignment:
+s122m: 3-3
+s122q: 1-1
+s122x: 2-2
+s122y1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt123
+Index: 1 2 3 4
+Words: Madaniyat insonni birlashtirgan .
+
+# sentence level graph:
+(s123b1 / birlashtirgan
+    :theme (s123m / Madaniyat)
+    :ARG0 (s123i / insonni))
+
+# alignment:
+s123b1: 3-3
+s123i: 2-2
+s123m: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt124
+Index: 1 2 3 4
+Words: Ütmish bugunni tushuntiradi .
+
+# sentence level graph:
+(s124t1 / tushuntiradi
+    :theme (s124x / Ütmish)
+    :ARG0 (s124b / bugunni))
+
+# alignment:
+s124b: 2-2
+s124t1: 3-3
+s124x: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt125
+Index: 1 2 3 4
+Words: Bugun kelajakni belgilaydi .
+
+# sentence level graph:
+(s125b1 / belgilaydi
+    :ARG1 (s125k / kelajakni)
+        :time (s125b / Bugun))
+
+# alignment:
+s125b: 1-1
+s125b1: 3-3
+s125k: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt126
+Index: 1 2 3 4 5
+Words: Inson tarixdan saboq oladi .
+
+# sentence level graph:
+(s126s1 / saboq-oladi
+    :ARG0 (s126t / tarixdan)
+    :actor (s126i / Inson))
+
+# alignment:
+s126i: 1-1
+s126s1: 3-3-4-4
+s126t: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt127
+Index: 1 2 3 4 5
+Words: Hammurapi qonunlari mashhur bülgan .
+
+# sentence level graph:
+(s127m1 / mashhur-bülgan
+    :theme (s127q / qonunlari)
+    :actor (s127h / Hammurapi))
+
+# alignment:
+s127h: 1-1
+s127m1: 3-3-4-4
+s127q: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt128
+Index: 1 2 3 4
+Words: Hunarmandchilik taraqqiy etgan .
+
+# sentence level graph:
+(s128t1 / taraqqiy-etgan
+    :theme (s128h / Hunarmandchilik))
+
+# alignment:
+s128h: 1-1
+s128t1: 2-2-3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt129
+Index: 1 2 3 4
+Words: Savdo yüllari ishlagan .
+
+# sentence level graph:
+(s129i1 / ishlagan
+    :theme (s129y / yüllari)
+        :theme-of (s129s / Savdo))
+
+# alignment:
+s129i1: 3-3
+s129s: 1-1
+s129y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt130
+Index: 1 2 3 4
+Words: Diniy qarashlar shakllangan .
+
+# sentence level graph:
+(s130s1 / shakllangan
+    :theme (s130q / qarashlar)
+        :mod (s130d / Diniy))
+
+# alignment:
+s130d: 1-1
+s130q: 2-2
+s130s1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt131
+Index: 1 2 3 4
+Words: Veda matnlari yozilgan .
+
+# sentence level graph:
+(s131y1 / yozilgan
+    :theme (s131m / matnlari)
+        :theme-of (s131v / Veda))
+
+# alignment:
+s131m: 2-2
+s131v: 1-1
+s131y1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt132
+Index: 1 2 3 4
+Words: Ilmiy bilimlar to‘plangan .
+
+# sentence level graph:
+(s132t1 / to‘plangan
+    :theme (s132b / bilimlar)
+        :mod (s132i / Ilmiy))
+
+# alignment:
+s132b: 2-2
+s132i: 1-1
+s132t1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt133
+Index: 1 2 3 4
+Words: Hisoblash usullari yaratilgan .
+
+# sentence level graph:
+(s133y1 / yaratilgan
+    :theme (s133u / usullari)
+        :theme-of (s133h / Hisoblash))
+
+# alignment:
+s133h: 1-1
+s133u: 2-2
+s133y1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt134
+Index: 1 2 3 4 5 6
+Words: Qadimgi Xitoy davlati tashkil topgan .
+
+# sentence level graph:
+(s134t1 / tashkil-topgan
+    :place (s134x / Xitoy
+        :theme (s134d / davlati))
+        :mod (s134q / Qadimgi))
+
+# alignment:
+s134d: 3-3
+s134q: 1-1
+s134t1: 4-4-5-5
+s134x: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt135
+Index: 1 2 3 4 5 6
+Words: Xuanxe daryosi hayot manbai bo‘lgan .
+
+# sentence level graph:
+(s135m1 / manbai-bo‘lgan
+    :theme (s135d / daryosi)
+    :theme (s135h / hayot)
+    :place (s135x / Xuanxe))
+
+# alignment:
+s135d: 2-2
+s135h: 3-3
+s135m1: 4-4-5-5
+s135x: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt136
+Index: 1 2 3 4 5
+Words: Dehqonchilik asosiy soha bo‘lgan .
+
+# sentence level graph:
+(s136s1 / soha-bo‘lgan
+    :mod (s136a / asosiy)
+    :theme (s136d / Dehqonchilik))
+
+# alignment:
+s136a: 2-2
+s136d: 1-1
+s136s1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt137
+Index: 1 2 3 4 5
+Words: Buyuk Ipak yüli shakllangan .
+
+# sentence level graph:
+(s137s1 / shakllangan
+    :place (s137b / Buyuk-Ipak)
+    :theme (s137y / yüli))
+
+# alignment:
+s137b: 1-2
+s137s1: 4-4
+s137y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt138
+Index: 1 2 3 4
+Words: Yozuv tizimi yaratilgan .
+
+# sentence level graph:
+(s138y1 / yaratilgan
+    :theme (s138t / tizimi)
+        :theme-of (s138y / Yozuv))
+
+# alignment:
+s138t: 2-2
+s138y: 1-1
+s138y1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt139
+Index: 1 2 3 4
+Words: Konfutsiy talimoti tarqalgan .
+
+# sentence level graph:
+(s139t1 / tarqalgan
+    :theme (s139t / talimoti)
+    :actor (s139k / Konfutsiy))
+
+# alignment:
+s139k: 1-1
+s139t: 2-2
+s139t1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt140
+Index: 1 2 3 4 5
+Words: Qadimgi Yunoniston mashhur bo‘lgan .
+
+# sentence level graph:
+(s140m1 / mashhur-bo‘lgan
+    :place (s140y / Yunoniston)
+        :mod (s140q / Qadimgi))
+
+# alignment:
+s140m1: 3-3-4-4
+s140q: 1-1
+s140y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt141
+Index: 1 2 3 4
+Words: Shahar-davlatlar mavjud bo‘lgan .
+
+# sentence level graph:
+(s141m1 / mavjud-bo‘lgan
+    :theme (s141s / Shahar-davlatlar))
+
+# alignment:
+s141m1: 2-2-3-3
+s141s: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt142
+Index: 1 2 3 4 5
+Words: Afina muhim markaz bo‘lgan .
+
+# sentence level graph:
+(s142m1 / markaz-bo‘lgan
+    :mod (s142m / muhim)
+    :place (s142a / Afina))
+
+# alignment:
+s142a: 1-1
+s142m: 2-2
+s142m1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt143
+Index: 1 2 3 4 5
+Words: Sparta harbiy davlat bo‘lgan .
+
+# sentence level graph:
+(s143d1 / davlat-bo‘lgan
+    :mod (s143h / harbiy)
+    :actor (s143s / Sparta))
+
+# alignment:
+s143d1: 3-3-4-4
+s143h: 2-2
+s143s: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt144
+Index: 1 2 3 4 5
+Words: Demokratiya tushunchasi paydo bo‘lgan .
+
+# sentence level graph:
+(s144p1 / paydo-bo‘lgan
+    :theme (s144d / Demokratiya)
+    :theme (s144t / tushunchasi))
+
+# alignment:
+s144d: 1-1
+s144p1: 3-3-4-4
+s144t: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt145
+Index: 1 2 3 4
+Words: Faylasuflar yetishib chiqqan .
+
+# sentence level graph:
+(s145y1 / yetishib-chiqqan
+    :actor (s145f / Faylasuflar))
+
+# alignment:
+s145f: 1-1
+s145y1: 2-2-3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt146
+Index: 1 2 3 4
+Words: Suqrot mashhur bo‘lgan .
+
+# sentence level graph:
+(s146m1 / mashhur-bo‘lgan
+    :actor (s146s / Suqrot))
+
+# alignment:
+s146m1: 2-2-3-3
+s146s: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt147
+Index: 1 2 3 4 5
+Words: Arastu ilm bilan shug‘ullangan .
+
+# sentence level graph:
+(s147s1 / shug‘ullangan
+    :ARG1 (s147i / ilm-bilan)
+    :actor (s147a / Arastu))
+
+# alignment:
+s147a: 1-1
+s147i: 2-3
+s147s1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt148
+Index: 1 2 3 4 5
+Words: Suv inshootlari barpo etilgan .
+
+# sentence level graph:
+(s148b1 / barpo-etilgan
+    :theme (s148i / inshootlari)
+        :theme-of (s148s / Suv))
+
+# alignment:
+s148b1: 3-3-4-4
+s148i: 2-2
+s148s: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt149
+Index: 1 2 3 4 5 6
+Words: Qadimgi dunyo boy meros qoldirgan .
+
+# sentence level graph:
+(s149q1 / qoldirgan
+    :ARG0 (s149m / meros
+        :mod (s149b / boy))
+    :theme (s149d / dunyo)
+        :mod (s149q / Qadimgi))
+
+# alignment:
+s149b: 3-3
+s149d: 2-2
+s149m: 4-4
+s149q: 1-1
+s149q1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt150
+Index: 1 2 3 4 5
+Words: Bu meros tarixda saqlangan .
+
+# sentence level graph:
+(s150s1 / saqlangan
+    :ARG0 (s150t / tarixda)
+    :theme (s150m / meros)
+        :mod (s150b / Bu))
+
+# alignment:
+s150b: 1-1
+s150m: 2-2
+s150s1: 4-4
+s150t: 3-3
+
+# document level annotation:
+()
+
+################################################################################
