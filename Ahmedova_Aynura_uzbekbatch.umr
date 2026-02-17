@@ -1,0 +1,3642 @@
+################################################################################
+# meta-info
+# :: snt1
+Index: 1 2 3 4 5 6 7
+Words: Ushbu Kodeksning asosiy vazifalari quyidagilardan iborat .
+
+# sentence level graph:
+(b / iborat-01
+    :ARG1 (v / vazifalari
+              :mod (a / asosiy)
+              :poss (k / kodeksning
+                        :mod (u / ushbu)))
+    :ARG2 (q / quyidagilardan))
+
+# alignment:
+s1a: 0-0
+
+# document level annotation:
+(s1s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt2
+Index: 1 2 3 4 5 6 7 8 9 10 11 12 13
+Words: Har kim mehnat huquqlarini amalga oshirish va himoya qilishda teng imkoniyatlarga ega .
+
+# sentence level graph:
+(e / ega-01
+    :ARG1 (k / kim
+              :mod (h / har))
+    :ARG2 (i / imkoniyatlarga
+              :mod (t / teng))
+    :purpose (a / amalga-oshirish-01
+                  :ARG1 (h2 / huquqlarini
+                           :mod (m / mehnat)))
+    :purpose (h3 / himoya-qilishda-01
+                  :ARG1 h2)
+    :modal (d / deontic
+               :value normative))
+
+# alignment:
+s2a: 0-0
+
+# document level annotation:
+(s2s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt3
+Index: 1 2 3 4 5 6 7
+Words: Mehnat va mashgʻulotlar sohasida kamsitish taqiqlanadi .
+
+# sentence level graph:
+(t / taqiqlanadi-01
+    :ARG1 (k / kamsitish)
+    :location (s / sohasida
+                   :mod (m / mehnat)
+                   :mod (m2 / mashgʻulotlar))
+    :modal (d / deontic
+               :value prohibition))
+
+# alignment:
+s3a: 0-0
+
+# document level annotation:
+(s3s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt4
+Index: 1 2 3 4 5 6 7 8
+Words: Biror-bir toʻgʻridan-toʻgʻri yoki bilvosita imtiyozlar berish kamsitishdir .
+
+# sentence level graph:
+(k / kamsitishdir
+    :domain (b / berish-01
+                :ARG1 (i / imtiyozlar
+                           :mod (t / toʻgʻridan-toʻgʻri)
+                           :mod (b2 / bilvosita))
+                :mod (bb / biror-bir)))
+
+# alignment:
+s4a: 0-0
+
+# document level annotation:
+(s4s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt5
+Index: 1 2 3 4 5 6 7 8 9 10
+Words: Yakka tartibdagi mehnatga oid munosabatlarga muvofiq mehnat erkinligi anglatadi .
+
+# sentence level graph:
+(a / anglatadi-01
+    :ARG1 (e / erkinligi
+              :mod (m / mehnat))
+    :condition (r / munosabatlarga
+                    :mod (y / yakka-tartibdagi)
+                    :mod (m2 / mehnatga-oid)))
+
+# alignment:
+s5a: 0-0
+
+# document level annotation:
+(s5s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt6
+Index: 1 2 3 4 5 6 7 8 9 10 11
+Words: Xodimlar va ish beruvchilarning mehnat shartnomasini tuzishdagi erkinligi hisobga olinadi .
+
+# sentence level graph:
+(h / hisobga olinadi-ol-01
+    :ARG1 (e / erkinligi
+              :poss (x / xodimlar)
+              :poss (i / ish-beruvchilarning)
+              :domain (t / tuzishdagi-01
+                          :ARG1 (s / shartnomasini
+                                    :mod (m / mehnat)))))
+    :voice passive)
+
+# alignment:
+s6a: 0-0
+
+# document level annotation:
+(s6s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt7
+Index: 1 2 3 4 5 6 7 8 9 10 11
+Words: Xodimni va ish beruvchini mehnat shartnomasini tuzishga majburlashga yoʻl qoʻyilmaydi .
+
+# sentence level graph:
+(q / yoʻl qoʻyilmaydi-01
+    :polarity -
+    :ARG1 (m / majburlashga-01
+              :ARG0 (x / xodimni)
+              :ARG0 (i / ish-beruvchini)
+              :ARG1 (t / tuzishga-01
+                        :ARG1 (s / shartnomasini
+                                  :mod (m2 / mehnat)))))
+    :modal (d / deontic
+               :value prohibition))
+
+# alignment:
+s7a: 0-0
+
+# document level annotation:
+(s7s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt8
+Index: 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+Words: Har qanday mehnat shartnomasini taraflarning kelishuviga koʻra istalgan vaqtda bekor qilish imkoniyati bor .
+
+# sentence level graph:
+(b / bor-01
+    :ARG1 (i / imkoniyati
+              :domain (b2 / bekor-qilish-01
+                         :ARG1 (s / shartnomasini
+                                   :mod (m / mehnat)
+                                   :mod (h / har-qanday))
+                         :time (v / vaqtda
+                                  :mod (i2 / istalgan))
+                         :condition (k / kelishuviga koʻra
+                                        :poss (t / taraflarning)))))
+    :modal (d / deontic
+               :value permission))
+
+# alignment:
+s8a: 0-0
+
+# document level annotation:
+(s8s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt9
+Index: 1 2 3 4
+Words: Majburiy mehnat taqiqlanadi .
+
+# sentence level graph:
+(t / taqiqlanadi-01
+    :ARG1 (m / mehnat
+              :mod (mj / majburiy))
+    :modal (d / deontic
+               :value prohibition))
+
+# alignment:
+s9a: 0-0
+
+# document level annotation:
+(s9s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt10
+Index: 1 2 3 4 5 6 7 8 9 10 11
+Words: Ushbu shaxs ixtiyoriy ravishda oʻz xizmatlarini taklif qilmagan ishni anglatadi .
+
+# sentence level graph:
+(a / anglat-01
+    :ARG1 (i / ishni
+              :ARG0-of (t / taklif-qilmagan-01
+                           :ARG1 (x / xizmatlarini
+                                     :poss (o / oʻz))
+                           :polarity -
+                           :manner (i2 / ixtiyoriy ravishda)))
+    :ARG0 (u / ushbu-shaxs))
+
+# alignment:
+s10a: 0-0
+
+# document level annotation:
+(s10s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt11
+Index: 1 2 3 4 5 6 7 8 9
+Words: Jismoniy yoki ruhiy taʼsir choralarini qoʻllash tahdidi tushuniladi .
+
+# sentence level graph:
+(t / tushuniladi-01
+    :voice passive
+    :ARG1 (q / qoʻllash
+              :ARG1 (c / choralarini
+                        :mod (t2 / taʼsir
+                                :mod (j / jismoniy)
+                                :mod (r / ruhiy)))
+              :ARG2 (th / tahdidi)))
+
+# alignment:
+s11a: 0-0
+
+# document level annotation:
+(s11s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt12
+Index: 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+Words: Sudning qonuniy kuchga kirgan qarori boʻyicha jazo sifatida bajariladigan ishni oʻz ichiga olmaydi .
+
+# sentence level graph:
+(o / oʻz ichiga olmaydi-01
+    :polarity -
+    :ARG1 (i / ishni
+              :ARG0-of (b / bajariladigan-01
+                           :ARG2 (j / jazo sifatida)
+                           :condition (q / qarori boʻyicha
+                                           :poss (s / sudning)
+                                           :mod (k / qonuniy kuchga kirgan)
+                                           :aspect perfect))))
+
+# alignment:
+s12a: 0-0
+
+# document level annotation:
+(s12s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt13
+Index: 1 2 3 4 5 6 7 8 9 10 11
+Words: Ish beruvchilarning va davlatning manfaatlarini muvofiqlashtirishni taʼminlashga qaratilgan hamkorligidan iboratdir .
+
+# sentence level graph:
+(b / iboratdir-01
+    :ARG1 (h / hamkorligidan
+              :poss (i / ish-beruvchilarning)
+              :poss (d / davlatning)
+              :purpose (t / taʼminlashga-01
+                           :ARG1 (m / muvofiqlashtirni-01
+                                     :ARG1 (mn / manfaatlarini))))))
+
+# alignment:
+s13a: 0-0
+
+# document level annotation:
+(s13s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt14
+Index: 1 2 3 4 5 6 7 8 9 10
+Words: Yakka tartibdagi mehnatga oid munosabatlarni hamda ular bilan bogʻliq .
+
+# sentence level graph:
+(r / munosabatlarni
+    :mod (y / yakka-tartibdagi)
+    :mod (m / mehnatga-oid)
+    :conj (b / bogʻliq-01
+              :ARG1 ular bilan))
+
+# alignment:
+s14a: 0-0
+
+# document level annotation:
+(s14s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt15
+Index: 1 2 3 4 5 6 7 8 9 10
+Words: Uch tomonlama hamkorlikni amalga oshirish uchun zarur shart-sharoitlar yaratadi .
+
+# sentence level graph:
+(y / yaratadi-01
+    :ARG1 (s / shart-sharoitlar
+              :mod (z / zarur))
+    :purpose (a / amalga-oshirish uchun-01
+                  :ARG1 (h / hamkorlikni
+                            :mod (u / uch-tomonlama)))))
+
+# alignment:
+s15a: 0-0
+
+# document level annotation:
+(s15s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt16
+Index: 1 2 3 4 5 6 7 8 9 10
+Words: Oʻz manfaatlarini himoya qilish uchun birlashishga boʻlgan huquqini kafolatlaydi .
+
+# sentence level graph:
+(k / kafolatlaydi-01
+    :ARG1 (h / huquqini
+              :ARG1-of (b / birlashishga boʻlgan-01)
+              :purpose (h2 / himoya-qilish uchun-01
+                           :ARG1 (m / manfaatlarini
+                                     :poss (o / oʻz))))))
+
+# alignment:
+s16a: 0-0
+
+# document level annotation:
+(s16s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt17
+Index: 1 2 3 4 5 6 7 8 9
+Words: Xodimlarning va ish beruvchilarning vakillikni taʼminlash huquqini kafolatlaydi .
+
+# sentence level graph:
+(k / kafolatlaydi-01
+    :ARG1 (h / huquqini
+              :poss (x / xodimlarning)
+              :poss (i / ish-beruvchilarning)
+              :domain (t / taʼminlash-01
+                          :ARG1 (v / vakillikni)))))
+
+# alignment:
+s17a: 0-0
+
+# document level annotation:
+(s17s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt18
+Index: 1 2 3 4 5 6 7
+Words: Jamoa shartnomasini tuzishga boʻlgan huquqini mustahkamlaydi .
+
+# sentence level graph:
+(m / mustahkamlaydi-01
+    :ARG1 (h / huquqini
+              :domain (t / tuzishga boʻlgan-01
+                          :ARG1 (s / shartnomasini
+                                    :mod (j / jamoa))))))
+
+# alignment:
+s18a: 0-0
+
+# document level annotation:
+(s18s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt19
+Index: 1 2 3 4 5 6 7 8 9 10 11 12
+Words: Xodimlar va ish beruvchilar vakillarining jamoaviy muzokaralar olib borish huquqini mustahkamlaydi .
+
+# sentence level graph:
+(m / mustahkamlaydi-01
+    :ARG1 (h / huquqini
+              :poss (v / vakillarining
+                        :poss (x / xodimlar)
+                        :poss (i / ish-beruvchilar))
+              :domain (o / olib-borish-01
+                          :ARG1 (j / muzokaralar
+                                    :mod (j2 / jamoaviy))))))
+
+# alignment:
+s19a: 0-0
+
+# document level annotation:
+(s19s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt20
+Index: 1 2 3 4 5 6 7 8 9
+Words: Xodimlarning va ish beruvchilarning vakillari ishtirokini nazarda tutadi .
+
+# sentence level graph:
+(n / nazarda-tutadi-01
+    :ARG1 (i / ishtirokini
+              :ARG0 (v / vakillari
+                        :poss (x / xodimlarning)
+                        :poss (b / ish-beruvchilarning)))))
+
+# alignment:
+s20a: 0-0
+
+# document level annotation:
+(s20s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt21
+Index: 1 2 3 4 5 6 7 8 9 10 11 12
+Words: Ish beruvchilarning mehnat sohasidagi manfaatlari muvozanatini taʼminlashga qaratilgan boshqa chora-tadbirlarni mustahkamlaydi .
+
+# sentence level graph:
+(m / mustahkamlaydi-01
+    :ARG1 (c / chora-tadbirlarni
+              :mod (b / boshqa)
+              :ARG0-of (q / qaratilgan-01
+                           :purpose (t / taʼminlashga-01
+                                        :ARG1 (mz / muvozanatini
+                                                  :ARG1 (mn / manfaatlari
+                                                            :poss (i / ish-beruvchilarning)
+                                                            :mod (s / sohasidagi
+                                                                      :mod (mh / mehnat)))))))))
+
+# alignment:
+s21a: 0-0
+
+# document level annotation:
+(s21s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt22
+Index: 1 2 3 4 5 6 7 8
+Words: Mehnat toʻgʻrisidagi qonunchilik quyidagilarni taʼminlaydigan vositalarni mustahkamlaydi .
+
+# sentence level graph:
+(m / mustahkamlaydi-01
+    :ARG0 (q / qonunchilik
+              :mod (mh / mehnat))
+    :ARG1 (v / vositalarni
+              :ARG0-of (t / taʼminlaydigan-01
+                           :ARG1 (qd / quyidagilarni))))
+
+# alignment:
+s22a: 0-0
+
+# document level annotation:
+(s22s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt23
+Index: 1 2 3 4 5 6 7 8 9
+Words: Mehnat shartnomasida belgilangan mehnat sohasidagi huquqlari amalga oshiriladi .
+
+# sentence level graph:
+(a / amalga-oshiriladi-01
+    :voice passive
+    :ARG1 (h / huquqlari
+              :mod (s / sohasidagi
+                        :mod (mh / mehnat))
+              :ARG1-of (b / belgilangan-01
+                           :location (sh / shartnomasida
+                                         :mod (mh2 / mehnat)))))
+
+# alignment:
+s23a: 0-0
+
+# document level annotation:
+(s23s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt24
+Index: 1 2 3 4 5 6 7 8 9 10 11 12 13
+Words: Xodimlar va ish beruvchilarning mehnat huquqlari himoya qilinishini hamda buzilgan huquqlari tiklanadi .
+
+# sentence level graph:
+(t / tiklanadi-01
+    :ARG1 (h / huquqlari
+              :poss (x / xodimlar)
+              :poss (i / ish-beruvchilarning)
+              :mod (mh / mehnat)
+              :ARG1-of (b / buzilgan-01))
+    :conj (h2 / himoya-qilishini-01
+              :voice passive
+              :ARG1 h))
+
+# alignment:
+s24a: 0-0
+
+# document level annotation:
+(s24s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt25
+Index: 1 2 3 4 5 6 7 8 9
+Words: Oʻz mehnat majburiyatlarini buzganligi uchun xodimning javobgarligini belgilaydi .
+
+# sentence level graph:
+(b / belgilaydi-01
+    :ARG1 (j / javobgarligini
+              :poss (x / xodimning))
+    :reason (bz / buzganligi uchun-01
+                :ARG0 x
+                :ARG1 (m / majburiyatlarini
+                          :mod (mh / mehnat)
+                          :poss (o / oʻz)))))
+
+# alignment:
+s25a: 0-0
+
+# document level annotation:
+(s25s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt26
+Index: 1 2 3 4 5 6 7 8 9 10 11 12
+Words: Har qanday normativ-huquqiy hujjat xodimning huquqiy holatini yuqoriroq yuridik kuchga ega .
+
+# sentence level graph:
+(e / ega-01
+    :ARG1 (h / hujjat
+              :mod (n / normativ-huquqiy)
+              :mod (hq / har-qanday))
+    :ARG2 (k / kuchga
+              :mod (y / yuqoriroq)
+              :mod (yu / yuridik))
+    :domain (hl / holatini
+               :poss (x / xodimning)
+               :mod (hu / huquqiy)))
+
+# alignment:
+s26a: 0-0
+
+# document level annotation:
+(s26s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt27
+Index: 1 2 3 4 5 6 7 8 9 10
+Words: Xodimning huquqiy holatini normativ-huquqiy hujjatlarga nisbatan yomonlashtirishi mumkin emas .
+
+# sentence level graph:
+(m / mumkin emas-01
+    :polarity -
+    :ARG1 (y / yomonlashtirishi-01
+              :ARG1 (h / holatini
+                        :poss (x / xodimning)
+                        :mod (hu / huquqiy))
+              :comparison (n / normativ-huquqiy-hujjatlarga)))
+
+# alignment:
+s27a: 0-0
+
+# document level annotation:
+(s27s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt28
+Index: 1 2 3 4 5 6 7 8 9
+Words: Yuz berishi kerak boʻlgan voqeani koʻrsatgan holda aniqlanadi .
+
+# sentence level graph:
+(a / aniqlanadi-01
+    :voice passive
+    :manner (k / ko‘rsatgan-01
+               :ARG1 (v / voqeani
+                         :ARG1-of (y / yuz-berishi kerak-01
+                                      :modal (d / deontic
+                                                 :value obligation)))))
+
+# alignment:
+s28a: 0-0
+
+# document level annotation:
+(s28s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt29
+Index: 1 2 3 4 5 6 7
+Words: Kalendar sanadan keyingi kundan eʼtiboran boshlanadi .
+
+# sentence level graph:
+(b / boshlanadi-01
+    :voice passive
+    :time (k / kundan
+             :mod (kg / keyingi)
+             :source (s / sanadan
+                        :mod (kal / kalendar))))
+
+# alignment:
+s29a: 0-0
+
+# document level annotation:
+(s29s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt30
+Index: 1 2 3 4 5 6 7 8 9 10 11
+Words: Muddat tugaydigan oyning oxirgi kuni muddat tugaydigan kun deb hisoblanadi .
+
+# sentence level graph:
+(h / deb hisoblanadi-01
+    :voice passive
+    :ARG1 (k / kuni
+             :mod (o / oxirgi)
+             :poss (oy / oyning
+                        :ARG1-of (t / tugaydigan-01
+                                     :ARG1 (m / muddat))))
+    :ARG2 (k2 / kun
+              :ARG1-of (t2 / tugaydigan-01
+                            :ARG1 m)))
+
+# alignment:
+s30a: 0-0
+
+# document level annotation:
+(s30s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt31
+Index: 1 2 3 4 5 6 7 8 9 10
+Words: Kalendar yillar , oylar , haftalar yoki kunlar qoʻshiladi .
+
+# sentence level graph:
+(q / qoʻshiladi-01
+    :voice passive
+    :ARG1 (t / temporal-unit
+              :op1 (y / yillar
+                       :mod (k / kalendar))
+              :op2 (o / oylar)
+              :op3 (h / haftalar)
+              :op4 (ku / kunlar)))
+
+# alignment:
+s31a: 0-0
+
+# document level annotation:
+(s31s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt32
+Index: 1 2 3 4 5 6 7 8
+Words: Muddatning soʻnggi kuni ishlanmaydigan kunga toʻgʻri keladi .
+
+# sentence level graph:
+(k / toʻgʻri keladi-01
+    :ARG1 (ku / kuni
+              :mod (s / soʻnggi)
+              :poss (m / muddatning))
+    :ARG2 (ku2 / kunga
+               :ARG1-of (i / ishlanmaydigan-01
+                            :polarity -)))
+
+# alignment:
+s32a: 0-0
+
+# document level annotation:
+(s32s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt33
+Index: 1 2 3 4 5 6 7 8 9
+Words: Birinchi ish kuni muddat tugaydigan kun deb hisoblanadi .
+
+# sentence level graph:
+(h / deb hisoblanadi-01
+    :voice passive
+    :ARG1 (ku / kuni
+              :mod (b / birinchi)
+              :mod (i / ish))
+    :ARG2 (ku2 / kun
+               :ARG1-of (t / tugaydigan-01
+                            :ARG1 (m / muddat))))
+
+# alignment:
+s33a: 0-0
+
+# document level annotation:
+(s33s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt34
+Index: 1 2 3 4 5 6 7 8
+Words: Munosabatlarni tartibga soluvchi boshqa qonunchilik hujjatlaridan iboratdir .
+
+# sentence level graph:
+(b / iboratdir-01
+    :ARG1 (m / munosabatlarni)
+    :ARG2 (h / hujjatlaridan
+              :mod (q / qonunchilik)
+              :mod (b2 / boshqa)
+              :ARG0-of (s / tartibga soluvchi-01
+                           :ARG1 m)))
+
+# alignment:
+s34a: 0-0
+
+# document level annotation:
+(s34s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt35
+Index: 1 2 3 4 5
+Words: Xalqaro shartnoma qoidalari qoʻllaniladi .
+
+# sentence level graph:
+(q / qoʻllaniladi-01
+    :voice passive
+    :ARG1 (q2 / qoidalari
+               :poss (s / shartnoma
+                         :mod (x / xalqaro))))
+
+# alignment:
+s35a: 0-0
+
+# document level annotation:
+(s35s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt36
+Index: 1 2 3 4 5 6 7
+Words: Toʻgʻridan-toʻgʻri tartibga solinmagan hollarda ham qoʻllaniladi .
+
+# sentence level graph:
+(q / qoʻllaniladi-01
+    :voice passive
+    :condition (h / holatlarda
+                   :ARG1-of (s / solinmagan-01
+                                :ARG2 (t / tartibga)
+                                :polarity -))
+    :mod (tt / toʻgʻridan-toʻgʻri))
+
+# alignment:
+s36a: 0-0
+
+# document level annotation:
+(s36s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt37
+Index: 1 2 3 4 5 6
+Words: Mehnat toʻgʻrisidagi qonunchilikka amal qilinadi .
+
+# sentence level graph:
+(a / amal qilinadi-01
+    :voice passive
+    :ARG1 (q / qonunchilikka
+              :mod (m / mehnat toʻgʻrisidagi)))
+
+# alignment:
+s37a: 0-0
+
+# document level annotation:
+(s37s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt38
+Index: 1 2 3 4 5 6 7 8 9
+Words: Bevosita bogʻliq boʻlgan ijtimoiy munosabatlarga nisbatan tatbiq etiladi .
+
+# sentence level graph:
+(t / tatbiq etiladi-01
+    :voice passive
+    :ARG1 (m / munosabatlarga
+              :mod (i / ijtimoiy)
+              :ARG1-of (b / bogʻliq boʻlgan-01
+                           :mod (bv / bevosita))))
+
+# alignment:
+s38a: 0-0
+
+# document level annotation:
+(s38s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt39
+Index: 1 2 3 4 5 6 7 8
+Words: Huquqiy hujjatlarda , mehnat shartnomasida nazarda tutilgan .
+
+# sentence level graph:
+(n / nazarda tutilgan-01
+    :voice passive
+    :location (h / hujjatlarda
+                  :mod (hu / huquqiy))
+    :location (s / shartnomasida
+                  :mod (m / mehnat)))
+
+# alignment:
+s39a: 0-0
+
+# document level annotation:
+(s39s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt40
+Index: 1 2 3 4 5 6 7 8
+Words: Xodimning mehnat vazifasini ichki mehnat tartibiga boʻysunadi .
+
+# sentence level graph:
+(b / boʻysunadi-01
+    :ARG0 (x / xodimning)
+    :ARG1 (t / tartibiga
+              :mod (i / ichki)
+              :mod (m / mehnat))
+    :ARG2 (v / vazifasini
+              :mod (m2 / mehnat)
+              :poss x))
+
+# alignment:
+s40a: 0-0
+
+# document level annotation:
+(s40s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt41
+Index: 1 2 3 4 5 6 7 8
+Words: Kelishuvga asoslangan munosabatlar yakka tartibdagi mehnat munosabatlaridir .
+
+# sentence level graph:
+(m / munosabatlaridir
+    :domain (m2 / munosabatlar
+                :mod (y / yakka-tartibdagi)
+                :mod (mh / mehnat))
+    :ARG1-of (a / asoslangan-01
+                 :ARG2 (k / kelishuvga)))
+
+# alignment:
+s41a: 0-0
+
+# document level annotation:
+(s41s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt42
+Index: 1 2 3 4 5 6 7 8 9
+Words: Yakka tartibdagi mehnatga oid munosabatlar bilan bevosita bogʻliq .
+
+# sentence level graph:
+(b / bogʻliq-01
+    :ARG1 (m / munosabatlar bilan
+              :mod (y / yakka-tartibdagi)
+              :mod (mh / mehnatga-oid))
+    :mod (bv / bevosita))
+
+# alignment:
+s42a: 0-0
+
+# document level annotation:
+(s42s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt43
+Index: 1 2 3 4 5 6
+Words: Xodimni ish beruvchida kasbga tayyorlanadi .
+
+# sentence level graph:
+(t / tayyorlanadi-01
+    :voice passive
+    :ARG1 (x / xodimni)
+    :location (i / ish-beruvchida)
+    :purpose (k / kasbga))
+
+# alignment:
+s43a: 0-0
+
+# document level annotation:
+(s43s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt44
+Index: 1 2 3 4 5 6 7
+Words: Mehnat sohasidagi ijtimoiy sheriklik jarayonida shakllanadi .
+
+# sentence level graph:
+(sh / shakllanadi-01
+    :voice passive
+    :ARG1 (s / sheriklik
+              :mod (i / ijtimoiy)
+              :mod (mh / mehnat sohasidagi)
+              :location (j / jarayonida)))
+
+# alignment:
+s44a: 0-0
+
+# document level annotation:
+(s44s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt45
+Index: 1 2 3 4 5 6 7 8
+Words: Mehnat haqidagi boshqa huquqiy hujjatlarga rioya etiladi .
+
+# sentence level graph:
+(r / rioya etiladi-01
+    :voice passive
+    :ARG1 (h / hujjatlarga
+              :mod (hu / huquqiy)
+              :mod (b / boshqa)
+              :mod (mh / mehnat haqidagi)))
+
+# alignment:
+s45a: 0-0
+
+# document level annotation:
+(s45s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt46
+Index: 1 2 3 4 5 6 7
+Words: Xalqaro shartnomasida boshqacha qoida nazarda tutilgan .
+
+# sentence level graph:
+(n / nazarda tutilgan-01
+    :voice passive
+    :ARG1 (q / qoida
+              :mod (b / boshqacha))
+    :location (s / shartnomasida
+                  :mod (x / xalqaro)))
+
+# alignment:
+s46a: 0-0
+
+# document level annotation:
+(s46s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt47
+Index: 1 2 3 4 5 6 7 8 9
+Words: Oʻzbekiston Respublikasi hududida mehnat toʻgʻrisidagi qonunchilik bilan belgilangan .
+
+# sentence level graph:
+(b / belgilangan-01
+    :voice passive
+    :ARG1 (q / qonunchilik
+              :mod (mh / mehnat toʻgʻrisidagi))
+    :location (h / hududida
+                  :poss (o / Oʻzbekiston-Respublikasi)))
+
+# alignment:
+s47a: 0-0
+
+# document level annotation:
+(s47s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt48
+Index: 1 2 3 4 5 6 7
+Words: Fuqaroligi boʻlmagan shaxslar tomonidan tashkil etilgan .
+
+# sentence level graph:
+(t / tashkil etilgan-01
+    :voice passive
+    :ARG0 (s / shaxslar
+              :ARG1-of (f / fuqaroligi boʻlmagan
+                           :polarity -)))
+
+# alignment:
+s48a: 0-0
+
+# document level annotation:
+(s48s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt49
+Index: 1 2 3 4 5 6 7
+Words: Mehnatga oid munosabatlarga nisbatan tatbiq etiladi .
+
+# sentence level graph:
+(t / tatbiq etiladi-01
+    :voice passive
+    :ARG1 (m / munosabatlarga
+              :mod (mh / mehnatga-oid)))
+
+# alignment:
+s49a: 0-0
+
+# document level annotation:
+(s49s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt50
+Index: 1 2 3 4 5 6 7 8
+Words: Oʻzbekiston Respublikasining xorijdagi davlat muassasalariga ishga yuborilgan .
+
+# sentence level graph:
+(y / yuborilgan-01
+    :voice passive
+    :ARG1 (p / person)
+    :destination (m / muassasalariga
+                     :mod (d / davlat)
+                     :location (x / xorijdagi)
+                     :poss (o / Oʻzbekiston-Respublikasining)))
+    :purpose (i / ishga))
+
+# alignment:
+s50a: 0-0
+
+# document level annotation:
+(s50s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt51
+Index: 1 2 3 4 5 6 7 8 9
+Words: Qonunlarda nazarda tutilgan oʻziga xos xususiyatlar inobatga olingan .
+
+# sentence level graph:
+(o / inobatga olingan-01
+    :voice passive
+    :ARG1 (x / xususiyatlar
+              :mod (o2 / oʻziga-xos)
+              :ARG1-of (n / nazarda tutilgan-01
+                           :location (q / qonunlarda))))
+
+# alignment:
+s51a: 0-0
+
+# document level annotation:
+(s51s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt52
+Index: 1 2 3 4 5 6 7
+Words: Tartibga solinmagan qismi boʻyicha tatbiq etiladi .
+
+# sentence level graph:
+(t / tatbiq etiladi-01
+    :voice passive
+    :condition (q / qismi
+                   :ARG1-of (s / solinmagan-01
+                                :ARG2 (tr / tartibga)
+                                :polarity -)))
+
+# alignment:
+s52a: 0-0
+
+# document level annotation:
+(s52s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt53
+Index: 1 2 3 4 5 6
+Words: Kontrakt boʻyicha harbiy xizmatni oʻtaydi .
+
+# sentence level graph:
+(o / oʻtaydi-01
+    :ARG0 (p / person)
+    :ARG1 (x / xizmatni
+              :mod (h / harbiy))
+    :condition (k / kontrakt boʻyicha))
+
+# alignment:
+s53a: 0-0
+
+# document level annotation:
+(s53s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt54
+Index: 1 2 3 4 5 6 7 8
+Words: Maxsus qonunchilikka zid boʻlmagan qismi tatbiq etiladi .
+
+# sentence level graph:
+(t / tatbiq etiladi-01
+    :voice passive
+    :ARG1 (q / qismi
+              :ARG1-of (z / zid boʻlmagan-01
+                           :ARG2 (m / qonunchilikka
+                                     :mod (mx / maxsus))
+                           :polarity -)))
+
+# alignment:
+s54a: 0-0
+
+# document level annotation:
+(s54s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt55
+Index: 1 2 3 4 5 6 7 8
+Words: Qonunchilikda tartibga solinmagan qismi boʻyicha tatbiq etiladi .
+
+# sentence level graph:
+(t / tatbiq etiladi-01
+    :voice passive
+    :condition (q / qismi
+                   :ARG1-of (s / solinmagan-01
+                                :ARG2 (tr / tartibga)
+                                :polarity -)
+                   :location (qn / qonunchilikda)))
+
+# alignment:
+s55a: 0-0
+
+# document level annotation:
+(s55s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt56
+Index: 1 2 3 4 5 6
+Words: Prokuratura organlari faoliyatini tartibga solinadi .
+
+# sentence level graph:
+(s / tartibga solinadi-01
+    :voice passive
+    :ARG1 (f / faoliyatini
+              :poss (o / organlari
+                        :mod (p / prokuratura)))
+
+# alignment:
+s56a: 0-0
+
+# document level annotation:
+(s56s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt57
+Index: 1 2 3 4 5 6 7 8
+Words: Professional qutqaruv tuzilmalarining mehnat shartnomasi boʻyicha ishlaydi .
+
+# sentence level graph:
+(i / ishlaydi-01
+    :ARG0 (p / person)
+    :condition (s / shartnomasi
+                   :mod (m / mehnat))
+    :poss (t / tuzilmalarining
+              :mod (q / qutqaruv)
+              :mod (pr / professional)))
+
+# alignment:
+s57a: 0-0
+
+# document level annotation:
+(s57s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt58
+Index: 1 2 3 4 5 6 7 8 9 10 11
+Words: Oʻzbekiston Respublikasi Qonuni bilan tartibga solinmagan qismi boʻyicha tatbiq etiladi .
+
+# sentence level graph:
+(t / tatbiq etiladi-01
+    :voice passive
+    :condition (q / qismi boʻyicha
+                   :ARG1-of (s / solinmagan-01
+                                :ARG2 (tr / tartibga)
+                                :polarity -)
+                   :instrument (q2 / qonuni
+                                   :poss (o / Oʻzbekiston-Respublikasi))))
+
+# alignment:
+s58a: 0-0
+
+# document level annotation:
+(s58s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt59
+Index: 1 2 3 4 5 6 7 8 9 10
+Words: Jinoyatlar sodir etganlik uchun sudning hukmi bilan hukm qilingan .
+
+# sentence level graph:
+(h / hukm qilingan-01
+    :voice passive
+    :ARG1 (p / person)
+    :instrument (h2 / hukmi bilan
+                    :poss (s / sudning))
+    :reason (j / jinoyatlar
+                :ARG1-of (sd / sodir-etganlik-01)))
+
+# alignment:
+s59a: 0-0
+
+# document level annotation:
+(s59s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt60
+Index: 1 2 3 4 5 6 7
+Words: Cheklovlar hisobga olingan holda tatbiq etiladi .
+
+# sentence level graph:
+(t / tatbiq etiladi-01
+    :voice passive
+    :manner (h / hisobga-olingan-01
+                :voice passive
+                :ARG1 (c / cheklovlar)))
+
+# alignment:
+s60a: 0-0
+
+# document level annotation:
+(s60s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt61
+Index: 1 2 3 4 5 6 7 8 9
+Words: Mehnat toʻgʻrisidagi qonunchilik quyidagi shaxslarga nisbatan tatbiq etilmaydi .
+
+# sentence level graph:
+(t / tatbiq etilmaydi-01
+    :voice passive
+    :polarity -
+    :ARG1 (q / qonunchilik
+              :mod (m / mehnat toʻgʻrisidagi))
+    :ARG2 (s / shaxslarga
+              :mod (qd / quyidagi)))
+
+# alignment:
+s61a: 0-0
+
+# document level annotation:
+(s61s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt62
+Index: 1 2 3 4 5
+Words: Mazkur tashkilotning xodimlari boʻlmagan .
+
+# sentence level graph:
+(b / boʻlmagan-01
+    :polarity -
+    :ARG1 (x / xodimlari
+              :poss (t / tashkilotning
+                        :mod (mz / mazkur))))
+
+# alignment:
+s62a: 0-0
+
+# document level annotation:
+(s62s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt63
+Index: 1 2 3 4 5 6 7
+Words: Shaxsiy mehnatdan foydalanish bilan bogʻliq boʻlgan .
+
+# sentence level graph:
+(b / bogʻliq-01
+    :ARG1 (f / foydalanish bilan-01
+              :ARG1 (m / mehnatdan
+                        :mod (sh / shaxsiy))))
+
+# alignment:
+s63a: 0-0
+
+# document level annotation:
+(s63s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt64
+Index: 1 2 3 4 5
+Words: Munosabatlar fuqarolik-huquqiy xususiyatga ega .
+
+# sentence level graph:
+(e / ega-01
+    :ARG1 (m / munosabatlar)
+    :ARG2 (x / xususiyatga
+              :mod (f / fuqarolik-huquqiy)))
+
+# alignment:
+s64a: 0-0
+
+# document level annotation:
+(s64s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt65
+Index: 1 2 3 4 5 6 7 8
+Words: Keyinchalik ushbu Kodeksda yoki boshqa qonunlarda belgilangan .
+
+# sentence level graph:
+(b / belgilangan-01
+    :voice passive
+    :time (k / keyinchalik)
+    :location (k2 / kodeksda
+                  :mod (u / ushbu))
+    :location (q / qonunlarda
+                  :mod (b2 / boshqa)))
+
+# alignment:
+s65a: 0-0
+
+# document level annotation:
+(s65s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt66
+Index: 1 2 3 4 5 6 7 8 9
+Words: Yakka tartibdagi mehnatga oid munosabatlar deb eʼtirof etilgan .
+
+# sentence level graph:
+(e / eʼtirof etilgan-01
+    :voice passive
+    :ARG1 (m / munosabatlar
+              :mod (y / yakka-tartibdagi)
+              :mod (mh / mehnatga-oid)))
+
+# alignment:
+s66a: 0-0
+
+# document level annotation:
+(s66s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt67
+Index: 1 2 3 4 5 6 7 8
+Words: Mehnat haqidagi boshqa huquqiy hujjatlar qoidalari qoʻllaniladi .
+
+# sentence level graph:
+(q / qoʻllaniladi-01
+    :voice passive
+    :ARG1 (qd / qoidalari
+               :poss (h / hujjatlar
+                        :mod (hu / huquqiy)
+                        :mod (b / boshqa)
+                        :mod (m / mehnat))))
+
+# alignment:
+s67a: 0-0
+
+# document level annotation:
+(s67s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt68
+Index: 1 2 3 4 5 6 7 8
+Words: Mehnat haqidagi boshqa huquqiy hujjatlar quyidagilardan iborat .
+
+# sentence level graph:
+(b / iborat-01
+    :ARG1 (h / hujjatlar
+              :mod (hu / huquqiy)
+              :mod (b2 / boshqa)
+              :mod (m / mehnat haqidagi))
+    :ARG2 (q / quyidagi))
+
+# alignment:
+s68a: 0-0
+
+# document level annotation:
+(s68s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt69
+Index: 1 2 3 4 5 6 7 8 9
+Words: Kasaba uyushmasi qoʻmitasi bilan kelishuvga koʻra qabul qilinadi .
+
+# sentence level graph:
+(q / qabul qilinadi-01
+    :voice passive
+    :condition (k / kelishuvga koʻra)
+    :instrument (u / qoʻmitasi bilan
+                    :poss (k2 / kasaba-uyushmasi)))
+
+# alignment:
+s69a: 0-0
+
+# document level annotation:
+(s69s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt70
+Index: 1 2 3 4 5 6 7 8 9 10
+Words: Ish beruvchi oʻz vakolatlari doirasida yakka oʻzi qabul qiladi .
+
+# sentence level graph:
+(q / qabul qiladi-01
+    :ARG0 (i / ish-beruvchi
+              :poss (o / oʻz))
+    :manner (y / yakka)
+    :domain (v / vakolatlari
+                :poss i))
+
+# alignment:
+s70a: 0-0
+
+# document level annotation:
+(s70s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt71
+Index: 1 2 3 4 5 6 7
+Words: Xodimlar uchun mehnat toʻgʻrisidagi qonunchilikda belgilangan .
+
+# sentence level graph:
+(b / belgilangan-01
+    :voice passive
+    :beneficiary (x / xodimlar)
+    :location (q / qonunchilikda
+                  :mod (m / mehnat toʻgʻrisidagi)))
+
+# alignment:
+s71a: 0-0
+
+# document level annotation:
+(s71s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt72
+Index: 1 2 3 4 5 6 7 8
+Words: Qoʻshimcha huquqlar va kafolatlar nazarda tutilishi mumkin .
+
+# sentence level graph:
+(m / mumkin-01
+    :ARG1 (n / nazarda tutilishi-01
+              :voice passive
+              :ARG1 (h / huquqlar
+                        :mod (q / qoʻshimcha))
+              :conj (k / kafolatlar)))
+
+# alignment:
+s72a: 0-0
+
+# document level annotation:
+(s72s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt73
+Index: 1 2 3 4 5 6
+Words: Yomonlashtiruvchi qoidalarni kiritishga yoʻl qoʻyilmaydi .
+
+# sentence level graph:
+(q / yoʻl qoʻyilmaydi-01
+    :voice passive
+    :polarity -
+    :ARG1 (k / kiritishga-01
+              :ARG1 (qd / qoidalarni
+                        :ARG1-of (y / yomonlashtiruvchi-01))))
+
+# alignment:
+s73a: 0-0
+
+# document level annotation:
+(s73s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt74
+Index: 1 2 3 4 5
+Words: Yomonlashtiruvchi qoidalarni kiritish taqiqlanadi .
+
+# sentence level graph:
+(t / taqiqlanadi-01
+    :voice passive
+    :ARG1 (k / kiritish-01
+              :ARG1 (qd / qoidalarni
+                        :ARG1-of (y / yomonlashtiruvchi-01))))
+
+# alignment:
+s74a: 0-0
+
+# document level annotation:
+(s74s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt75
+Index: 1 2 3 4 5 6 7
+Words: Hududiy jamoa kelishuvlari qoidalarida tafovutlar mavjud .
+
+# sentence level graph:
+(m / mavjud-01
+    :ARG1 (t / tafovutlar)
+    :location (q / qoidalarida
+                  :poss (k / kelishuvlari
+                            :mod (j / jamoa)
+                            :mod (h / hududiy))))
+
+# alignment:
+s75a: 0-0
+
+# document level annotation:
+(s75s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt76
+Index: 1 2 3 4 5 6 7 8
+Words: Xodim uchun qulayroq shart-sharoitlarni oʻz ichiga olgan .
+
+# sentence level graph:
+(o / oʻz ichiga olgan-01
+    :ARG1 (s / shart-sharoitlarni
+              :mod (q / qulayroq))
+    :beneficiary (x / xodim)
+    :poss (o2 / oʻz))
+
+# alignment:
+s76a: 0-0
+
+# document level annotation:
+(s76s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt77
+Index: 1 2 3 4 5
+Words: Oʻsha kelishuv qoidalari qoʻllaniladi .
+
+# sentence level graph:
+(q / qoʻllaniladi-01
+    :voice passive
+    :ARG1 (qd / qoidalarii
+               :poss (k / kelishuv
+                        :mod (o / oʻsha))))
+
+# alignment:
+s77a: 0-0
+
+# document level annotation:
+(s77s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt78
+Index: 1 2 3 4 5
+Words: Xalqaro shartnoma qoidalari qoʻllaniladi .
+
+# sentence level graph:
+(q / qoʻllaniladi-01
+    :voice passive
+    :ARG1 (q2 / qoidalari
+               :poss (s / shartnoma
+                         :mod (x / xalqaro))))
+
+# alignment:
+s78a: 0-0
+
+# document level annotation:
+(s78s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt79
+Index: 1 2 3 4 5 6 7
+Words: Toʻgʻridan-toʻgʻri tartibga solinmagan hollarda ham qoʻllaniladi .
+
+# sentence level graph:
+(q / qoʻllaniladi-01
+    :voice passive
+    :condition (h / hollarda
+                   :ARG1-of (s / solinmagan-01
+                                :ARG2 (t / tartibga)
+                                :polarity -))
+    :mod (tt / toʻgʻridan-toʻgʻri))
+
+# alignment:
+s79a: 0-0
+
+# document level annotation:
+(s79s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt80
+Index: 1 2 3 4 5 6
+Words: Mehnat toʻgʻrisidagi qonunchilikka amal qilinadi .
+
+# sentence level graph:
+(a / amal qilinadi-01
+    :voice passive
+    :ARG1 (q / qonunchilikka
+              :mod (m / mehnat toʻgʻrisidagi)))
+
+# alignment:
+s80a: 0-0
+
+# document level annotation:
+(s80s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt81
+Index: 1 2 3 4 5 6 7 8 9
+Words: Bevosita bogʻliq boʻlgan ijtimoiy munosabatlarga nisbatan tatbiq etiladi .
+
+# sentence level graph:
+(t / tatbiq etiladi-01
+    :voice passive
+    :ARG1 (m / munosabatlarga
+              :mod (i / ijtimoiy)
+              :ARG1-of (b / bogʻliq boʻlgan-01
+                           :mod (bv / bevosita))))
+
+# alignment:
+s81a: 0-0
+
+# document level annotation:
+(s81s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt82
+Index: 1 2 3 4 5 6 7 8
+Words: Huquqiy hujjatlarda , mehnat shartnomasida nazarda tutilgan .
+
+# sentence level graph:
+(n / nazarda tutilgan-01
+    :voice passive
+    :location (h / hujjatlarda
+                  :mod (hu / huquqiy))
+    :location (s / shartnomasida
+                  :mod (m / mehnat)))
+
+# alignment:
+s82a: 0-0
+
+# document level annotation:
+(s82s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt83
+Index: 1 2 3 4 5 6 7 8
+Words: Xodimning mehnat vazifasini ichki mehnat tartibiga boʻysunadi .
+
+# sentence level graph:
+(b / boʻysunadi-01
+    :ARG0 (x / xodimning)
+    :ARG1 (t / tartibiga
+              :mod (i / ichki)
+              :mod (m / mehnat))
+    :ARG2 (v / vazifasini
+              :mod (m2 / mehnat)
+              :poss xodimning))
+
+# alignment:
+s83a: 0-0
+
+# document level annotation:
+(s83s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt84
+Index: 1 2 3 4 5 6 7 8
+Words: Kelishuvga asoslangan munosabatlar yakka tartibdagi mehnat munosabatlaridir .
+
+# sentence level graph:
+(m / munosabatlaridir
+    :domain (m2 / munosabatlar
+                :mod (y / yakka-tartibdagi)
+                :mod (mh / mehnat))
+    :ARG1-of (a / asoslangan-01
+                 :ARG2 (k / kelishuvga)))
+
+# alignment:
+s84a: 0-0
+
+# document level annotation:
+(s84s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt85
+Index: 1 2 3 4 5 6 7 8 9
+Words: Yakka tartibdagi mehnatga oid munosabatlar bilan bevosita bogʻliq .
+
+# sentence level graph:
+(b / bogʻliq-01
+    :ARG1 (m / munosabatlar
+              :mod (y / yakka-tartibdagi)
+              :mod (mh / mehnatga-oid))
+    :mod (bv / bevosita))
+
+# alignment:
+s85a: 0-0
+
+# document level annotation:
+(s85s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt86
+Index: 1 2 3 4 5 6
+Words: Xodimni ish beruvchida kasbga tayyorlanadi .
+
+# sentence level graph:
+(t / tayyorlanadi-01
+    :voice passive
+    :ARG1 (x / xodimni)
+    :location (i / ish-beruvchi)
+    :purpose (k / kasbga))
+
+# alignment:
+s86a: 0-0
+
+# document level annotation:
+(s86s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt87
+Index: 1 2 3 4 5 6 7
+Words: Mehnat sohasidagi ijtimoiy sheriklik jarayonida shakllanadi .
+
+# sentence level graph:
+(sh / shakllan-01
+    :voice passive
+    :ARG1 (s / sheriklik
+              :mod (i / ijtimoiy)
+              :mod (mh / mehnat)
+              :location (j / jarayon)))
+
+# alignment:
+s87a: 0-0
+
+# document level annotation:
+(s87s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt88
+Index: 1 2 3 4 5 6 7 8
+Words: Mehnat haqidagi boshqa huquqiy hujjatlarga rioya etiladi .
+
+# sentence level graph:
+(r / rioya-et-01
+    :voice passive
+    :ARG1 (h / hujjat
+              :mod (hu / huquqiy)
+              :mod (b / boshqa)
+              :mod (mh / mehnat)))
+
+# alignment:
+s88a: 0-0
+
+# document level annotation:
+(s88s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt89
+Index: 1 2 3 4 5 6 7 8 9
+Words: Kasaba uyushmasi qoʻmitasining roziligini olmasdan hal qilishga haqlidir .
+
+# sentence level graph:
+(h / haqlidir-01
+    :ARG1 (et / hal-etishga-01)
+    :condition (o / olmasdan-01
+                   :polarity -
+                   :ARG1 (r / rozilikini
+                             :poss (u / qoʻmitasining
+                                       :poss (k / kasaba-uyushmasi))))))
+
+# alignment:
+s89a: 0-0
+
+# document level annotation:
+(s89s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt90
+Index: 1 2 3 4 5 6 7
+Words: Tashkilotda kasaba uyushmasi qoʻmitasi tashkil etilmagan .
+
+# sentence level graph:
+(t / tashkil etilmagan-01
+    :voice passive
+    :polarity -
+    :ARG1 (q / qoʻmitasi
+              :poss (k / kasaba-uyushmasi))
+    :location (ta / tashkilotda))
+
+# alignment:
+s90a: 0-0
+
+# document level annotation:
+(s90s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt91
+Index: 1 2 3 4 5 6 7 8
+Words: Kasaba uyushmasi qoʻmitasi bilan kelishib olinishi kerak .
+
+# sentence level graph:
+(k / kerak-01
+    :ARG1 (o / olinishi-01
+              :voice passive
+              :condition (ke / kelishib-01
+                             :instrument (q / qoʻmitasi bilan
+                                              :poss (ku / kasaba-uyushmasi))))))
+
+# alignment:
+s91a: 0-0
+
+# document level annotation:
+(s91s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt92
+Index: 1 2 3 4 5 6 7 8
+Words: Mehnat jamoasini yozma shaklda xabardor qilishi shart .
+
+# sentence level graph:
+(sh / shart-01
+    :ARG1 (x / xabardor-qilishi-01
+              :ARG1 (j / jamoasini
+                        :mod (m / mehnat))
+              :manner (y / yozma shaklda)
+              :ARG0 (p / person)))
+
+# alignment:
+s92a: 0-0
+
+# document level annotation:
+(s92s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt93
+Index: 1 2 3 4 5 6 7 8 9 10
+Words: Ish beruvchi tegishli masalalarni mustaqil ravishda hal qilishga haqlidir .
+
+# sentence level graph:
+(h / haqli-01
+    :ARG0 (i / ish-beruvchi)
+    :ARG1 (et / hal-qilishga-01
+              :ARG1 (m / masalalarni
+                        :mod (t / tegishli))
+              :manner (mu / mustaqil ravishda)))
+
+# alignment:
+s93a: 0-0
+
+# document level annotation:
+(s93s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt94
+Index: 1 2 3 4 5
+Words: Huquqiy hujjatlarda nazarda tutilgan .
+
+# sentence level graph:
+(n / nazarda tutilgan-01
+    :voice passive
+    :location (h / hujjatlarda
+                  :mod (hu / huquqiy)))
+
+# alignment:
+s94a: 0-0
+
+# document level annotation:
+(s94s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt95
+Index: 1 2 3 4 5
+Words: Kafolatlar nazarda tutilishi mumkin .
+
+# sentence level graph:
+(m / mumkin-01
+    :ARG1 (n / nazarda-tutilishi-01
+              :voice passive
+              :ARG1 (k / kafolatlar)))
+
+# alignment:
+s95a: 0-0
+
+# document level annotation:
+(s95s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt96
+Index: 1 2 3 4 5 6
+Words: Mehnat shartnomasi shartlari haqiqiy emas .
+
+# sentence level graph:
+(h / haqiqiy emas-01
+    :polarity -
+    :ARG1 (sh / shartlari
+              :poss (s / shartnomasi
+                        :mod (m / mehnat))))
+
+# alignment:
+s96a: 0-0
+
+# document level annotation:
+(s96s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt97
+Index: 1 2 3 4 5 6 7
+Words: Birinchi va ikkinchi qismlarida nazarda tutilgan .
+
+# sentence level graph:
+(n / nazarda tutilgan-01
+    :voice passive
+    :location (q / qismlarida
+                  :op1 (b / birinchi)
+                  :op2 (i / ikkinchi)))
+
+# alignment:
+s97a: 0-0
+
+# document level annotation:
+(s97s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt98
+Index: 1 2 3 4 5 6 7
+Words: Talablarga rioya etmaslik xodimning holatini yomonlashtiradi .
+
+# sentence level graph:
+(y / yomonlashtiradi-01
+    :ARG1 (h / holatini
+              :poss (x / xodimning))
+    :ARG0 (r / rioya-etmaslik-01
+              :ARG1 (t / talablarga)
+              :polarity -))
+
+# alignment:
+s98a: 0-0
+
+# document level annotation:
+(s98s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt99
+Index: 1 2 3 4 5 6 7 8
+Words: Huquqiy hujjatlar qoidalarining haqiqiy emasligiga sabab boʻladi .
+
+# sentence level graph:
+(s / sabab boʻladi-01
+    :ARG1 (h / haqiqiy-01
+              :polarity -
+              :ARG1 (q / qoidalarining
+                        :poss (hu / hujjatlar
+                                  :mod (hu2 / huquqiy))))))
+
+# alignment:
+s99a: 0-0
+
+# document level annotation:
+(s99s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt100
+Index: 1 2 3 4 5 6
+Words: 16-moddasining ikkinchi qismida nazarda tutilgan .
+
+# sentence level graph:
+(n / nazarda tutilgan-01
+    :voice passive
+    :location (q / qismida
+                  :mod (i / ikkinchi)
+                  :poss (m / moddasining
+                            :quant 16)))
+
+# alignment:
+s100a: 0-0
+
+# document level annotation:
+(s100s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt101
+Index: 1 2 3 4
+Words: Xodimning holatini yomonlashtiradi .
+
+# sentence level graph:
+(y / yomonlashtiradi-01
+    :ARG1 (h / holatini
+              :poss (x / xodimning)))
+
+# alignment:
+s101a: 0-0
+
+# document level annotation:
+(s101s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt102
+Index: 1 2 3 4 5 6 7 8
+Words: Mehnat shartnomasi shartlarining haqiqiy emasligiga sabab boʻladi .
+
+# sentence level graph:
+(s / sabab boʻladi-01
+    :ARG1 (h / haqiqiy-01
+              :polarity -
+              :ARG1 (sh / shartlarining
+                        :poss (s2 / shartnomasi
+                                 :mod (m / mehnat))))))
+
+# alignment:
+s102a: 0-0
+
+# document level annotation:
+(s102s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt103
+Index: 1 2 3 4 5 6
+Words: Ish beruvchining murojaati javobsiz qolgan .
+
+# sentence level graph:
+(q / qolgan-01
+    :ARG1 (m / murojaati
+              :poss (i / ish-beruvchining))
+    :mod (j / javobsiz)
+    :aspect perfect)
+
+# alignment:
+s103a: 0-0
+
+# document level annotation:
+(s103s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt104
+Index: 1 2 3 4 5
+Words: Mehnat shartnomasining shartlari qoʻllanilmaydi .
+
+# sentence level graph:
+(q / qoʻllanilmaydi-01
+    :voice passive
+    :polarity -
+    :ARG1 (sh / shartlari
+              :poss (s / shartnomasining
+                        :mod (m / mehnat))))
+
+# alignment:
+s104a: 0-0
+
+# document level annotation:
+(s104s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt105
+Index: 1 2 3 4 5 6 7
+Words: Bunday qoidalar va shartlar qabul qilingan .
+
+# sentence level graph:
+(q / qabul qilingan-01
+    :voice passive
+    :ARG1 (c / concept
+              :op1 (qd / qoidalar
+                       :mod (b / bunday))
+              :op2 (sh / shartlar)))
+
+# alignment:
+s105a: 0-0
+
+# document level annotation:
+(s105s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt106
+Index: 1 2 3 4 5 6 7
+Words: Mehnat shartnomasi alohida shartlari haqiqiy emas .
+
+# sentence level graph:
+(h / haqiqiy emas-01
+    :polarity -
+    :ARG1 (sh / shartlari
+              :mod (a / alohida)
+              :poss (s / shartnomasi
+                        :mod (m / mehnat))))
+
+# alignment:
+s106a: 0-0
+
+# document level annotation:
+(s106s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt107
+Index: 1 2 3 4 5
+Words: Haqiqiy emasligiga sabab boʻlmaydi .
+
+# sentence level graph:
+(s / sabab boʻlmaydi-01
+    :polarity -
+    :ARG1 (h / haqiqiy emasligiga-01
+              :polarity -))
+
+# alignment:
+s107a: 0-0
+
+# document level annotation:
+(s107s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt108
+Index: 1 2 3 4 5
+Words: Farmoyishlar tarzida eʼlon qilinadi .
+
+# sentence level graph:
+(e / eʼlon qilinadi-01
+    :voice passive
+    :ARG1 (f / farmoyish)
+    :manner (t / tarzida))
+
+# alignment:
+s108a: 0-0
+
+# document level annotation:
+(s108s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt109
+Index: 1 2 3 4 5 6 7 8 9
+Words: Yakka tartibdagi huquqiy hujjatlar qarorlar tarzida qabul qilinadi .
+
+# sentence level graph:
+(q / qabul qilinadi-01
+    :voice passive
+    :ARG1 (h / hujjatlar
+              :mod (y / yakka-tartibdagi)
+              :mod (hu / huquqiy))
+    :manner (t / tarzida
+                :ARG1 (k / qarorlar)))
+
+# alignment:
+s109a: 0-0
+
+# document level annotation:
+(s109s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt110
+Index: 1 2 3 4 5
+Words: Boshqa huquqiy hujjatlarda belgilangan .
+
+# sentence level graph:
+(b / belgilangan-01
+    :voice passive
+    :location (h / hujjatlarda
+                  :mod (hu / huquqiy)
+                  :mod (b2 / boshqa)))
+
+# alignment:
+s110a: 0-0
+
+# document level annotation:
+(s110s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt111
+Index: 1 2 3 4 5 6
+Words: Ularning tegishli qismlari haqiqiy boʻlmaydi .
+
+# sentence level graph:
+(h / haqiqiy boʻlmaydi-01
+    :polarity -
+    :ARG1 (q / qismlari
+              :mod (t / tegishli)
+              :poss (u / ularning)))
+
+# alignment:
+s111a: 0-0
+
+# document level annotation:
+(s111s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt112
+Index: 1 2 3 4 5 6 7 8
+Words: Xodim yakka tartibdagi mehnatga oid munosabatlarning subyektidir .
+
+# sentence level graph:
+(s / subyektidir
+    :domain (m / munosabatlarning
+                :mod (y / yakka-tartibdagi)
+                :mod (mh / mehnatga-oid))
+    :ARG1 (x / xodim))
+
+# alignment:
+s112a: 0-0
+
+# document level annotation:
+(s112s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt113
+Index: 1 2 3 4 5
+Words: Muomala layoqatiga ega boʻlgan .
+
+# sentence level graph:
+(e / ega boʻlgan-01
+    :ARG1 (p / person)
+    :ARG2 (l / layoqatiga
+              :mod (m / muomala))
+    :aspect perfect)
+
+# alignment:
+s113a: 0-0
+
+# document level annotation:
+(s113s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt114
+Index: 1 2 3 4 5
+Words: Kodeksda belgilangan yoshga yetgan .
+
+# sentence level graph:
+(y / yetgan-01
+    :ARG1 (p / person)
+    :ARG2 (y2 / yoshga
+               :ARG1-of (b / belgilangan-01
+                            :location (k / kodeksda)))
+    :aspect perfect)
+
+# alignment:
+s114a: 0-0
+
+# document level annotation:
+(s114s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt115
+Index: 1 2 3 4 5 6 7
+Words: Ish beruvchi bilan mehnat shartnomasi tuzgan .
+
+# sentence level graph:
+(t / tuzgan-01
+    :ARG0 (p / person)
+    :ARG1 (s / shartnomasi
+              :mod (m / mehnat))
+    :ARG2 (i / ish-beruvchi)
+    :aspect perfect)
+
+# alignment:
+s115a: 0-0
+
+# document level annotation:
+(s115s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt116
+Index: 1 2 3 4 5 6
+Words: El fuqarolari va fuqaroligi boʻlmagan .
+
+# sentence level graph:
+(p / person
+    :op1 (f / fuqarolari
+             :poss (e / el))
+    :op2 (f2 / fuqaro
+              :ARG1-of (b / boʻlmagan-01
+                           :polarity -
+                           :ARG1 (fu / fuqarolik))))
+
+# alignment:
+s116a: 0-0
+
+# document level annotation:
+(s116s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt117
+Index: 1 2 3 4 5 6 7
+Words: Ish beruvchilar sifatida ish yuritishi mumkin .
+
+# sentence level graph:
+(m / mumkin-01
+    :ARG1 (y / ish yuritishi-01
+              :ARG0 (p / person)
+              :ARG2 (i / ish-beruvchilar sifatida)))
+
+# alignment:
+s117a: 0-0
+
+# document level annotation:
+(s117s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt118
+Index: 1 2 3 4 5 6 7
+Words: Matnda tashkilotlarning alohida boʻlinmalari deb yuritiladi .
+
+# sentence level graph:
+(y / yuritiladi-01
+    :voice passive
+    :ARG1 (b / boʻlinmalari
+              :mod (a / alohida)
+              :poss (t / tashkilotlarning))
+    :location (m / matnda))
+
+# alignment:
+s118a: 0-0
+
+# document level annotation:
+(s118s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt119
+Index: 1 2 3 4 5 6 7
+Words: Yakka tartibdagi tadbirkorlar sifatida roʻyxatga olingan .
+
+# sentence level graph:
+(o / roʻyxatga olingan-01
+    :voice passive
+    :ARG1 (p / person
+              :mod (y / yakka-tartibdagi)
+              :mod (t / tadbirkorlar sifatida))
+    :aspect perfect)
+
+# alignment:
+s119a: 0-0
+
+# document level annotation:
+(s119s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt120
+Index: 1 2 3 4 5 6
+Words: Uy xizmatchilarini yollashni amalga oshiriladi .
+
+# sentence level graph:
+(a / amalga oshiriladi-01
+    :voice passive
+    :ARG1 (y / yollashni-01
+              :ARG1 (x / xizmatchilarini
+                        :mod (u / uy))))
+
+# alignment:
+s120a: 0-0
+
+# document level annotation:
+(s120s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt121
+Index: 1 2 3 4 5 6 7
+Words: Oʻz xatti-harakatlari orqali mehnat huquqlariga ega .
+
+# sentence level graph:
+(e / ega-01
+    :ARG0 (p / person
+              :poss (o / oʻz))
+    :ARG1 (h / huquqlariga
+              :mod (m / mehnat))
+    :manner (x / xatti-harakatlari orqali))
+
+# alignment:
+s121a: 0-0
+
+# document level annotation:
+(s121s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt122
+Index: 1 2 3 4 5 6 7 8 9 10
+Words: Oʻzbekiston Respublikasining barcha fuqarolari uchun teng ravishda eʼtirof etiladi .
+
+# sentence level graph:
+(e / eʼtirof etiladi-01
+    :voice passive
+    :ARG1 (f / fuqarolari
+              :mod (b / barcha)
+              :poss (o / Oʻzbekiston-Respublikasi))
+    :beneficiary ffuqarolari
+    :manner (t / teng ravishda))
+
+# alignment:
+s122a: 0-0
+
+# document level annotation:
+(s122s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt123
+Index: 1 2 3 4 5
+Words: Muomala layoqatiga ega boʻladi .
+
+# sentence level graph:
+(e / ega boʻladi-01
+    :ARG0 (p / person)
+    :ARG1 (l / layoqatiga
+              :mod (m / muomala)))
+
+# alignment:
+s123a: 0-0
+
+# document level annotation:
+(s123s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt124
+Index: 1 2 3 4 5 6 7
+Words: Yillik mehnat taʼtillari berish orqali taʼminlanadi .
+
+# sentence level graph:
+(t / taʼminlanadi-01
+    :voice passive
+    :ARG1 (p / provision)
+    :manner (b / berish orqali-01
+                :ARG1 (ta / taʼtillari
+                          :mod (m / mehnat)
+                          :mod (y / yillik))))
+
+# alignment:
+s124a: 0-0
+
+# document level annotation:
+(s124s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt125
+Index: 1 2 3 4 5
+Words: Mehnat toʻgʻrisidagi qonunchilikda belgilangan .
+
+# sentence level graph:
+(b / belgilangan-01
+    :voice passive
+    :location (q / qonunchilikda
+                  :mod (m / mehnat toʻgʻrisidagi)))
+
+# alignment:
+s125a: 0-0
+
+# document level annotation:
+(s125s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt126
+Index: 1 2 3 4 5 6
+Words: Qonuniy manfaatlarini qonun bilan taqiqlanmagan .
+
+# sentence level graph:
+(t / taqiqlanmagan-01
+    :voice passive
+    :polarity -
+    :ARG1 (m / manfaatlarini
+              :mod (q / qonuniy))
+    :instrument (q2 / qonun bilan))
+
+# alignment:
+s126a: 0-0
+
+# document level annotation:
+(s126s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt127
+Index: 1 2 3 4 5 6 7
+Words: Mol-mulkning but saqlanishi uchun javobgar boʻladi .
+
+# sentence level graph:
+(j / javobgar  boʻladi-01
+    :ARG0 (p / person)
+    :ARG1 (s / saqlanishi uchun-01
+              :ARG1 (m / mol-mulkning)
+              :mod (b / but)))
+
+# alignment:
+s127a: 0-0
+
+# document level annotation:
+(s127s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt128
+Index: 1 2 3 4 5 6 7
+Words: Moddiy zararning oʻrni ushbu Kodeksda belgilangan .
+
+# sentence level graph:
+(b / belgilangan-01
+    :voice passive
+    :ARG1 (o / oʻrni
+              :poss (z / zararning
+                        :mod (m / moddiy)))
+    :location (k / kodeksda
+                  :mod (u / ushbu)))
+
+# alignment:
+s128a: 0-0
+
+# document level annotation:
+(s128s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt129
+Index: 1 2 3 4 5 6 7
+Words: Toʻsqinlik qiluvchi harakatlarni sodir etmasligi shart .
+
+# sentence level graph:
+(sh / shart-01
+    :ARG1 (s / sodir-etmasligi-01
+              :polarity -
+              :ARG1 (h / harakatlarni
+                        :ARG1-of (t / toʻsqinlik-qiluvchi-01)))))
+
+# alignment:
+s129a: 0-0
+
+# document level annotation:
+(s129s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt130
+Index: 1 2 3 4 5 6 7 8 9
+Words: Mehnat shartnomasiga muvofiq boshqa majburiyatlar ham boʻlishi mumkin .
+
+# sentence level graph:
+(m / mumkin-01
+    :ARG1 (b / boʻlishi-01
+              :ARG1 (mj / majburiyatlar
+                        :mod (b2 / boshqa))
+              :condition (s / shartnomasiga muvofiq
+                             :mod (mh / mehnat))))
+
+# alignment:
+s130a: 0-0
+
+# document level annotation:
+(s130s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt131
+Index: 1 2 3 4 5 6 7 8
+Words: Davlat roʻyxatidan oʻtkazilgan paytdan eʼtiboran vujudga keladi .
+
+# sentence level graph:
+(v / vujudga keladi-01
+    :ARG1 (e / entity)
+    :time (p / paytdan eʼtiboran
+              :ARG1-of (o / oʻtkazilgan-01
+                           :source (r / roʻyxatidan
+                                       :mod (d / davlat))))))
+
+# alignment:
+s131a: 0-0
+
+# document level annotation:
+(s131s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt132
+Index: 1 2 3 4 5 6 7
+Words: Yakka tartibdagi tadbirkor sifatida roʻyxatga olingan .
+
+# sentence level graph:
+(o / roʻyxatga olingan-01
+    :voice passive
+    :ARG1 (p / person
+              :mod (y / yakka-tartibdagi)
+              :mod (t / tadbirkor sifatida))
+    :aspect perfect)
+
+# alignment:
+s132a: 0-0
+
+# document level annotation:
+(s132s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt133
+Index: 1 2 3 4 5
+Words: Tadbirkorlik faoliyati bilan bogʻliq .
+
+# sentence level graph:
+(b / bogʻliq-01
+    :ARG1 (f / faoliyati bilan
+              :mod (t / tadbirkorlik)))
+
+# alignment:
+s133a: 0-0
+
+# document level annotation:
+(s133s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt134
+Index: 1 2 3 4 5 6
+Words: Shaxsiy maqsadlarda yollanma mehnatdan foydalangan .
+
+# sentence level graph:
+(f / foydalangan-01
+    :ARG0 (p / person)
+    :ARG1 (m / mehnatdan
+              :mod (y / yollanma))
+    :purpose (mq / maqsadlarda
+                 :mod (sh / shaxsiy))
+    :aspect perfect)
+
+# alignment:
+s134a: 0-0
+
+# document level annotation:
+(s134s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt135
+Index: 1 2 3 4 5 6 7
+Words: Fuqarolik muomala layoqatiga toʻliq hajmda ega .
+
+# sentence level graph:
+(e / ega-01
+    :ARG0 (p / person)
+    :ARG1 (l / layoqatiga
+              :mod (m / muomala)
+              :mod (f / fuqarolik))
+    :degree (t / toʻliq hajmda))
+
+# alignment:
+s135a: 0-0
+
+# document level annotation:
+(s135s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt136
+Index: 1 2 3 4 5 6
+Words: Oʻsha kundan eʼtiboran yuzaga keladi .
+
+# sentence level graph:
+(y / yuzaga keladi-01
+    :ARG1 (e / entity)
+    :time (k / kundan eʼtiboran
+              :mod (o / oʻsha)))
+
+# alignment:
+s136a: 0-0
+
+# document level annotation:
+(s136s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt137
+Index: 1 2 3 4 5 6
+Words: Jismoniy shaxs tomonidan amalga oshiriladi .
+
+# sentence level graph:
+(a / amalga oshiriladi-01
+    :voice passive
+    :ARG0 (s / shaxs tomonidan
+              :mod (j / jismoniy)))
+
+# alignment:
+s137a: 0-0
+
+# document level annotation:
+(s137s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt138
+Index: 1 2 3 4 5
+Words: Ishtirokchining subsidiar javobgarligi belgilangan .
+
+# sentence level graph:
+(b / belgilangan-01
+    :voice passive
+    :ARG1 (j / javobgarligi
+              :mod (s / subsidiar)
+              :poss (i / ishtirokchining)))
+
+# alignment:
+s138a: 0-0
+
+# document level annotation:
+(s138s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt139
+Index: 1 2 3 4 5 6
+Words: Mehnatga oid munosabatlaridan kelib chiqadi .
+
+# sentence level graph:
+(k / kelib chiqadi-01
+    :ARG1 (e / entity)
+    :source (m / munosabatlaridan
+                :mod (mh / mehnatga-oid)))
+
+# alignment:
+s139a: 0-0
+
+# document level annotation:
+(s139s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt140
+Index: 1 2 3 4 5 6
+Words: Ish beruvchi quyidagi huquqlarga ega .
+
+# sentence level graph:
+(e / ega-01
+    :ARG0 (i / ish-beruvchi)
+    :ARG1 (h / huquqlarga
+              :mod (q / quyidagi)))
+
+# alignment:
+s140a: 0-0
+
+# document level annotation:
+(s140s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt141
+Index: 1 2 3 4 5
+Words: Boshqa qonunlarda nazarda tutilgan .
+
+# sentence level graph:
+(n / nazarda tutilgan-01
+    :voice passive
+    :location (q / qonunlarda
+                  :mod (b / boshqa)))
+
+# alignment:
+s141a: 0-0
+
+# document level annotation:
+(s141s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt142
+Index: 1 2 3 4 5
+Words: Ish beruvchiga bevosita yetkazilgan .
+
+# sentence level graph:
+(y / yetkazilgan-01
+    :voice passive
+    :ARG2 (i / ish-beruvchiga)
+    :mod (b / bevosita))
+
+# alignment:
+s142a: 0-0
+
+# document level annotation:
+(s142s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt143
+Index: 1 2 3 4 5
+Words: Yakka tartibdagi tadbirkor boʻlmagan .
+
+# sentence level graph:
+(b / boʻlmagan-01
+    :polarity -
+    :ARG1 (p / person
+              :mod (y / yakka-tartibdagi)
+              :mod (t / tadbirkor)))
+
+# alignment:
+s143a: 0-0
+
+# document level annotation:
+(s143s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt144
+Index: 1 2 3 4
+Words: Mehnat shartnomasida shartlashilgan .
+
+# sentence level graph:
+(sh / shartlashilgan-01
+    :voice passive
+    :location (s / shartnomasida
+                  :mod (m / mehnat)))
+
+# alignment:
+s144a: 0-0
+
+# document level annotation:
+(s144s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt145
+Index: 1 2 3 4 5 6 7
+Words: Xodim bilan mehnat shartnomasini bekor qilinadi .
+
+# sentence level graph:
+(b / bekor qilinadi-01
+    :voice passive
+    :ARG1 (s / shartnomasini
+              :mod (m / mehnat))
+    :ARG2 (x / xodim))
+
+# alignment:
+s145a: 0-0
+
+# document level annotation:
+(s145s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt146
+Index: 1 2 3 4 5
+Words: Talablar buzilishiga yoʻl qoʻyilmaydi .
+
+# sentence level graph:
+(q / qoʻyilmaydi-01
+    :voice passive
+    :polarity -
+    :ARG1 (b / buzilishga-01
+              :ARG1 (t / talablar)))
+
+# alignment:
+s146a: 0-0
+
+# document level annotation:
+(s146s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt147
+Index: 1 2 3 4
+Words: Normativ talablarga muvofiq .
+
+# sentence level graph:
+(m / muvofiq-01
+    :ARG1 (t / talablarga
+              :mod (n / normativ)))
+
+# alignment:
+s147a: 0-0
+
+# document level annotation:
+(s147s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt148
+Index: 1 2 3 4 5 6 7
+Words: Oʻz mehnat majburiyatlarini bajarishi uchun zarur .
+
+# sentence level graph:
+(z / zarur-01
+    :ARG1 (b / bajarishi-01
+              :ARG1 (m / majburiyatlarini
+                        :mod (mh / mehnat)
+                        :poss (o / oʻz)))))
+
+# alignment:
+s148a: 0-0
+
+# document level annotation:
+(s148s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt149
+Index: 1 2 3 4 5
+Words: Mehnat shartnomalariga muvofiq belgilangan .
+
+# sentence level graph:
+(b / belgilangan-01
+    :voice passive
+    :condition (m / muvofiq-01
+                   :ARG1 (s / shartnomalariga
+                             :mod (mh / mehnat))))
+
+# alignment:
+s149a: 0-0
+
+# document level annotation:
+(s149s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt150
+Index: 1 2 3 4 5 6 7
+Words: Belgilangan tartibda jamoa muzokaralarini olib boriladi .
+
+# sentence level graph:
+(o / olib boriladi-01
+    :voice passive
+    :ARG1 (m / muzokaralarini
+              :mod (j / jamoa))
+    :manner (t / tartibda
+                :ARG1-of (b / belgilangan-01)))
+
+# alignment:
+s150a: 0-0
+
+# document level annotation:
+(s150s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt151
+Index: 1 2 3 4 5 6
+Words: Nazoratni amalga oshirish uchun zarur .
+
+# sentence level graph:
+(z / zarur-01
+    :ARG1 (a / amalga-oshirish-01
+              :ARG1 (n / nazoratni))))
+
+# alignment:
+s151a: 0-0
+
+# document level annotation:
+(s151s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################
+# meta-info
+# :: snt152
+Index: 1 2 3 4 5 6 7 8
+Words: Xodimlarni oʻz mehnat faoliyati bilan bevosita bogʻliq .
+
+# sentence level graph:
+(b / bogʻliq-01
+    :ARG1 (f / faoliyati
+              :mod (m / mehnat)
+              :poss (o / oʻz))
+    :ARG2 (x / xodimlarni)
+    :mod (bv / bevosita))
+
+# alignment:
+s152a: 0-0
+
+# document level annotation:
+(s152s0 / sentence
+    :temporal ()
+    :modal ((root :modal author) (author :unspecified e) (author :partial-affirmative purpose) (purpose :full-affirmative h3) (author :neutral-affirmative have-condition) (have-condition :unspecified r) (have-condition :unspecified a) (author :unspecified h) (purpose :full-affirmative t) (author :unspecified q) (author :unspecified c) (c :partial-affirmative purpose) (have-condition :unspecified h) (have-condition :unspecified q) (author :unspecified t) (purpose :full-affirmative k) (have-condition :unspecified s) (have-condition :unspecified i) (have-condition :unspecified o) (author :unspecified f) (author :unspecified p) (p :partial-affirmative purpose) (purpose :full-affirmative mq) (have-condition :unspecified m) (have-condition :unspecified b))
+    :coref ()
+)
+
+################################################################################

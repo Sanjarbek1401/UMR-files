@@ -1,0 +1,2317 @@
+################################################################################
+# meta-info
+# :: snt1
+Index: 1 2 3 4 5
+Words: Rashk qalb mulkining mudofasi ..
+
+# sentence level graph:
+(s1m1 / mudofasi
+    :theme (s1r / Rashk)
+    :ARG0 (s1q / qalb-mulkining))
+
+# alignment:
+s1m: 3-3
+s1m1: 4-4
+s1q: 2-3
+s1r: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt2
+Index: 1 2 3 4 5 6 7 8 9
+Words: Ba'zan biz odamlarni emas , ular haqidagi tasavvurlarni sevamiz
+
+# sentence level graph:
+
+# alignment:
+s2a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt3
+Index: 1 2 3 4 5 6 7
+Words: Kiyik och qolmaslik uchun kökat yeydi .
+
+# sentence level graph:
+
+# alignment:
+s3a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt4
+Index: 1 2 3 4 5 6
+Words: Amma bir - birini öldirmaydi .
+
+# sentence level graph:
+
+# alignment:
+s4a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt5
+Index: 1 2 3 4 5 6 7
+Words: Sher och qolmaslik uchun kiyikni yeydi .
+
+# sentence level graph:
+
+# alignment:
+s5a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt6
+Index: 1 2 3 4 5
+Words: Odam kökatni ham yeydi .
+
+# sentence level graph:
+
+# alignment:
+s6a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt7
+Index: 1 2 3 4
+Words: Kiyikni ham yeydi .
+
+# sentence level graph:
+
+# alignment:
+s7a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt8
+Index: 1 2 3 4 5 6 7
+Words: Ko’ngil hushi uchun sherni ham öldiradi .
+
+# sentence level graph:
+
+# alignment:
+s8a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt9
+Index: 1 2 3 4 5 6 7 8 9 10 11
+Words: Keyin .. urush qilib , bir - birining boshini yeydi ..
+
+# sentence level graph:
+
+# alignment:
+s9a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt10
+Index: 1 2 3 4
+Words: Darvin ta’limoti notöğri .
+
+# sentence level graph:
+
+# alignment:
+s10a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt11
+Index: 1 2 3 4 5 6 7 8
+Words: Odam maymundan emas , maymun odamdan tarqagan .
+
+# sentence level graph:
+
+# alignment:
+s11a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt12
+Index: 1 2 3 4 5 6 7
+Words: Oyoği yerdan uzilmaganlar odam bölib qolgan .
+
+# sentence level graph:
+
+# alignment:
+s12a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt13
+Index: 1 2 3 4 5 6 7 8 9
+Words: Oyoği yerdan uzilganlar esa maymun bölibdaraxtga chiqib ketgan …
+
+# sentence level graph:
+
+# alignment:
+s13a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt14
+Index: 1 2 3 4 5
+Words: Dunyoda eng aqlli jonivor-baliq !
+
+# sentence level graph:
+
+# alignment:
+s14a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt15
+Index: 1 2 3 4
+Words: Birinchidan , soqov .
+
+# sentence level graph:
+
+# alignment:
+s15a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt16
+Index: 1 2 3 4 5 6
+Words: Ikkinchidan , muttasil dumini likillatadi !
+
+# sentence level graph:
+
+# alignment:
+s16a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt17
+Index: 1 2 3 4 5 6 7
+Words: Kulishni bilmaydigan odam - baxtsiz odam .
+
+# sentence level graph:
+
+# alignment:
+s17a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt18
+Index: 1 2 3 4 5 6 7 8
+Words: Yiğlashni bilmaydigan odam esa ikki hissa baxtsiz !
+
+# sentence level graph:
+
+# alignment:
+s18a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt19
+Index: 1 2 3 4 5
+Words: Kuchli odamning ğazabidan qörqmang .
+
+# sentence level graph:
+
+# alignment:
+s19a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt20
+Index: 1 2 3
+Words: Ojiznikidan qo’rqing !
+
+# sentence level graph:
+
+# alignment:
+s20a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt21
+Index: 1 2 3 4 5 6 7
+Words: Kuchli töksa , öz ğazabini tökadi .
+
+# sentence level graph:
+
+# alignment:
+s21a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt22
+Index: 1 2 3 4 5 6 7 8 9 10 11 12 13
+Words: Ojiz esa öz ğazabi bilan birga o’zgalardan ko’rgan sitamini ham qöshib sochadi ...
+
+# sentence level graph:
+
+# alignment:
+s22a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt23
+Index: 1 2 3 4 5 6 7
+Words: Haqiqatdan qo’rqqan odam yolğonning panasiga berkinadi .
+
+# sentence level graph:
+
+# alignment:
+s23a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt24
+Index: 1 2 3 4 5 6 7 8
+Words: Odam uchta narsaning qadrini doim kechikib biladi .
+
+# sentence level graph:
+
+# alignment:
+s24a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt25
+Index: 1 2 3
+Words: Döstni xörlash-gunoh .
+
+# sentence level graph:
+
+# alignment:
+s25a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt26
+Index: 1 2 3 4 5 6 7 8
+Words: Umr yöldoshini xörlash - yuz hissa gunoh .
+
+# sentence level graph:
+
+# alignment:
+s26a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt27
+Index: 1 2 3 4 5 6
+Words: Ota-onani xörlash ming hissa gunoh .
+
+# sentence level graph:
+
+# alignment:
+s27a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt28
+Index: 1 2 3 4 5
+Words: Gödakni hörlash- cheksiz gunoh .
+
+# sentence level graph:
+
+# alignment:
+s28a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt29
+Index: 1 2 3 4 5 6 7 8
+Words: Inson hayoti shatranj taxtasidagi piyodaning yurishiga öxshaydi .
+
+# sentence level graph:
+
+# alignment:
+s29a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt30
+Index: 1 2 3 4 5 6 7 8 9
+Words: Goh oq katakdan ötadi , goh qora katakdan …
+
+# sentence level graph:
+
+# alignment:
+s30a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt31
+Index: 1 2 3 4 5 6 7 8 9 10
+Words: Toshni maydalab , qumga aylantirish uchun bir daqiqa kifoya .
+
+# sentence level graph:
+
+# alignment:
+s31a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt32
+Index: 1 2 3 4 5 6 7 8 9
+Words: Ammo qumning toshga aylanishi uchun ming yil kamlik_qiladi .
+
+# sentence level graph:
+
+# alignment:
+s32a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt33
+Index: 1 2 3 4 5
+Words: Döstlik ham shunga öxshaydi .
+
+# sentence level graph:
+
+# alignment:
+s33a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt34
+Index: 1 2 3 4 5 6 7 8 9 10
+Words: Odamlarni qörqib yashashga majbur qiladigan jamiyat- eng omonat jamiyatdir .
+
+# sentence level graph:
+
+# alignment:
+s34a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt35
+Index: 1 2 3 4 5 6 7 8 9 10
+Words: Hatto bulbul ham bola ochganidan keyin sayrashni bas qiladi .
+
+# sentence level graph:
+
+# alignment:
+s35a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt36
+Index: 1 2 3 4
+Words: Polaponlariga yemish tashiydi .
+
+# sentence level graph:
+
+# alignment:
+s36a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt37
+Index: 1 2 3 4 5 6 7 8
+Words: Hech nimaga hayron qolmaydigan odamdan olim chiqadi .
+
+# sentence level graph:
+
+# alignment:
+s37a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt38
+Index: 1 2 3 4 5 6 7
+Words: Hamma narsaga hayratlanadigan odamdan Shoir chiqadi !
+
+# sentence level graph:
+
+# alignment:
+s38a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt39
+Index: 1 2 3 4 5 6
+Words: Aql bilan mansabga erishishish mumkin .
+
+# sentence level graph:
+
+# alignment:
+s39a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt40
+Index: 1 2 3 4 5
+Words: Mansab bilan aqlga erishib_bölmaydi .
+
+# sentence level graph:
+
+# alignment:
+s40a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt41
+Index: 1 2 3 4 5 6 7 8 9 10 11
+Words: Dunyoda eng bebaho , ammo hamisha tekinga tarqatiladigan xazina bor .
+
+# sentence level graph:
+
+# alignment:
+s41a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt42
+Index: 1 2 3 4
+Words: Bu- Ona mehri ...
+
+# sentence level graph:
+
+# alignment:
+s42a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt43
+Index: 1 2 3 4 5 6 7
+Words: Yomonning yaxshisi bölgandan yaxshining yomoni böl .
+
+# sentence level graph:
+
+# alignment:
+s43a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt44
+Index: 1 2 3
+Words: Yomondan-yomonlik yuqadi .
+
+# sentence level graph:
+
+# alignment:
+s44a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt45
+Index: 1 2 3 4 5 6
+Words: Obrö topishning eng töğri yo’li-kamtarlik .
+
+# sentence level graph:
+
+# alignment:
+s45a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt46
+Index: 1 2 3 4 5
+Words: Hech kimga yomonlik sog’inma .
+
+# sentence level graph:
+
+# alignment:
+s46a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt47
+Index: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+Words: Katta talant avval xalq hurmatini , keyin xalq muhabbatini va nihoyat xalq ıshonchini qozonadi .
+
+# sentence level graph:
+
+# alignment:
+s47a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt48
+Index: 1 2 3 4
+Words: Baliq boshidan sasiydi .
+
+# sentence level graph:
+
+# alignment:
+s48a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt49
+Index: 1 2 3 4 5
+Words: Ammo uni dumidan tozalaydilar .
+
+# sentence level graph:
+
+# alignment:
+s49a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt50
+Index: 1 2 3 4
+Words: Bulbulning erkagi sayraydi .
+
+# sentence level graph:
+
+# alignment:
+s50a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt51
+Index: 1 2 3 4
+Words: Odamning - ayoli .
+
+# sentence level graph:
+
+# alignment:
+s51a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt52
+Index: 1 2 3 4 5
+Words: Hech qachon Osmonga tupurma !
+
+# sentence level graph:
+
+# alignment:
+s52a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt53
+Index: 1 2 3
+Words: Osmon qahrli .
+
+# sentence level graph:
+
+# alignment:
+s53a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt54
+Index: 1 2 3 4 5
+Words: Tupuging yuzingga qaytib tushadi !
+
+# sentence level graph:
+
+# alignment:
+s54a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt55
+Index: 1 2 3
+Words: Yerga tupurma !
+
+# sentence level graph:
+
+# alignment:
+s55a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt56
+Index: 1 2 3 4 5 6 7
+Words: Yer mehrli : tupuging yuzingga sachraydi .
+
+# sentence level graph:
+
+# alignment:
+s56a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt57
+Index: 1 2 3 4 5 6 7 8
+Words: Ammo shu Yer seni köksida kötarib yuradi !
+
+# sentence level graph:
+
+# alignment:
+s57a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt58
+Index: 1 2 3 4 5
+Words: Rostgöy odam jasur böladi .
+
+# sentence level graph:
+
+# alignment:
+s58a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt59
+Index: 1 2 3 4 5
+Words: Hech kimga yomonlik soğinma .
+
+# sentence level graph:
+
+# alignment:
+s59a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt60
+Index: 1 2 3 4 5 6 7 8 9 10
+Words: Hatto dushmaningga yomonlik tilasang bir chekkasi özingga qaytib keladi .
+
+# sentence level graph:
+
+# alignment:
+s60a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt61
+Index: 1 2 3 4
+Words: Negaki olam bus-butundir .
+
+# sentence level graph:
+
+# alignment:
+s61a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt62
+Index: 1 2 3 4
+Words: Urushning yaxshisi bölmaydi .
+
+# sentence level graph:
+
+# alignment:
+s62a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt63
+Index: 1 2 3 4 5 6 7
+Words: Ammo eng dahshatli urush- fuqarolar urushi .
+
+# sentence level graph:
+
+# alignment:
+s63a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt64
+Index: 1 2 3 4 5 6 7 8
+Words: Qalamkashga qishloqning qalbi , shaharning aqli kerak .
+
+# sentence level graph:
+
+# alignment:
+s64a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt65
+Index: 1 2 3 4 5
+Words: Talantsiz yozuvchi tovuqqa öxshaydi .
+
+# sentence level graph:
+
+# alignment:
+s65a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt66
+Index: 1 2 3 4 5 6 7 8
+Words: Yonğoqdek tuxum tuğadi-da , qaqoğlab olamni buzadi !
+
+# sentence level graph:
+
+# alignment:
+s66a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt67
+Index: 1 2 3 4 5 6 7 8
+Words: Iztirob chekib yozilgan asar rohat qilib öqiladi .
+
+# sentence level graph:
+
+# alignment:
+s67a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt68
+Index: 1 2 3 4 5 6 7 8 9 10 11
+Words: Adib qaysi tilda asar yozsa , ösha xalqning yozuvchisi hisoblanadi .
+
+# sentence level graph:
+
+# alignment:
+s68a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt69
+Index: 1 2 3 4 5 6
+Words: Bu örinda millatning daxli yöq .
+
+# sentence level graph:
+
+# alignment:
+s69a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt70
+Index: 1 2 3 4 5 6 7 8
+Words: Tasavvur qiling : siz tasviriy san’at muzeyiga kirdingiz
+
+# sentence level graph:
+
+# alignment:
+s70a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt71
+Index: 1 2 3 4 5 6 7 8 9 10 11 12
+Words: Polotnolardagi ranglarni , odamlarning qiyofasini közingiz bilan körib , hayajonga tushasiz .
+
+# sentence level graph:
+
+# alignment:
+s71a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt72
+Index: 1 2 3 4 5 6 7 8
+Words: Endi tasavvur qiling : siz kitob öqiyapsiz .
+
+# sentence level graph:
+
+# alignment:
+s72a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt73
+Index: 1 2 3 4 5 6 7 8 9 10 11 12
+Words: Ammo asarni öqishga kirishishingiz bilan köz öngingizda rangin manzaralar paydo böladi .
+
+# sentence level graph:
+
+# alignment:
+s73a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt74
+Index: 1 2 3 4 5
+Words: Quyosh ufqdan sekin ko‘tarildi .
+
+# sentence level graph:
+
+# alignment:
+s74a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt75
+Index: 1 2 3 4 5
+Words: Boğda qushlar sayray boshladi .
+
+# sentence level graph:
+
+# alignment:
+s75a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt76
+Index: 1 2 3 4 5
+Words: Yigit uzoq yölga otlandi .
+
+# sentence level graph:
+
+# alignment:
+s76a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt77
+Index: 1 2 3 4 5 6
+Words: Qishloq ustida mayin shabada esdi .
+
+# sentence level graph:
+
+# alignment:
+s77a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt78
+Index: 1 2 3 4 5 6
+Words: Ona bolasi uchun duo qildi .
+
+# sentence level graph:
+
+# alignment:
+s78a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt79
+Index: 1 2 3 4 5
+Words: Yomğir yerga tinmay quyildi .
+
+# sentence level graph:
+
+# alignment:
+s79a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt80
+Index: 1 2 3 4
+Words: Daryo jimirlab oqardi .
+
+# sentence level graph:
+
+# alignment:
+s80a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt81
+Index: 1 2 3 4 5 6
+Words: Qiz deraza yonida kutib turdi .
+
+# sentence level graph:
+
+# alignment:
+s81a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt82
+Index: 1 2 3 4 5
+Words: Yölovchi yöl chetida töxtadi .
+
+# sentence level graph:
+
+# alignment:
+s82a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt83
+Index: 1 2 3 4 5
+Words: Bahor öz nurlarini yoydi .
+
+# sentence level graph:
+
+# alignment:
+s83a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt84
+Index: 1 2 3 4 5 6
+Words: Oq bulutlar osmonda suzib yurdi .
+
+# sentence level graph:
+
+# alignment:
+s84a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt85
+Index: 1 2 3 4 5
+Words: Qariya asta qadam tashladi .
+
+# sentence level graph:
+
+# alignment:
+s85a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt86
+Index: 1 2 3 4 5
+Words: Kichik bola kulib yubordi .
+
+# sentence level graph:
+
+# alignment:
+s86a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt87
+Index: 1 2 3 4 5
+Words: Ustoz darsni boshlab berdi .
+
+# sentence level graph:
+
+# alignment:
+s87a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt88
+Index: 1 2 3 4
+Words: Yulduzlar osmonda yaltiradi .
+
+# sentence level graph:
+
+# alignment:
+s88a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt89
+Index: 1 2 3 4 5
+Words: Shahar köchalari gavjum edi .
+
+# sentence level graph:
+
+# alignment:
+s89a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt90
+Index: 1 2 3 4
+Words: Qaldirğochlar uyga qaytdi .
+
+# sentence level graph:
+
+# alignment:
+s90a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt91
+Index: 1 2 3 4
+Words: Daraxt barglari shitirladi .
+
+# sentence level graph:
+
+# alignment:
+s91a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt92
+Index: 1 2 3 4 5
+Words: Toğlar uzoqdan körinib turardi .
+
+# sentence level graph:
+
+# alignment:
+s92a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt93
+Index: 1 2 3 4
+Words: Suvning shovqini eshitildi .
+
+# sentence level graph:
+
+# alignment:
+s93a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt94
+Index: 1 2 3 4
+Words: Ötmish yodimga tushdi .
+
+# sentence level graph:
+
+# alignment:
+s94a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt95
+Index: 1 2 3 4 5
+Words: Könglimda ğalati his uyğondi .
+
+# sentence level graph:
+
+# alignment:
+s95a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt96
+Index: 1 2 3 4 5
+Words: U bolaning qölidan tutdi .
+
+# sentence level graph:
+
+# alignment:
+s96a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt97
+Index: 1 2 3 4 5 6
+Words: Öğil öz uyiga kirib bordi .
+
+# sentence level graph:
+
+# alignment:
+s97a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt98
+Index: 1 2 3 4 5
+Words: Oq ot jadal chopdi .
+
+# sentence level graph:
+
+# alignment:
+s98a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt99
+Index: 1 2 3 4
+Words: Chöpon qöylarini haydadi .
+
+# sentence level graph:
+
+# alignment:
+s99a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt100
+Index: 1 2 3 4
+Words: Maydonni jimjitlik qopladi .
+
+# sentence level graph:
+
+# alignment:
+s100a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt101
+Index: 1 2 3 4
+Words: Tong yorisha boshladi .
+
+# sentence level graph:
+
+# alignment:
+s101a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt102
+Index: 1 2 3 4 5
+Words: Yigit qizga tabassum qildi .
+
+# sentence level graph:
+
+# alignment:
+s102a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt103
+Index: 1 2 3 4
+Words: Daraxtlar soyasi uzaydi .
+
+# sentence level graph:
+
+# alignment:
+s103a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt104
+Index: 1 2 3 4
+Words: Onaning közlari yoshlandi .
+
+# sentence level graph:
+
+# alignment:
+s104a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt105
+Index: 1 2 3 4 5 6
+Words: Qush qanot qoqib uchib ketdi .
+
+# sentence level graph:
+
+# alignment:
+s105a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt106
+Index: 1 2 3 4
+Words: Kema sohilga yaqinlashdi .
+
+# sentence level graph:
+
+# alignment:
+s106a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt107
+Index: 1 2 3 4 5
+Words: Shamol deraza panjarasini qimirlatdi .
+
+# sentence level graph:
+
+# alignment:
+s107a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt108
+Index: 1 2 3 4 5 6
+Words: Köl yuzida halqalar paydo böldi .
+
+# sentence level graph:
+
+# alignment:
+s108a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt109
+Index: 1 2 3 4
+Words: U hayratdan töxtadi .
+
+# sentence level graph:
+
+# alignment:
+s109a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt110
+Index: 1 2 3 4 5
+Words: Qiz qölidagi kitobni ochdi .
+
+# sentence level graph:
+
+# alignment:
+s110a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt111
+Index: 1 2 3 4 5 6
+Words: U yöl böyidagi guldonga qaradi .
+
+# sentence level graph:
+
+# alignment:
+s111a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt112
+Index: 1 2 3 4 5
+Words: Bola shirin uyquga ketdi .
+
+# sentence level graph:
+
+# alignment:
+s112a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt113
+Index: 1 2 3 4 5 6
+Words: Quyosh nuri xona ichiga tushdi .
+
+# sentence level graph:
+
+# alignment:
+s113a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt114
+Index: 1 2 3 4 5
+Words: Qushlar balandda aylana boshladi .
+
+# sentence level graph:
+
+# alignment:
+s114a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt115
+Index: 1 2 3 4 5
+Words: U qalamini qöliga oldi .
+
+# sentence level graph:
+
+# alignment:
+s115a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt116
+Index: 1 2 3 4 5
+Words: Katta eshik asta ochildi .
+
+# sentence level graph:
+
+# alignment:
+s116a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt117
+Index: 1 2 3 4 5 6
+Words: U mehmonni jilmayib kutib oldi .
+
+# sentence level graph:
+
+# alignment:
+s117a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt118
+Index: 1 2 3 4
+Words: Soğinch yuragini ezdi .
+
+# sentence level graph:
+
+# alignment:
+s118a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt119
+Index: 1 2 3 4 5
+Words: Daryo qirğoğida shamol esdi .
+
+# sentence level graph:
+
+# alignment:
+s119a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt120
+Index: 1 2 3 4 5
+Words: U kitobni sekin yopdi .
+
+# sentence level graph:
+
+# alignment:
+s120a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt121
+Index: 1 2 3 4 5
+Words: Kuz barglari tökila boshladi .
+
+# sentence level graph:
+
+# alignment:
+s121a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt122
+Index: 1 2 3 4 5
+Words: Yoruğ oy tunni bezadi .
+
+# sentence level graph:
+
+# alignment:
+s122a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt123
+Index: 1 2 3 4 5
+Words: Balchiq yöl poyafzalga yopishdi .
+
+# sentence level graph:
+
+# alignment:
+s123a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt124
+Index: 1 2 3 4 5
+Words: U közlarini osmonga qadadi .
+
+# sentence level graph:
+
+# alignment:
+s124a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt125
+Index: 1 2 3 4
+Words: Chol chuqur xörsindi .
+
+# sentence level graph:
+
+# alignment:
+s125a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt126
+Index: 1 2 3 4 5 6
+Words: Ayol mehmonlar uchun choy quydi .
+
+# sentence level graph:
+
+# alignment:
+s126a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt127
+Index: 1 2 3 4 5
+Words: Ötmish voqealari qayta jonlandi .
+
+# sentence level graph:
+
+# alignment:
+s127a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt128
+Index: 1 2 3 4 5
+Words: Yigit köprik ustida töxtadi .
+
+# sentence level graph:
+
+# alignment:
+s128a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt129
+Index: 1 2 3 4
+Words: Poyezd sekin jönadi .
+
+# sentence level graph:
+
+# alignment:
+s129a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt130
+Index: 1 2 3 4 5
+Words: Toshlar ustida suv shovulladi .
+
+# sentence level graph:
+
+# alignment:
+s130a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt131
+Index: 1 2 3 4 5 6 7
+Words: U yon daftariga bir satr yozdi .
+
+# sentence level graph:
+
+# alignment:
+s131a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt132
+Index: 1 2 3 4 5 6
+Words: Sahro ustidan issiq shamol esdi .
+
+# sentence level graph:
+
+# alignment:
+s132a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt133
+Index: 1 2 3 4 5
+Words: Qiz sochlarini ortga tashladi .
+
+# sentence level graph:
+
+# alignment:
+s133a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt134
+Index: 1 2 3 4 5
+Words: Chumchuqlar hovlida sakrab yurdi .
+
+# sentence level graph:
+
+# alignment:
+s134a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt135
+Index: 1 2 3 4 5
+Words: U uyga shoshilib kirdi .
+
+# sentence level graph:
+
+# alignment:
+s135a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt136
+Index: 1 2 3 4 5
+Words: Daraxt tagida soyalar chözildi .
+
+# sentence level graph:
+
+# alignment:
+s136a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt137
+Index: 1 2 3 4 5
+Words: Yigit eshikni qattiq taqillatdi .
+
+# sentence level graph:
+
+# alignment:
+s137a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt138
+Index: 1 2 3 4
+Words: Yomğir tomchilari tezlashdi .
+
+# sentence level graph:
+
+# alignment:
+s138a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt139
+Index: 1 2 3 4 5
+Words: Qiz jilmayib bosh irğadi .
+
+# sentence level graph:
+
+# alignment:
+s139a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt140
+Index: 1 2 3 4 5
+Words: U yöldan ötib ketdi .
+
+# sentence level graph:
+
+# alignment:
+s140a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt141
+Index: 1 2 3 4 5
+Words: Örmon ichida qushlar chuğurladi .
+
+# sentence level graph:
+
+# alignment:
+s141a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt142
+Index: 1 2 3 4 5 6
+Words: Keksa ayol deraza yonida ötirdi .
+
+# sentence level graph:
+
+# alignment:
+s142a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt143
+Index: 1 2 3 4 5
+Words: Atrofga xushböy hid taraldi .
+
+# sentence level graph:
+
+# alignment:
+s143a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt144
+Index: 1 2 3 4 5
+Words: Yigit qölidagi xatni ochdi .
+
+# sentence level graph:
+
+# alignment:
+s144a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt145
+Index: 1 2 3 4 5 6 7
+Words: U könglidan ötgan gapni ayta olmadi .
+
+# sentence level graph:
+
+# alignment:
+s145a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt146
+Index: 1 2 3 4 5
+Words: Bahor hidi havoga singdi .
+
+# sentence level graph:
+
+# alignment:
+s146a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt147
+Index: 1 2 3 4 5
+Words: Maktab oldida bolalar kulishdi .
+
+# sentence level graph:
+
+# alignment:
+s147a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt148
+Index: 1 2 3 4 5 6
+Words: Daryo böyida quyon sakrab chiqdi .
+
+# sentence level graph:
+
+# alignment:
+s148a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt149
+Index: 1 2 3 4 5
+Words: U uyga qaytishni istamadi .
+
+# sentence level graph:
+
+# alignment:
+s149a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt150
+Index: 1 2 3 4 5 6
+Words: Qiz yuragi tez ura boshladi .
+
+# sentence level graph:
+
+# alignment:
+s150a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt151
+Index: 1 2 3 4 5 6 7
+Words: Oq qush suv ustidan parvoz qildi .
+
+# sentence level graph:
+
+# alignment:
+s151a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt152
+Index: 1 2 3 4 5 6 7
+Words: Bola qölidagi sharning ipini qöyib yubordi .
+
+# sentence level graph:
+
+# alignment:
+s152a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt153
+Index: 1 2 3 4
+Words: Shamchiroq yonib turardi .
+
+# sentence level graph:
+
+# alignment:
+s153a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt154
+Index: 1 2 3 4 5
+Words: Qishloqda hayot tinch edi .
+
+# sentence level graph:
+
+# alignment:
+s154a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt155
+Index: 1 2 3 4
+Words: Yigit yelkasini kötardi .
+
+# sentence level graph:
+
+# alignment:
+s155a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt156
+Index: 1 2 3 4 5 6
+Words: Ayol gulni suv bilan serqiltirdi .
+
+# sentence level graph:
+
+# alignment:
+s156a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt157
+Index: 1 2 3 4
+Words: Köchada otlar dupurladi .
+
+# sentence level graph:
+
+# alignment:
+s157a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt158
+Index: 1 2 3 4
+Words: U kulib qöydi .
+
+# sentence level graph:
+
+# alignment:
+s158a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt159
+Index: 1 2 3 4 5
+Words: Dala böylab shamol yeldi .
+
+# sentence level graph:
+
+# alignment:
+s159a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt160
+Index: 1 2 3 4 5
+Words: Qiz oynaga qarab jilmaydi .
+
+# sentence level graph:
+
+# alignment:
+s160a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt161
+Index: 1 2 3 4 5 6
+Words: Qushlar töda bölib uchib ketdi .
+
+# sentence level graph:
+
+# alignment:
+s161a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt162
+Index: 1 2 3 4 5 6
+Words: Bahor yomğiri yerga jon bağishladi .
+
+# sentence level graph:
+
+# alignment:
+s162a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt163
+Index: 1 2 3 4 5 6
+Words: U uzoq yölga tikilib qoldi .
+
+# sentence level graph:
+
+# alignment:
+s163a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt164
+Index: 1 2 3 4 5 6
+Words: Tongda mayin shamol yuzini siladi .
+
+# sentence level graph:
+
+# alignment:
+s164a: 0-0
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt165
+Index: 1 2 3 4 5 6
+Words: Tongda mayin shamol yuzini siladi .
+
+# sentence level graph:
+
+# alignment:
+s165a: 0-0
+
+# document level annotation:
+()
+
+################################################################################

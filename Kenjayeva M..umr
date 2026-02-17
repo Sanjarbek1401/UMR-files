@@ -1,0 +1,4404 @@
+################################################################################
+# meta-info
+# :: snt1
+Index: 1 2 3 4 5
+Words: Men issiq palovni pishirdim .
+
+# sentence level graph:
+(s1p1 / pishirdim
+    :ARG3 (s1p / palovni
+        :extent (s1i / issiq))
+    :actor (s1m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s1i: 2-2
+s1m: 1-1
+s1p: 3-3
+s1p1: 4-4
+s1p2: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt2
+Index: 1 2 3 4 5
+Words: Men do‘stona maslahatni qadrlayman .
+
+# sentence level graph:
+(s2q1 / qadrlayman
+    :ARG3 (s2m1 / maslahatni
+        :mod (s2d / do))
+    :actor (s2m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s2d: 2-2
+s2m: 1-1
+s2m1: 3-3
+s2m2: 3-3
+s2q1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt3
+Index: 1 2 3 4 5 6
+Words: Sovuq tun odamlarni uyga shoshirdi .
+
+# sentence level graph:
+(s3s1 / shoshirdi
+    :theme (s3t / tun
+        :mod (s3s / Sovuq))
+    :ARG0 (s3o1 / odamlarni)
+    :place (s3u1 / uyga))
+
+# alignment:
+s3o: 3-3
+s3o1: 3-3
+s3s: 1-1
+s3s1: 5-5
+s3t: 2-2
+s3u: 4-4
+s3u1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt4
+Index: 1 2 3 4 5 6
+Words: U yoqimli hidni darrov sezdi .
+
+# sentence level graph:
+(s4s1 / sezdi
+    :manner (s4d / darrov)
+    :ARG3 (s4h / hidni
+        :mod (s4y / yoqimli))
+    :actor (s4u / U
+        :refer-number singular)
+        :refer-person 3rd)
+
+# alignment:
+s4d: 4-4
+s4h: 3-3
+s4h1: 3-3
+s4s1: 5-5
+s4u: 1-1
+s4y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt5
+Index: 1 2 3 4 5 6
+Words: Men eski daftarni qayta qarab_chiqdim .
+
+# sentence level graph:
+(s5q1 / qarab_chiqdim
+    :manner (s5q / qayta)
+    :ARG3 (s5d / daftarni
+        :mod (s5e / eski))
+    :actor (s5m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s5d: 3-3
+s5d1: 3-3
+s5e: 2-2
+s5m: 1-1
+s5q: 4-4
+s5q1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt6
+Index: 1 2 3 4 5
+Words: Yangi ekilgan gullar ochila_boshladi .
+
+# sentence level graph:
+(s6o1 / ochila_boshladi
+    :theme (s6g / gullar
+        :mod (s6y / Yangi))
+        :mod (s6e / ekilgan))
+
+# alignment:
+s6e: 2-2
+s6g: 3-3
+s6o1: 4-4
+s6y: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt7
+Index: 1 2 3 4 5 6
+Words: U sayohat haqida uzoq gapirdi .
+
+# sentence level graph:
+(s7g1 / gapirdi
+    :ARG3 (s7s / sayohat-haqida)
+    :manner (s7u1 / uzoq)
+    :actor (s7u / U
+        :refer-number singular)
+        :refer-person 3rd)
+
+# alignment:
+s7g1: 5-5
+s7s: 2-3
+s7s1: 2-3
+s7u: 1-1
+s7u1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt8
+Index: 1 2 3 4 5 6
+Words: Men yangi dasturga qiziqib qoldim .
+
+# sentence level graph:
+(s8q1 / qiziqib-qoldim
+    :ARG3 (s8d / dasturga
+        :mod (s8y / yangi))
+    :actor (s8m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s8d: 3-3
+s8d1: 3-3
+s8m: 1-1
+s8q1: 4-4-5-5
+s8y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt9
+Index: 1 2 3 4 5
+Words: Yorqin chiroqlar binoni bezatdi .
+
+# sentence level graph:
+(s9b1 / bezatdi
+    :ARG3 (s9b / binoni)
+    :theme (s9c / chiroqlar)
+        :mod (s9y / Yorqin))
+
+# alignment:
+s9b: 3-3
+s9b1: 4-4
+s9c: 2-2
+s9c1: 2-2
+s9y: 1-1
+s9y1: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt10
+Index: 1 2 3 4 5 6
+Words: U sokin ovoz bilan gapirdi .
+
+# sentence level graph:
+(s10g1 / gapirdi
+    :manner (s10o1 / ovoz-bilan
+        :quant (s10s / sokin))
+    :actor (s10u / U
+        :refer-number singular)
+        :refer-person 3rd)
+
+# alignment:
+s10g1: 5-5
+s10o: 3-4
+s10o1: 3-4
+s10s: 2-2
+s10u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt11
+Index: 1 2 3 4 5
+Words: Temir eshik asta ochildi .
+
+# sentence level graph:
+(s11o1 / ochildi
+    :manner (s11a / asta)
+    :theme (s11e / eshik)
+        :mod (s11t / Temir))
+
+# alignment:
+s11a: 3-3
+s11a1: 3-3
+s11e: 2-2
+s11o1: 4-4
+s11t: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt12
+Index: 1 2 3 4 5 6
+Words: U nozik gullarga suv sepdi .
+
+# sentence level graph:
+(s12s1 / sepdi
+    :ARG3 (s12s / suv)
+    :ARG3 (s12g / gullarga
+        :mod (s12n / nozik))
+    :actor (s12u / U
+        :refer-number singular)
+        :refer-person 3rd)
+
+# alignment:
+s12g: 3-3
+s12n: 2-2
+s12s: 4-4
+s12s1: 5-5
+s12s2: 4-4
+s12u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt13
+Index: 1 2 3 4 5 6
+Words: Kichik jild stol ustida yotardi .
+
+# sentence level graph:
+(s13y1 / yotardi
+    :place (s13s1 / stol-ustida)
+    :list-item (s13j / jild)
+        :size (s13k / Kichik))
+
+# alignment:
+s13j: 2-2
+s13k: 1-1
+s13s: 3-4
+s13s1: 3-4
+s13y1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt14
+Index: 1 2 3 4
+Words: Kitob stolda turibdi .
+
+# sentence level graph:
+(s14t1 / turibdi
+    :theme (s14k / Kitob)
+    :place (s14s1 / stolda))
+
+# alignment:
+s14k: 1-1
+s14s: 2-2
+s14s1: 2-2
+s14t1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt15
+Index: 1 2 3 4
+Words: Bola maydonda yugurdi .
+
+# sentence level graph:
+(s15y1 / yugurdi
+    :place (s15m1 / maydonda)
+    :actor (s15b / Bola))
+
+# alignment:
+s15b: 1-1
+s15m: 2-2
+s15m1: 2-2
+s15y1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt16
+Index: 1 2 3 4 5
+Words: Ayol oshxonada ovqat pishirdi .
+
+# sentence level graph:
+(s16p1 / pishirdi
+    :ARG3 (s16o / ovqat)
+    :place (s16o2 / oshxonada)
+    :actor (s16a / Ayol))
+
+# alignment:
+s16a: 1-1
+s16o: 2-2-3-3
+s16o1: 3-3
+s16o2: 2-2
+s16p1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt17
+Index: 1 2 3 4
+Words: It hovlida yugurdi .
+
+# sentence level graph:
+(s17y1 / yugurdi
+    :place (s17h1 / hovlida)
+    :undergoer (s17i / It))
+
+# alignment:
+s17h: 2-2
+s17h1: 2-2
+s17i: 1-1
+s17y1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt18
+Index: 1 2 3 4
+Words: Bola maydonda yugurdi .
+
+# sentence level graph:
+(s18y1 / yugurdi
+    :place (s18m1 / maydonda)
+    :actor (s18b / Bola))
+
+# alignment:
+s18b: 1-1
+s18m: 2-2
+s18m1: 2-2
+s18y1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt19
+Index: 1 2 3 4 5 6 7 8
+Words: Kompaniya aktivlari 11 trillion AQSh dollaridan oshadi .
+
+# sentence level graph:
+(s19o1 / oshadi
+    :ARG0 (s19a / AQSh-dollaridan)
+        :ARG1 (s19x / 1-trillion)
+            :theme (s19a1 / aktivlari)
+                :theme-of (s19k / Kompaniya))
+
+# alignment:
+s19a: 5-6
+s19a1: 2-2
+s19k: 1-1
+s19o1: 7-7
+s19x: 4-4,31-31
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt20
+Index: 1 2 3 4 5
+Words: Mushuk tomda uxlab yotdi .
+
+# sentence level graph:
+(s20u1 / uxlab-yotdi
+    :place (s20t1 / tomda)
+    :theme (s20m / Mushuk))
+
+# alignment:
+s20m: 1-1
+s20t: 2-2
+s20t1: 2-2
+s20u1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt21
+Index: 1 2 3 4 5
+Words: Ayol bozorda sabzavot sotdi .
+
+# sentence level graph:
+(s21s1 / sotdi
+    :ARG0 (s21s / sabzavot)
+    :place (s21b1 / bozorda)
+    :actor (s21a / Ayol))
+
+# alignment:
+s21a: 1-1
+s21b: 2-2
+s21b1: 2-2
+s21s: 3-3
+s21s1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt22
+Index: 1 2 3 4 5
+Words: Ayol oshxonada choy ichdi .
+
+# sentence level graph:
+(s22i1 / ichdi
+    :place (s22o / oshxonada)
+    :theme (s22c1 / choy)
+    :actor (s22a / Ayol))
+
+# alignment:
+s22a: 1-1
+s22c: 3-3
+s22c1: 3-3
+s22i1: 4-4
+s22o: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt23
+Index: 1 2 3 4
+Words: Bola maktabga bordi .
+
+# sentence level graph:
+(s23b1 / bordi
+    :actor (s23b / Bola)
+        :place (s23m / maktabga))
+
+# alignment:
+s23b: 1-1
+s23b1: 3-3
+s23m: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt24
+Index: 1 2 3 4 5 6 7 8 9
+Words: Xizmat uchun har bir fan alohida shartnoma tuziladi .
+
+# sentence level graph:
+(s24t1 / tuziladi
+    :theme (s24s / shartnoma)
+        :purpose (s24x / Xizmat-uchun)
+            :quant (s24h / har-bir-fan)
+                :manner (s24a / alohida))
+
+# alignment:
+s24a: 6-6
+s24h: 3-5
+s24s: 7-7
+s24t1: 8-8
+s24x: 1-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt25
+Index: 1 2 3 4 5 6
+Words: Variant uchun alohida shartnoma tuziladi .
+
+# sentence level graph:
+(s25t1 / tuziladi
+    :theme (s25s / shartnoma)
+        :quant (s25v / Variant-uchun)
+            :manner (s25a / alohida))
+
+# alignment:
+s25a: 3-3
+s25s: 4-4
+s25t1: 5-5
+s25v: 1-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt26
+Index: 1 2 3 4 5 6 7 8 9
+Words: Test sinovlarining ijobiy natijasi 3 yil muddatga amal_qiladi .
+
+# sentence level graph:
+(s26a1 / amal_qiladi
+    :time (s26x / 3-yil-muddatga)
+        :theme (s26n / natijasi)
+            :ARG0 (s26i / ijobiy)
+                :ARG1 (s26t / Test-sinovlarining))
+
+# alignment:
+s26a1: 8-8
+s26i: 3-3
+s26n: 4-4
+s26t: 1-2
+s26x: 5-7
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt27
+Index: 1 2 3 4 5 6 7
+Words: Muddatli harbiy xizmatchilar uchun test sinovlari .
+
+# sentence level graph:
+(s27t1 / test-sinovlari
+    :group (s27x / xizmatchilar-harbiy-Muddatli-uchun))
+
+# alignment:
+s27t1: 5-5-6-6
+s27x: 1-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt28
+Index: 1 2 3 4 5 6 7
+Words: Test markazi tashkilotining rasmiy hamkoriga aylandi .
+
+# sentence level graph:
+(s28a1 / aylandi
+    :ARG0 (s28h / hamkoriga)
+        :quant (s28r / rasmiy)
+            :ARG0-of (s28t / tashkilotining)
+                :theme (s28t1 / Test-markazi))
+
+# alignment:
+s28a1: 6-6
+s28h: 5-5
+s28r: 4-4
+s28t: 3-3
+s28t1: 1-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt29
+Index: 1 2 3 4 5 6
+Words: Men yangi darslikni varaqlab chiqdim .
+
+# sentence level graph:
+(s29v1 / varaqlab-chiqdim
+    :actor (s29m / Men
+        :refer-number singular
+        :refer-person 1st)
+    :ARG3 (s29d / darslikni)
+        :mod (s29y / yangi))
+
+# alignment:
+s29d: 3-3
+s29m: 1-1
+s29v1: 4-4-5-5
+s29y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt30
+Index: 1 2 3 4 5
+Words: Yoqimli shamol daraxtlarni silkitdi .
+
+# sentence level graph:
+(s30s1 / silkitdi
+    :ARG0 (s30d / daraxtlarni)
+        :theme (s30s / shamol)
+            :quant (s30y / Yoqimli))
+
+# alignment:
+s30d: 3-3
+s30s: 2-2
+s30s1: 4-4
+s30y: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt31
+Index: 1 2 3 4 5
+Words: Men katta majlisga tayyorlandim .
+
+# sentence level graph:
+(s31t1 / tayyorlandim
+    :manner (s31m / majlisga)
+        :quant (s31k / katta)
+            :actor (s31m1 / Men
+                :refer-number singular)
+                :refer-person 1st)
+
+# alignment:
+s31k: 2-2
+s31m: 3-3
+s31m1: 1-1
+s31t1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt32
+Index: 1 2 3 4 5 6 7 8
+Words: Loyiha muhokamasi 14-fevral kuniga qadar davom etadi .
+
+# sentence level graph:
+(s32d1 / davom-etadi
+    :time (s32x / -fevral-kuniga-qadar)
+        :theme (s32m / muhokamasi)
+            :theme-of (s32l / Loyiha))
+
+# alignment:
+s32d1: 6-6-7-7
+s32l: 1-1
+s32m: 2-2
+s32x: 4-5,314-314
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt33
+Index: 1 2 3 4 5 6
+Words: Men mayda narsalarni qutiga joyladim .
+
+# sentence level graph:
+(s33j1 / joyladim
+    :actor (s33m1 / Men
+        :refer-number singular
+        :refer-person 1st)
+    :ARG3 (s33n / narsalarni
+        :quant (s33m / mayda))
+    :ARG3 (s33q / qutiga))
+
+# alignment:
+s33j1: 5-5
+s33m: 2-2
+s33m1: 1-1
+s33n: 3-3
+s33q: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt34
+Index: 1 2 3 4 5
+Words: Malaka oshirish kurslari boshlanmoqda .
+
+# sentence level graph:
+(s34b1 / boshlanmoqda
+    :theme (s34k / kurslari)
+        :theme-of (s34m / Malaka-oshirish))
+
+# alignment:
+s34b1: 4-4
+s34k: 3-3
+s34m: 1-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt35
+Index: 1 2 3 4 5
+Words: Eng bilimli abituriyentlar taqdirlanadi .
+
+# sentence level graph:
+(s35t1 / taqdirlanadi
+    :group (s35a / abituriyentlar)
+        :quant (s35e / Eng-bilimli))
+
+# alignment:
+s35a: 3-3
+s35e: 1-2
+s35t1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt36
+Index: 1 2 3 4 5 6 7 8 9
+Words: Mart oyi uchun hujjatlarni qabul qilish muddati uzaytirildi .
+
+# sentence level graph:
+(s36u1 / uzaytirildi
+    :time (s36m / muddati)
+        :time-of (s36q / qabul-qilish)
+            :ARG0 (s36h / hujjatlarni)
+                :time (s36m1 / Mart-oyi-uchun))
+
+# alignment:
+s36h: 4-4
+s36m: 7-7
+s36m1: 1-3
+s36q: 5-6
+s36u1: 8-8
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt37
+Index: 1 2 3 4 5 6 7
+Words: Test sinovi topshiriladigan fanlar majmuasi tasdiqlandi .
+
+# sentence level graph:
+(s37t1 / tasdiqlandi
+    :group (s37m / majmuasi)
+        :group-of (s37f / fanlar)
+            :ARG0 (s37t / Test-sinovi-topshiriladigan))
+
+# alignment:
+s37f: 4-4
+s37m: 5-5
+s37t: 1-3
+s37t1: 6-6
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt38
+Index: 1 2 3 4
+Words: Men maktabga bordim .
+
+# sentence level graph:
+(s38b1 / bordim
+    :place (s38m / maktabga)
+        :actor (s38m1 / Men
+            :refer-number singular)
+            :refer-person 1st)
+
+# alignment:
+s38b1: 3-3
+s38m: 2-2
+s38m1: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt39
+Index: 1 2 3 4
+Words: U kitob o‘qiyapti .
+
+# sentence level graph:
+(s39o1 / o‘qiyapti
+    :ARG0 (s39k / kitob)
+        :actor (s39u / U
+            :refer-number singular)
+            :refer-person 3rd)
+
+# alignment:
+s39k: 2-2
+s39o1: 3-3
+s39u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt40
+Index: 1 2 3 4
+Words: Bola tez yugurdi .
+
+# sentence level graph:
+(s40y1 / yugurdi
+    :quant (s40t / tez)
+        :actor (s40b / Bola))
+
+# alignment:
+s40b: 1-1
+s40t: 2-2
+s40y1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt41
+Index: 1 2 3 4
+Words: Daryo sharqirab oqmoqda .
+
+# sentence level graph:
+(s41o1 / oqmoqda
+    :manner (s41s / sharqirab)
+    :undergoer (s41d / Daryo))
+
+# alignment:
+s41d: 1-1
+s41o1: 3-3
+s41s: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt42
+Index: 1 2 3 4
+Words: Ustoz dars berdi .
+
+# sentence level graph:
+(s42d1 / dars-berdi
+    :actor (s42u / Ustoz))
+
+# alignment:
+s42d1: 2-2-3-3
+s42u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt43
+Index: 1 2 3 4 5
+Words: Men chizg'ich bilan chizdim .
+
+# sentence level graph:
+(s43c1 / chizdim
+    :ARG0 (s43c / chizg'ich-bilan)
+    :actor (s43m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s43c: 2-3
+s43c1: 4-4
+s43m: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt44
+Index: 1 2 3 4 5 6 7
+Words: Ota uzoq vaqtdan keyin yurtiga qaytdi .
+
+# sentence level graph:
+(s44q1 / qaytdi
+    :actor (s44o / Ota)
+    :time (s44u / uzoq-vaqtdan-keyin)
+    :place-of (s44y / yurtiga))
+
+# alignment:
+s44o: 1-1
+s44q1: 6-6
+s44u: 2-4
+s44y: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt45
+Index: 1 2 3 4 5
+Words: Oy bugun yanada yorishdi .
+
+# sentence level graph:
+(s45y1 / yorishdi
+    :undergoer (s45o / Oy)
+    :day (s45b / bugun)
+    :extent (s45y / yanada))
+
+# alignment:
+s45b: 2-2
+s45o: 1-1
+s45y: 3-3
+s45y1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt46
+Index: 1 2 3 4 5
+Words: Quyosh bugun boshqacha chiqdi .
+
+# sentence level graph:
+(s46c1 / chiqdi
+    :undergoer (s46q / Quyosh)
+    :day (s46b1 / bugun)
+    :manner (s46b / boshqacha))
+
+# alignment:
+s46b: 3-3
+s46b1: 2-2
+s46c1: 4-4
+s46q: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt47
+Index: 1 2 3 4
+Words: Qattiq shamol esdi .
+
+# sentence level graph:
+(s47e1 / esdi
+    :undergoer (s47s / shamol)
+        :extent (s47q / Qattiq))
+
+# alignment:
+s47e1: 3-3
+s47q: 1-1
+s47s: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt48
+Index: 1 2 3 4 5 6 7
+Words: Men uning kelishini yarim soat kutdim .
+
+# sentence level graph:
+(s48k1 / kutdim
+    :time (s48y / yarim-soat)
+    :ARG3 (s48k / kelishini
+        :ARG3-of (s48u / uning))
+    :actor (s48m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s48k: 3-3
+s48k1: 6-6
+s48m: 1-1
+s48s: 4-5
+s48u: 2-2
+s48y: 4-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt49
+Index: 1 2 3 4 5 6 7
+Words: Sen kecha darsga juda kech kelding .
+
+# sentence level graph:
+(s49k1 / kelding
+    :quarter (s49j / juda-kech)
+    :time (s49k2 / kecha)
+    :ARG0 (s49d / darsga)
+    :actor (s49s / Sen
+        :refer-number singular)
+        :refer-person 2nd)
+
+# alignment:
+s49d: 3-3
+s49j: 4-5
+s49k: 4-5
+s49k1: 6-6
+s49k2: 2-2
+s49s: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt50
+Index: 1 2 3 4 5 6 7
+Words: U juda toliqqani uchun miriqib uxlayapti .
+
+# sentence level graph:
+(s50u1 / uxlayapti
+    :manner (s50m / miriqib)
+    :cause (s50j / juda-toliqqani-uchun)
+    :actor (s50u / U
+        :refer-number singular)
+        :refer-person 3rd)
+
+# alignment:
+s50j: 2-4
+s50m: 5-5
+s50u: 1-1
+s50u1: 6-6
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt51
+Index: 1 2 3 4
+Words: Mushuk tomdan sakradi .
+
+# sentence level graph:
+(s51s1 / sakradi
+    :undergoer (s51m / Mushuk)
+    :destination (s51t / tomdan))
+
+# alignment:
+s51m: 1-1
+s51s1: 3-3
+s51t: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt52
+Index: 1 2 3 4 5 6
+Words: It u kishiga qarab hurdi .
+
+# sentence level graph:
+(s52h1 / hurdi
+    :manner (s52u / u-kishiga-qarab)
+    :undergoer (s52i / It))
+
+# alignment:
+s52h1: 5-5
+s52i: 1-1
+s52u: 2-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt53
+Index: 1 2 3 4 5 6 7
+Words: Men u haqida yomon gap eshitdim .
+
+# sentence level graph:
+(s53e1 / eshitdim
+    :ARG1 (s53g / gap
+        :quant (s53y / yomon))
+    :ARG0 (s53u / u-haqida)
+    :actor (s53m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s53e1: 6-6
+s53g: 5-5
+s53m: 1-1
+s53u: 2-3
+s53y: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt54
+Index: 1 2 3 4 5 6
+Words: Quyosh charaqlashi bilan qor eridi .
+
+# sentence level graph:
+(s54e1 / eridi
+    :time (s54q1 / Quyosh-charaqlashi-bilan)
+    :undergoer (s54q / qor))
+
+# alignment:
+s54e1: 5-5
+s54q: 4-4
+s54q1: 1-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt55
+Index: 1 2 3 4 5 6
+Words: Kechagi hashardan keyin dala yashnadi .
+
+# sentence level graph:
+(s55y1 / yashnadi
+    :time (s55k / Kechagi-hashardan-keyin)
+    :place (s55d / dala))
+
+# alignment:
+s55d: 4-4
+s55k: 1-3
+s55y1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt56
+Index: 1 2 3 4 5 6
+Words: Men ancha qidirgan kitobimni topdim .
+
+# sentence level graph:
+(s56t1 / topdim
+    :ARG3 (s56k / kitobimni)
+    :actor (s56m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s56a: 2-3
+s56k: 4-4
+s56m: 1-1
+s56t1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt57
+Index: 1 2 3 4 5 6 7
+Words: U hali ham daromadli ish izlayapti .
+
+# sentence level graph:
+(s57i1 / izlayapti
+    :ARG0 (s57i / ish
+        :extent (s57d / daromadli))
+    :actor (s57u / U
+        :refer-number singular)
+        :refer-person 3rd)
+
+# alignment:
+s57d: 4-4
+s57i: 5-5
+s57i1: 6-6
+s57u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt58
+Index: 1 2 3 4 5 6
+Words: Biz dugonam bilan soatlab gaplashdik .
+
+# sentence level graph:
+(s58g1 / gaplashdik
+    :ARG0 (s58d / dugonam-bilan)
+    :extent (s58s / soatlab)
+    :actor (s58b / Biz
+        :refer-number plural)
+        :refer-person 1st)
+
+# alignment:
+s58b: 1-1
+s58d: 2-3
+s58g1: 5-5
+s58s: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt59
+Index: 1 2 3 4 5
+Words: Ota qizini yoniga chaqirdi .
+
+# sentence level graph:
+(s59c1 / chaqirdi
+    :place (s59y / yoniga)
+    :ARG0 (s59q / qizini)
+    :actor (s59o / Ota))
+
+# alignment:
+s59c1: 4-4
+s59o: 1-1
+s59q: 2-2
+s59y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt60
+Index: 1 2 3 4 5 6
+Words: Ona bolasining ishiga qarab kulimsiradi .
+
+# sentence level graph:
+(s60k1 / kulimsiradi
+    :manner (s60i / ishiga-qarab
+        :manner-of (s60b / bolasining))
+    :actor (s60o / Ona))
+
+# alignment:
+s60b: 2-2
+s60i: 3-4
+s60k1: 5-5
+s60o: 1-1
+s60q: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt61
+Index: 1 2 3 4 5 6
+Words: Buvi nabirasi uchun kiyimcha tikmoqda .
+
+# sentence level graph:
+(s61t1 / tikmoqda
+    :goal (s61n / nabirasi-uchun)
+    :ARG0 (s61k / kiyimcha)
+    :actor (s61b / Buvi))
+
+# alignment:
+s61b: 1-1
+s61k: 4-4
+s61n: 2-3
+s61t1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt62
+Index: 1 2 3 4 5 6
+Words: Eshik ustoz kirishlari uchun ochildi .
+
+# sentence level graph:
+(s62o1 / ochildi
+    :cause (s62k / kirishlari-uchun-ustoz)
+    :undergoer (s62e / Eshik))
+
+# alignment:
+s62e: 1-1
+s62k: 2-4
+s62o1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt63
+Index: 1 2 3 4 5 6
+Words: Shamol kuchliligi uchun deraza yopildi .
+
+# sentence level graph:
+(s63y1 / yopildi
+    :cause (s63s / Shamol-kuchliligi-uchun)
+    :undergoer (s63d / deraza))
+
+# alignment:
+s63d: 4-4
+s63s: 1-3
+s63y1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt64
+Index: 1 2 3 4 5 6
+Words: Chiroqlar kech tushishi bilan yondi .
+
+# sentence level graph:
+(s64y1 / yondi
+    :time (s64k / kech-tushishi-bilan)
+    :undergoer (s64c / Chiroqlar))
+
+# alignment:
+s64c: 1-1
+s64k: 2-4
+s64y1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt65
+Index: 1 2 3 4 5 6
+Words: Isitgich ishlamagani uchun xona sovidi .
+
+# sentence level graph:
+(s65s1 / sovidi
+    :cause (s65i / Isitgich-ishlamagani-uchun)
+    :undergoer (s65x / xona))
+
+# alignment:
+s65i: 1-3
+s65s1: 5-5
+s65x: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt66
+Index: 1 2 3 4
+Words: Kompyuter qotmasdan ishladi .
+
+# sentence level graph:
+(s66i1 / ishladi
+    :manner (s66q / qotmasdan)
+    :undergoer (s66k / Kompyuter))
+
+# alignment:
+s66i1: 3-3
+s66k: 1-1
+s66q: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt67
+Index: 1 2 3 4 5
+Words: Men dugonamning ijodini tingladim .
+
+# sentence level graph:
+(s67t1 / tingladim
+    :ARG0 (s67i / ijodini
+        :ARG0-of (s67d / dugonamning))
+    :actor (s67m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s67d: 2-2
+s67i: 3-3
+s67m: 1-1
+s67t1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt68
+Index: 1 2 3 4 5 6 7 8 9
+Words: U xayolini band qilgan qiz uchun hikoya yozmoqda .
+
+# sentence level graph:
+(s68y1 / yozmoqda
+    :ARG1 (s68x / xayolini-band-qilgan-qiz-uchun)
+    :ARG0 (s68h / hikoya)
+    :actor (s68u / U
+        :refer-number singular)
+        :refer-person 3rd)
+
+# alignment:
+s68h: 7-7
+s68u: 1-1
+s68x: 2-6
+s68y1: 8-8
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt69
+Index: 1 2 3 4 5 6
+Words: Shifokor operatsiya uchun Hindistondan keldi .
+
+# sentence level graph:
+(s69k1 / keldi
+    :actor (s69s / Shifokor)
+    :cause (s69o / operatsiya-uchun)
+    :destination (s69h / Hindistondan))
+
+# alignment:
+s69h: 4-4
+s69k1: 5-5
+s69o: 2-3
+s69s: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt70
+Index: 1 2 3 4 5 6 7
+Words: Men onam kelganini eshitishim bilan yugurdim .
+
+# sentence level graph:
+(s70y1 / yugurdim
+    :time (s70o / onam-kelganini-eshitishim-bilan)
+    :actor (s70m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s70m: 1-1
+s70o: 2-5
+s70y1: 6-6
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt71
+Index: 1 2 3 4 5 6
+Words: U yana shu yerda qoldi .
+
+# sentence level graph:
+(s71q1 / qoldi
+    :quant (s71y / yana)
+    :place (s71s / shu-yerda)
+    :actor (s71u / U
+        :refer-number singular)
+        :refer-person 3rd)
+
+# alignment:
+s71q1: 5-5
+s71s: 3-4
+s71u: 1-1
+s71y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt72
+Index: 1 2 3 4 5 6 7 8
+Words: Men sinfda eng qiyin savolga javob berdim .
+
+# sentence level graph:
+(s72j1 / javob-berdim
+    :ARG3 (s72s / savolga
+        :mod (s72e / eng-qiyin))
+    :place (s72s1 / sinfda)
+    :actor (s72m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s72e: 3-4
+s72j1: 6-6-7-7
+s72m: 1-1
+s72s: 5-5
+s72s1: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt73
+Index: 1 2 3 4 5 6 7
+Words: Ustoz majlis qilish uchun hammamizni chaqirdi .
+
+# sentence level graph:
+(s73c1 / chaqirdi
+    :cause (s73m / majlis-qilish-uchun)
+    :actor (s73u / Ustoz)
+    :group (s73h / hammamizni))
+
+# alignment:
+s73c1: 6-6
+s73h: 5-5
+s73m: 2-4
+s73u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt74
+Index: 1 2 3 4 5
+Words: Men buvimnikiga mehmonga bordim .
+
+# sentence level graph:
+(s74b1 / bordim
+    :place (s74b / buvimnikiga)
+    :cause (s74m1 / mehmonga)
+    :actor (s74m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s74b: 2-2
+s74b1: 4-4
+s74m: 1-1
+s74m1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt75
+Index: 1 2 3 4 5
+Words: Qushlar janub tomon uchdi .
+
+# sentence level graph:
+(s75u1 / uchdi
+    :group (s75q / Qushlar)
+    :place (s75j / janub-tomon))
+
+# alignment:
+s75j: 2-3
+s75q: 1-1
+s75u1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt76
+Index: 1 2 3 4
+Words: Qiz samimiy kuldi .
+
+# sentence level graph:
+(s76k1 / kuldi
+    :manner (s76s / samimiy)
+    :actor (s76q / Qiz))
+
+# alignment:
+s76k1: 3-3
+s76q: 1-1
+s76s: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt77
+Index: 1 2 3 4
+Words: Bola uxlab qoldi .
+
+# sentence level graph:
+(s77u1 / uxlab-qoldi
+    :actor (s77b / Bola))
+
+# alignment:
+s77b: 1-1
+s77u1: 2-2-3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt78
+Index: 1 2 3 4 5
+Words: Mashinalar mehmonxona yoniga keldi .
+
+# sentence level graph:
+(s78k1 / keldi
+    :theme (s78m / Mashinalar)
+    :place (s78m1 / mehmonxona-yoniga))
+
+# alignment:
+s78k1: 4-4
+s78m: 1-1
+s78m1: 2-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt79
+Index: 1 2 3 4 5
+Words: Poyezd Toshkent tomon ketdi .
+
+# sentence level graph:
+(s79k1 / ketdi
+    :undergoer (s79p / Poyezd)
+    :place (s79t / Toshkent-tomon))
+
+# alignment:
+s79k1: 4-4
+s79p: 1-1
+s79t: 2-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt80
+Index: 1 2 3 4 5
+Words: Tut daraxti barglari sochildi .
+
+# sentence level graph:
+(s80s1 / sochildi
+    :group (s80b / barglari)
+        :group-of (s80d / daraxti-Tut))
+
+# alignment:
+s80b: 3-3
+s80d: 1-2
+s80s1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt81
+Index: 1 2 3 4 5 6
+Words: Men u uchun rasm chizdim .
+
+# sentence level graph:
+(s81c1 / chizdim
+    :actor (s81m / Men
+        :refer-number singular
+        :refer-person 1st)
+    :cause (s81u / u-uchun)
+    :ARG0 (s81r / rasm))
+
+# alignment:
+s81c1: 5-5
+s81m: 1-1
+s81r: 4-4
+s81u: 2-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt82
+Index: 1 2 3 4 5 6 7
+Words: Mushuk yumshoq gilam ustida uyquga ketdi .
+
+# sentence level graph:
+(s82u1 / uyquga-ketdi
+    :place (s82u / ustida
+        :place-of (s82g / gilam)
+            :extent (s82y / yumshoq))
+    :undergoer (s82m / Mushuk))
+
+# alignment:
+s82g: 3-3
+s82m: 1-1
+s82u: 4-4
+s82u1: 5-5-6-6
+s82y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt83
+Index: 1 2 3 4 5
+Words: Men kundalik daftar oldim .
+
+# sentence level graph:
+(s83o1 / oldim
+    :actor (s83m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s83k: 2-3
+s83m: 1-1
+s83o1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt84
+Index: 1 2 3 4 5 6
+Words: U yana menga telefon qildi .
+
+# sentence level graph:
+(s84t1 / telefon-qildi
+    :extent (s84y / yana)
+    :ARG0 (s84m / menga)
+    :actor (s84u / U
+        :refer-number singular)
+        :refer-person 3rd)
+
+# alignment:
+s84m: 3-3
+s84t1: 4-4-5-5
+s84u: 1-1
+s84y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt85
+Index: 1 2 3 4 5 6
+Words: Biz dugonalarimiz bilan shaharga keldik .
+
+# sentence level graph:
+(s85k1 / keldik
+    :actor (s85b / Biz
+        :refer-number plural
+        :refer-person 3rd)
+    :ARG0 (s85d / dugonalarimiz-bilan)
+    :place (s85s / shaharga))
+
+# alignment:
+s85b: 1-1
+s85d: 2-3
+s85k1: 5-5
+s85s: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt86
+Index: 1 2 3 4 5 6 7
+Words: U ishlash uchun chet elga ketdi .
+
+# sentence level graph:
+(s86k1 / ketdi
+    :place (s86c / chet-elga)
+    :cause (s86i / ishlash-uchun)
+    :actor (s86u / U
+        :refer-number singular)
+        :refer-person 3rd)
+
+# alignment:
+s86c: 4-5
+s86e: 4-5
+s86i: 2-3
+s86k1: 6-6
+s86u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt87
+Index: 1 2 3 4 5
+Words: Men bolalik xotiralarimni esladim .
+
+# sentence level graph:
+(s87e1 / esladim
+    :ARG0 (s87x / xotiralarimni
+        :ARG0-of (s87b / bolalik))
+    :actor (s87m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s87b: 2-2
+s87e1: 4-4
+s87m: 1-1
+s87x: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt88
+Index: 1 2 3 4 5
+Words: U barcha xotiralarni unutdi .
+
+# sentence level graph:
+(s88u1 / unutdi
+    :ARG0 (s88x / xotiralarni
+        :group (s88b / barcha))
+    :actor (s88u / U
+        :refer-number singular)
+        :refer-person 3rd)
+
+# alignment:
+s88b: 2-2
+s88u: 1-1
+s88u1: 4-4
+s88x: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt89
+Index: 1 2 3 4 5 6 7
+Words: Yosh bola yana hech narsasiz qoldi .
+
+# sentence level graph:
+(s89q1 / qoldi
+    :ARG0 (s89h / hech-narsasiz)
+    :actor (s89b / bola)
+        :age (s89y / Yosh))
+
+# alignment:
+s89b: 2-2
+s89h: 4-5
+s89q1: 6-6
+s89y: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt90
+Index: 1 2 3 4 5 6
+Words: U uzoq qidirgan narsani topdi .
+
+# sentence level graph:
+(s90t1 / topdi
+    :ARG0 (s90n / narsani
+        :destination (s90u1 / uzoq-qidirgan))
+    :actor (s90u / U
+        :refer-number singular)
+        :refer-person 3rd)
+
+# alignment:
+s90n: 4-4
+s90t1: 5-5
+s90u: 1-1
+s90u1: 2-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt91
+Index: 1 2 3 4 5 6
+Words: U qizga qayta tushuntirishdan charchadi .
+
+# sentence level graph:
+(s91c1 / charchadi
+    :actor (s91u / U
+        :refer-number singular
+        :refer-person 3rd)
+    :ARG1 (s91q1 / qizga)
+    :ARG0 (s91q / qayta-tushuntirishdan))
+
+# alignment:
+s91c1: 5-5
+s91q: 3-4
+s91q1: 2-2
+s91u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt92
+Index: 1 2 3 4
+Words: Biz oilaviy o‘tiribmiz .
+
+# sentence level graph:
+(s92o1 / o‘tiribmiz
+    :group (s92o / oilaviy)
+    :actor (s92b / Biz
+        :refer-number plural)
+        :refer-person 1st)
+
+# alignment:
+s92b: 1-1
+s92o: 2-2
+s92o1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt93
+Index: 1 2 3 4 5
+Words: Men bugun erta turdim .
+
+# sentence level graph:
+(s93t1 / turdim
+    :time (s93e / erta)
+    :day (s93b / bugun)
+    :actor (s93m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s93b: 2-2
+s93e: 3-3
+s93m: 1-1
+s93t1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt94
+Index: 1 2 3 4 5
+Words: U onasini oldiga yugurdi .
+
+# sentence level graph:
+(s94y1 / yugurdi
+    :place (s94o / oldiga
+        :place-of (s94o1 / onasini))
+    :actor (s94u / U
+        :refer-number singular)
+        :refer-person 3rd)
+
+# alignment:
+s94o: 3-3
+s94o1: 2-2
+s94u: 1-1
+s94y1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt95
+Index: 1 2 3 4 5
+Words: Qiz yana Toshkentga ketdi .
+
+# sentence level graph:
+(s95k1 / ketdi
+    :quant (s95y / yana)
+    :place (s95t / Toshkentga)
+    :actor (s95q / Qiz))
+
+# alignment:
+s95k1: 4-4
+s95q: 1-1
+s95t: 3-3
+s95y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt96
+Index: 1 2 3 4 5
+Words: Bobo nabiralariga ertak aytdi .
+
+# sentence level graph:
+(s96e1 / ertak-aytdi
+    :ARG0 (s96n / nabiralariga)
+    :actor (s96b / Bobo))
+
+# alignment:
+s96b: 1-1
+s96e1: 3-3-4-4
+s96n: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt97
+Index: 1 2 3 4 5
+Words: Buvi mazali taom pishirdi .
+
+# sentence level graph:
+(s97p1 / pishirdi
+    :ARG0 (s97t / taom
+        :quant (s97m / mazali))
+    :actor (s97b / Buvi))
+
+# alignment:
+s97b: 1-1
+s97m: 2-2
+s97p1: 4-4
+s97t: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt98
+Index: 1 2 3 4 5
+Words: Men uning shirinligidan yedi .
+
+# sentence level graph:
+(s98y1 / yedi
+    :ARG0 (s98s / shirinligidan
+        :ARG0-of (s98u / uning))
+    :actor (s98m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s98m: 1-1
+s98s: 3-3
+s98u: 2-2
+s98y1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt99
+Index: 1 2 3 4 5
+Words: U eshikni qiya ochdi .
+
+# sentence level graph:
+(s99o1 / ochdi
+    :quant (s99q / qiya)
+    :ARG0 (s99e / eshikni)
+    :actor (s99u / U
+        :refer-number singular)
+        :refer-person 3rd)
+
+# alignment:
+s99e: 2-2
+s99o1: 4-4
+s99q: 3-3
+s99u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt100
+Index: 1 2 3 4 5 6
+Words: Stol kuchli zilzilada ham qimirlamadi .
+
+# sentence level graph:
+(s100q1 / qimirlamadi
+    :time (s100z / zilzilada-ham
+        :quant (s100k / kuchli))
+    :undergoer (s100s / Stol))
+
+# alignment:
+s100k: 2-2
+s100q1: 5-5
+s100s: 1-1
+s100z: 3-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt101
+Index: 1 2 3 4 5
+Words: Men unga qarab jilmaydim .
+
+# sentence level graph:
+(s101j1 / jilmaydim
+    :manner (s101q / qarab)
+    :ARG0 (s101u / unga)
+    :actor (s101m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s101j1: 4-4
+s101m: 1-1
+s101q: 3-3
+s101u: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt102
+Index: 1 2 3 4 5 6
+Words: U qizga mehr bilan qaradi .
+
+# sentence level graph:
+(s102q1 / qaradi
+    :manner (s102m / mehr-bilan)
+    :apprehensive-of (s102q / qizga)
+    :actor (s102u / U
+        :refer-number singular)
+        :refer-person 3rd)
+
+# alignment:
+s102m: 3-4
+s102q: 2-2
+s102q1: 5-5
+s102u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt103
+Index: 1 2 3 4 5 6 7
+Words: Biz askiya davomida maza qilib kuldik .
+
+# sentence level graph:
+(s103k1 / kuldik
+    :manner (s103m / maza-qilib)
+    :time (s103d / davomida
+        :time-of (s103a / askiya))
+    :actor (s103b / Biz
+        :refer-number plural)
+        :refer-person 1st)
+
+# alignment:
+s103a: 2-2
+s103b: 1-1
+s103d: 3-3
+s103k1: 6-6
+s103m: 4-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt104
+Index: 1 2 3 4 5
+Words: Men yangi ustozlarni qabul_qildim .
+
+# sentence level graph:
+(s104q1 / qabul_qildim
+    :ARG0 (s104u / ustozlarni
+        :extent (s104y / yangi))
+    :actor (s104m / Men
+        :refer-number singular)
+        :refer-person 1st)
+
+# alignment:
+s104m: 1-1
+s104q1: 4-4
+s104u: 3-3
+s104y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt105
+Index: 1 2 3 4 5 6
+Words: U yana universitetga borishni rad_etdi .
+
+# sentence level graph:
+(s105r1 / rad_etdi
+    :extent (s105y / yana)
+    :place (s105u1 / universitetga)
+    :ARG0 (s105b / borishni)
+    :actor (s105u / U
+        :refer-number singular)
+        :refer-person 3rd)
+
+# alignment:
+s105b: 4-4
+s105r1: 5-5
+s105u: 1-1
+s105u1: 3-3
+s105y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt106
+Index: 1 2 3 4
+Words: Bola uyga yugurmoqda .
+
+# sentence level graph:
+(s106y1 / yugurmoqda
+    :place (s106u / uyga)
+    :actor (s106b / Bola))
+
+# alignment:
+s106b: 1-1
+s106u: 2-2
+s106y1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt107
+Index: 1 2 3 4 5
+Words: Men yangi musiqadan ilhomlandim .
+
+# sentence level graph:
+(s107i1 / ilhomlandim
+    :ARG0 (s107m1 / musiqadan
+        :quant (s107y / yangi))
+    :actor (s107m / Men))
+
+# alignment:
+s107i1: 4-4
+s107m: 1-1
+s107m1: 3-3
+s107y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt108
+Index: 1 2 3 4 5
+Words: Men ertalab maktabga shoshildim .
+
+# sentence level graph:
+(s108s1 / shoshildim
+    :time (s108e / ertalab)
+    :place (s108m1 / maktabga)
+    :actor (s108m / Men))
+
+# alignment:
+s108e: 2-2
+s108m: 1-1
+s108m1: 3-3
+s108s1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt109
+Index: 1 2 3 4 5
+Words: Singlim yangi daftariga yozdi .
+
+# sentence level graph:
+(s109y1 / yozdi
+    :ARG0 (s109d / daftariga
+        :quant (s109y / yangi))
+    :actor (s109s / Singlim))
+
+# alignment:
+s109d: 3-3
+s109s: 1-1
+s109y: 2-2
+s109y1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt110
+Index: 1 2 3 4 5 6
+Words: Qiz deraza oldida kutib turdi .
+
+# sentence level graph:
+(s110k1 / kutib-turdi
+    :place (s110o / oldida
+        :place-of (s110d / deraza))
+    :actor (s110q / Qiz))
+
+# alignment:
+s110d: 2-2
+s110k1: 4-4-5-5
+s110o: 3-3
+s110q: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt111
+Index: 1 2 3 4 5 6
+Words: U bugun dugonasiga telefon qildi .
+
+# sentence level graph:
+(s111t1 / telefon-qildi
+    :day (s111b / bugun)
+    :ARG0 (s111d / dugonasiga)
+    :actor (s111u / U))
+
+# alignment:
+s111b: 2-2
+s111d: 3-3
+s111t1: 4-4-5-5
+s111u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt112
+Index: 1 2 3 4 5 6
+Words: Men katta stadionda sayr qildim .
+
+# sentence level graph:
+(s112s1 / sayr-qildim
+    :actor (s112m / Men)
+    :place (s112s / stadionda)
+        :quant (s112k / katta))
+
+# alignment:
+s112k: 2-2
+s112m: 1-1
+s112s: 3-3
+s112s1: 4-4-5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt113
+Index: 1 2 3 4 5 6
+Words: Ota ishxonaga erta yetib bordi .
+
+# sentence level graph:
+(s113y1 / yetib-bordi
+    :place (s113i / ishxonaga)
+    :time (s113e / erta)
+    :actor (s113o / Ota))
+
+# alignment:
+s113e: 3-3
+s113i: 2-2
+s113o: 1-1
+s113y1: 4-4-5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt114
+Index: 1 2 3 4 5 6
+Words: Ona bolasi uchun nonushta tayyorladi .
+
+# sentence level graph:
+(s114t1 / tayyorladi
+    :ARG1 (s114b / bolasi-uchun)
+    :actor (s114o / Ona)
+        :ARG0 (s114n / nonushta))
+
+# alignment:
+s114b: 2-3
+s114n: 4-4
+s114o: 1-1
+s114t1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt115
+Index: 1 2 3 4 5 6
+Words: Ustoz dars davomida misol tushuntirdi .
+
+# sentence level graph:
+(s115t1 / tushuntirdi
+    :time (s115d / davomida
+        :time-of (s115d1 / dars))
+    :ARG0 (s115m / misol)
+    :actor (s115u / Ustoz))
+
+# alignment:
+s115d: 3-3
+s115d1: 2-2
+s115m: 4-4
+s115t1: 5-5
+s115u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt116
+Index: 1 2 3 4 5 6 7
+Words: U bozordan yangi kitob sotib oldi .
+
+# sentence level graph:
+(s116s1 / sotib-oldi
+    :place (s116b / bozordan)
+    :ARG0 (s116k / kitob
+        :quant (s116y / yangi))
+    :actor (s116u / U))
+
+# alignment:
+s116b: 2-2
+s116k: 4-4
+s116s1: 5-5-6-6
+s116u: 1-1
+s116y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt117
+Index: 1 2 3 4 5
+Words: Biz kecha stadionda uchrashdik .
+
+# sentence level graph:
+(s117u1 / uchrashdik
+    :day (s117k / kecha)
+    :place (s117s / stadionda)
+    :actor (s117b / Biz))
+
+# alignment:
+s117b: 1-1
+s117k: 2-2
+s117s: 3-3
+s117u1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt118
+Index: 1 2 3 4 5 6 7 8
+Words: Men uyda televizor orqali film tomosha qildim .
+
+# sentence level graph:
+(s118t1 / tomosha-qildim
+    :theme (s118t / televizor-orqali)
+    :place (s118u / uyda)
+    :ARG0 (s118f / film)
+    :actor (s118m / Men))
+
+# alignment:
+s118f: 5-5
+s118m: 1-1
+s118t: 3-4
+s118t1: 6-6-7-7
+s118u: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt119
+Index: 1 2 3 4 5 6
+Words: U mashinani ehtiyotkorlik bilan haydadi .
+
+# sentence level graph:
+(s119h1 / haydadi
+    :manner (s119e / ehtiyotkorlik-bilan)
+    :ARG0 (s119m / mashinani)
+    :actor (s119u / U))
+
+# alignment:
+s119e: 3-4
+s119h1: 5-5
+s119m: 2-2
+s119u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt120
+Index: 1 2 3 4 5 6 7
+Words: U bolaga qiziqarli ertak aytib berdi .
+
+# sentence level graph:
+(s120a1 / aytib-berdi
+    :ARG1 (s120e / ertak
+        :quant (s120q / qiziqarli))
+    :ARG0 (s120b / bolaga)
+    :actor (s120u / U))
+
+# alignment:
+s120a1: 5-5-6-6
+s120b: 2-2
+s120e: 4-4
+s120q: 3-3
+s120u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt121
+Index: 1 2 3 4 5 6
+Words: Men hovlida katta olmani terdim .
+
+# sentence level graph:
+(s121t1 / terdim
+    :place (s121h / hovlida)
+    :ARG0 (s121o / olmani
+        :quant (s121k / katta))
+    :actor (s121m / Men))
+
+# alignment:
+s121h: 2-2
+s121k: 3-3
+s121m: 1-1
+s121o: 4-4
+s121t1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt122
+Index: 1 2 3 4 5
+Words: U oshxonada choy damladi .
+
+# sentence level graph:
+(s122d1 / damladi
+    :place (s122o / oshxonada)
+    :ARG0 (s122c / choy)
+    :actor (s122u / U))
+
+# alignment:
+s122c: 3-3
+s122d1: 4-4
+s122o: 2-2
+s122u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt123
+Index: 1 2 3 4 5
+Words: Men kursdoshimga savol berdim .
+
+# sentence level graph:
+(s123s1 / savol-berdim
+    :ARG0 (s123k / kursdoshimga)
+    :actor (s123m / Men))
+
+# alignment:
+s123k: 2-2
+s123m: 1-1
+s123s1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt124
+Index: 1 2 3 4 5 6
+Words: Men kechasi yulduzlarni tomosha qildim .
+
+# sentence level graph:
+(s124t1 / tomosha-qildim
+    :time (s124k / kechasi)
+    :ARG0 (s124y / yulduzlarni)
+    :actor (s124m / Men))
+
+# alignment:
+s124k: 2-2
+s124m: 1-1
+s124t1: 4-4-5-5
+s124y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt125
+Index: 1 2 3 4 5 6 7
+Words: U daraxtdan bir nechta meva terdi .
+
+# sentence level graph:
+(s125t1 / terdi
+    :extent (s125b / bir-nechta)
+    :ARG1 (s125d / daraxtdan)
+    :ARG0 (s125m / meva)
+    :actor (s125u / U))
+
+# alignment:
+s125b: 3-4
+s125d: 2-2
+s125m: 5-5
+s125t1: 6-6
+s125u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt126
+Index: 1 2 3 4 5 6 7
+Words: Kichkina bola yerga tushgan qalamni oldi .
+
+# sentence level graph:
+(s126o1 / oldi
+    :ARG0 (s126q / qalamni
+        :mod (s126t / tushgan)
+            :place (s126y / yerga))
+    :actor (s126b / bola)
+        :extent (s126k / Kichkina))
+
+# alignment:
+s126b: 2-2
+s126k: 1-1
+s126o1: 6-6
+s126q: 5-5
+s126t: 4-4
+s126y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt127
+Index: 1 2 3 4 5
+Words: Ona mehmonlarga shirinlik tortdi .
+
+# sentence level graph:
+(s127t1 / tortdi
+    :ARG1 (s127m / mehmonlarga)
+    :ARG0 (s127s / shirinlik)
+    :actor (s127o / Ona))
+
+# alignment:
+s127m: 2-2
+s127o: 1-1
+s127s: 3-3
+s127t1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt128
+Index: 1 2 3 4 5 6 7
+Words: U daraxt tagida biroz dam oldi .
+
+# sentence level graph:
+(s128d1 / dam-oldi
+    :quant (s128b / biroz)
+    :place (s128t / tagida
+        :place-of (s128d / daraxt))
+    :actor (s128u / U))
+
+# alignment:
+s128b: 4-4
+s128d: 2-2
+s128d1: 5-5-6-6
+s128t: 3-3
+s128u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt129
+Index: 1 2 3 4 5 6
+Words: U terasta issiq choy ichdi .
+
+# sentence level graph:
+(s129i1 / ichdi
+    :ARG0 (s129c / choy
+        :mod (s129i / issiq))
+    :place (s129t / terasta)
+    :actor (s129u / U))
+
+# alignment:
+s129c: 4-4
+s129i: 3-3
+s129i1: 5-5
+s129t: 2-2
+s129u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt130
+Index: 1 2 3 4 5 6
+Words: Biz ertaga sayohat uchun tayyorlandik .
+
+# sentence level graph:
+(s130t1 / tayyorlandik
+    :day (s130e / ertaga)
+    :cause (s130s / sayohat-uchun)
+    :actor (s130b / Biz))
+
+# alignment:
+s130b: 1-1
+s130e: 2-2
+s130s: 3-4
+s130t1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt131
+Index: 1 2 3 4 5 6
+Words: Men darsdan keyin kutubxonaga bordim .
+
+# sentence level graph:
+(s131b1 / bordim
+    :time (s131d / darsdan-keyin)
+    :place (s131k / kutubxonaga)
+    :actor (s131m / Men))
+
+# alignment:
+s131b1: 5-5
+s131d: 2-3
+s131k: 4-4
+s131m: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt132
+Index: 1 2 3 4 5 6
+Words: U yotoqxonada eski suratni topdi .
+
+# sentence level graph:
+(s132t1 / topdi
+    :place (s132y / yotoqxonada)
+    :list-item (s132s / suratni
+        :mod (s132e / eski))
+    :actor (s132u / U))
+
+# alignment:
+s132e: 3-3
+s132s: 4-4
+s132t1: 5-5
+s132u: 1-1
+s132y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt133
+Index: 1 2 3 4 5 6
+Words: Biz uyda katta mehmonxonani tozaladik .
+
+# sentence level graph:
+(s133t1 / tozaladik
+    :place (s133u / uyda)
+    :place (s133m / mehmonxonani
+        :quant (s133k / katta))
+    :actor (s133b / Biz))
+
+# alignment:
+s133b: 1-1
+s133k: 3-3
+s133m: 4-4
+s133t1: 5-5
+s133u: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt134
+Index: 1 2 3 4 5 6 7
+Words: Men bozordan yangi poyabzal sotib oldim .
+
+# sentence level graph:
+(s134s1 / sotib-oldim
+    :theme (s134p / poyabzal
+        :mod (s134y / yangi))
+    :place (s134b / bozordan)
+    :actor (s134m / Men))
+
+# alignment:
+s134b: 2-2
+s134m: 1-1
+s134p: 4-4
+s134s1: 5-5-6-6
+s134y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt135
+Index: 1 2 3 4 5
+Words: U ishxonada hujjatlarni joyladi .
+
+# sentence level graph:
+(s135j1 / joyladi
+    :place (s135i / ishxonada)
+    :theme (s135h / hujjatlarni)
+    :actor (s135u / U))
+
+# alignment:
+s135h: 3-3
+s135i: 2-2
+s135j1: 4-4
+s135u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt136
+Index: 1 2 3 4 5
+Words: Qiz singlisiga yordam berdi .
+
+# sentence level graph:
+(s136y1 / yordam-berdi
+    :ARG0 (s136s / singlisiga)
+    :actor (s136q / Qiz))
+
+# alignment:
+s136q: 1-1
+s136s: 2-2
+s136y1: 3-3-4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt137
+Index: 1 2 3 4 5 6
+Words: Men hovlida kichik quduq qazidim .
+
+# sentence level graph:
+(s137q1 / qazidim
+    :place (s137h / hovlida)
+    :ARG0 (s137q / quduq
+        :quant (s137k / kichik))
+    :actor (s137m / Men))
+
+# alignment:
+s137h: 2-2
+s137k: 3-3
+s137m: 1-1
+s137q: 4-4
+s137q1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt138
+Index: 1 2 3 4 5
+Words: Biz mashinani garajga joylashtirdik .
+
+# sentence level graph:
+(s138j1 / joylashtirdik
+    :place (s138g / garajga)
+    :ARG0 (s138m / mashinani)
+    :actor (s138b / Biz))
+
+# alignment:
+s138b: 1-1
+s138g: 3-3
+s138j1: 4-4
+s138m: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt139
+Index: 1 2 3 4 5 6 7
+Words: U katta sumkani zaxira xonaga joylashtirdi .
+
+# sentence level graph:
+(s139j1 / joylashtirdi
+    :ARG0 (s139s / sumkani
+        :quant (s139k / katta))
+    :place (s139x / xonaga
+        :mod (s139z / zaxira))
+    :actor (s139u / U))
+
+# alignment:
+s139j1: 6-6
+s139k: 2-2
+s139s: 3-3
+s139u: 1-1
+s139x: 5-5
+s139z: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt140
+Index: 1 2 3 4 5 6 7
+Words: Men adirda sovuq shamolni his qildim .
+
+# sentence level graph:
+(s140h1 / his-qildim
+    :place (s140a / adirda)
+    :ARG0 (s140s / shamolni
+        :extent (s140s1 / sovuq))
+    :actor (s140m / Men))
+
+# alignment:
+s140a: 2-2
+s140h1: 5-5-6-6
+s140m: 1-1
+s140s: 4-4
+s140s1: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt141
+Index: 1 2 3 4 5 6
+Words: U bog‘da gullarga suv quydi .
+
+# sentence level graph:
+(s141q1 / quydi
+    :place (s141b / bog)
+    :ARG1 (s141g / gullarni)
+    :ARG0 (s141s / suv)
+    :actor (s141u / U))
+
+# alignment:
+s141b: 2-2
+s141g: 3-3
+s141q1: 5-5
+s141s: 4-4
+s141u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt142
+Index: 1 2 3 4 5 6
+Words: Biz daryoda kichik qayiqda suzdik .
+
+# sentence level graph:
+(s142s1 / suzdik
+    :place (s142d / daryoda)
+    :ARG0 (s142q / qayiqda
+        :quant (s142k / kichik))
+    :actor (s142b / Biz))
+
+# alignment:
+s142b: 1-1
+s142d: 2-2
+s142k: 3-3
+s142q: 4-4
+s142s1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt143
+Index: 1 2 3 4 5 6
+Words: Men kompyuterda yangi dasturda ishladim .
+
+# sentence level graph:
+(s143i1 / ishladim
+    :ARG1 (s143k / kompyuterda)
+    :ARG0 (s143d / dasturda
+        :extent (s143y / yangi))
+    :actor (s143m / Men))
+
+# alignment:
+s143d: 4-4
+s143i1: 5-5
+s143k: 2-2
+s143m: 1-1
+s143y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt144
+Index: 1 2 3 4 5 6
+Words: U uyda kichik baliqchani boqmoqda .
+
+# sentence level graph:
+(s144b1 / boqmoqda
+    :place (s144u1 / uyda)
+    :ARG0 (s144b / baliqchani
+        :extent (s144k / kichik))
+    :actor (s144u / U))
+
+# alignment:
+s144b: 4-4
+s144b1: 5-5
+s144k: 3-3
+s144u: 1-1
+s144u1: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt145
+Index: 1 2 3 4 5 6
+Words: Umid kitob javoniga tartib berdi .
+
+# sentence level graph:
+(s145t1 / tartib-berdi
+    :ARG0 (s145j / javoniga
+        :ARG0-of (s145k / kitob))
+    :actor (s145u / Umid))
+
+# alignment:
+s145j: 3-3
+s145k: 2-2
+s145t1: 4-4-5-5
+s145u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt146
+Index: 1 2 3 4 5 6
+Words: U kechqurun deraza pardasini yopdi .
+
+# sentence level graph:
+(s146y1 / yopdi
+    :time (s146k / kechqurun)
+    :ARG0 (s146p / pardasini
+        :ARG0-of (s146d / deraza))
+    :actor (s146u / U))
+
+# alignment:
+s146d: 3-3
+s146k: 2-2
+s146p: 4-4
+s146u: 1-1
+s146y1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt147
+Index: 1 2 3 4 5 6
+Words: Men kichik daftarimga reja yozdim .
+
+# sentence level graph:
+(s147y1 / yozdim
+    :ARG1 (s147d / daftarimga
+        :extent (s147k / kichik))
+    :ARG0 (s147r / reja)
+    :actor (s147m / Men))
+
+# alignment:
+s147d: 3-3
+s147k: 2-2
+s147m: 1-1
+s147r: 4-4
+s147y1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt148
+Index: 1 2 3 4 5 6
+Words: U uyda issiq osh tayyorladi .
+
+# sentence level graph:
+(s148t1 / tayyorladi
+    :path (s148u1 / uyda)
+    :ARG0 (s148o / osh
+        :extent (s148i / issiq))
+    :actor (s148u / U))
+
+# alignment:
+s148i: 3-3
+s148o: 4-4
+s148t1: 5-5
+s148u: 1-1
+s148u1: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt149
+Index: 1 2 3 4 5 6
+Words: Biz ariqning chetidan suv oldik .
+
+# sentence level graph:
+(s149o1 / oldik
+    :place (s149c / chetidan
+        :place-of (s149a / ariqning))
+    :ARG0 (s149s / suv)
+    :actor (s149b / Biz))
+
+# alignment:
+s149a: 2-2
+s149b: 1-1
+s149c: 3-3
+s149o1: 5-5
+s149s: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt150
+Index: 1 2 3 4 5 6
+Words: Men yangi rasmni devorga ildim .
+
+# sentence level graph:
+(s150i1 / ildim
+    :manner (s150d / devorga)
+    :ARG0 (s150r / rasmni
+        :extent (s150y / yangi))
+    :actor (s150m / Men))
+
+# alignment:
+s150d: 4-4
+s150i1: 5-5
+s150m: 1-1
+s150r: 3-3
+s150y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt151
+Index: 1 2 3 4 5 6
+Words: Qiz hovlida mushukka sut berdi .
+
+# sentence level graph:
+(s151s1 / sut-berdi
+    :place (s151h / hovlida)
+    :ARG0 (s151m / mushukka)
+    :actor (s151q / Qiz))
+
+# alignment:
+s151h: 2-2
+s151m: 3-3
+s151q: 1-1
+s151s1: 4-4-5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt152
+Index: 1 2 3 4 5 6
+Words: Men kechqurun itimni sayr qildim .
+
+# sentence level graph:
+(s152s1 / sayr-qildim
+    :time (s152k / kechqurun)
+    :ARG0 (s152i / itimni)
+    :actor (s152m / Men))
+
+# alignment:
+s152i: 3-3
+s152k: 2-2
+s152m: 1-1
+s152s1: 4-4-5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt153
+Index: 1 2 3 4 5 6
+Words: U xonaga yangi gilam soldi .
+
+# sentence level graph:
+(s153g1 / gilam-soldi
+    :extent (s153y / yangi)
+    :place (s153x / xonaga)
+    :actor (s153u / U))
+
+# alignment:
+s153g1: 4-4-5-5
+s153u: 1-1
+s153x: 2-2
+s153y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt154
+Index: 1 2 3 4 5 6 7
+Words: Biz maktabga yangi kompyuter olib keldik .
+
+# sentence level graph:
+(s154o1 / olib-keldik
+    :place (s154m / maktabga)
+    :ARG0 (s154k / kompyuter
+        :extent (s154y / yangi))
+    :actor (s154b / Biz))
+
+# alignment:
+s154b: 1-1
+s154k: 4-4
+s154m: 2-2
+s154o1: 5-5-6-6
+s154y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt155
+Index: 1 2 3 4 5 6
+Words: Qiz mehmonga sovuq sharbat tayyorladi .
+
+# sentence level graph:
+(s155t1 / tayyorladi
+    :goal (s155m / mehmonga)
+    :ARG0 (s155s / sharbat
+        :extent (s155s1 / sovuq))
+    :actor (s155q / Qiz))
+
+# alignment:
+s155m: 2-2
+s155q: 1-1
+s155s: 4-4
+s155s1: 3-3
+s155t1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt156
+Index: 1 2 3 4 5 6
+Words: U kutubxonadan qiziqarli kitob oldi .
+
+# sentence level graph:
+(s156o1 / oldi
+    :ARG1 (s156k1 / kutubxonadan)
+    :ARG0 (s156k / kitob
+        :extent (s156q / qiziqarli))
+    :actor (s156u / U))
+
+# alignment:
+s156k: 4-4
+s156k1: 2-2
+s156o1: 5-5
+s156q: 3-3
+s156u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt157
+Index: 1 2 3 4 5
+Words: Biz ertalab darsga tayyorlandik .
+
+# sentence level graph:
+(s157t1 / tayyorlandik
+    :time (s157e / ertalab)
+    :ARG0 (s157d / darsga)
+    :actor (s157b / Biz))
+
+# alignment:
+s157b: 1-1
+s157d: 3-3
+s157e: 2-2
+s157t1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt158
+Index: 1 2 3 4 5 6
+Words: Qiz sinfda daftarini unutib qoldirdi .
+
+# sentence level graph:
+(s158u1 / unutib-qoldirdi
+    :place (s158s / sinfda)
+    :ARG0 (s158d / daftarini)
+    :actor (s158q / Qiz))
+
+# alignment:
+s158d: 3-3
+s158q: 1-1
+s158s: 2-2
+s158u1: 4-4-5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt159
+Index: 1 2 3 4 5 6
+Words: Biz majlisda muhim masalani muhokama_qildik .
+
+# sentence level graph:
+(s159m1 / muhokama_qildik
+    :ARG1 (s159m2 / masalani
+        :mod (s159m3 / muhim))
+    :ARG0 (s159m / majlisda)
+    :actor (s159b / Biz))
+
+# alignment:
+s159b: 1-1
+s159m: 2-2
+s159m1: 5-5
+s159m2: 4-4
+s159m3: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt160
+Index: 1 2 3 4 5
+Words: Men gullarga suv quydim .
+
+# sentence level graph:
+(s160q1 / quydim
+    :ARG1 (s160g / gullarga)
+    :ARG0-of (s160s / suv)
+    :actor (s160m / Men))
+
+# alignment:
+s160g: 2-2
+s160m: 1-1
+s160q1: 4-4
+s160s: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt161
+Index: 1 2 3 4 5 6
+Words: Biz uyga katta quti olib_keldik .
+
+# sentence level graph:
+(s161o1 / olib_keldik
+    :place (s161u / uyga)
+    :ARG0 (s161q / quti
+        :extent (s161k / katta))
+    :actor (s161b / Biz))
+
+# alignment:
+s161b: 1-1
+s161k: 3-3
+s161o1: 5-5
+s161q: 4-4
+s161u: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt162
+Index: 1 2 3 4 5
+Words: U ukasiga vazifani tushuntirdi .
+
+# sentence level graph:
+(s162t1 / tushuntirdi
+    :ARG1 (s162u1 / ukasiga)
+    :ARG0 (s162v / vazifani)
+    :actor (s162u / U))
+
+# alignment:
+s162t1: 4-4
+s162u: 1-1
+s162u1: 2-2
+s162v: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt163
+Index: 1 2 3 4 5 6
+Words: U uyga issiq non olib_keldi .
+
+# sentence level graph:
+(s163o1 / olib_keldi
+    :ARG0 (s163n / non
+        :extent (s163i / issiq))
+    :place (s163u1 / uyga)
+    :actor (s163u / U))
+
+# alignment:
+s163i: 3-3
+s163n: 4-4
+s163o1: 5-5
+s163u: 1-1
+s163u1: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt164
+Index: 1 2 3 4 5 6 7
+Words: Biz maktab uchun yangi loyiha boshladik .
+
+# sentence level graph:
+(s164b1 / boshladik
+    :extent (s164y / yangi)
+    :cause (s164m / maktab-uchun)
+    :ARG0 (s164l / loyiha)
+    :actor (s164b / Biz))
+
+# alignment:
+s164b: 1-1
+s164b1: 6-6
+s164l: 5-5
+s164m: 2-3
+s164y: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt165
+Index: 1 2 3 4 5
+Words: Men kutubxonaga kitobni qaytardim .
+
+# sentence level graph:
+(s165q1 / qaytardim
+    :place (s165k1 / kutubxonaga)
+    :ARG0 (s165k / kitobni)
+    :actor (s165m / Men))
+
+# alignment:
+s165k: 3-3
+s165k1: 2-2
+s165m: 1-1
+s165q1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt166
+Index: 1 2 3 4 5
+Words: Men kichkina stolni tozaladim .
+
+# sentence level graph:
+(s166t1 / tozaladim
+    :ARG0 (s166s / stolni
+        :quant (s166k / kichkina))
+    :actor (s166m / Men))
+
+# alignment:
+s166k: 2-2
+s166m: 1-1
+s166s: 3-3
+s166t1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt167
+Index: 1 2 3 4 5 6
+Words: U oshxonaga yangi idishlar joylashtirdi .
+
+# sentence level graph:
+(s167j1 / joylashtirdi
+    :place (s167o / oshxonaga)
+    :ARG0 (s167i / idishlar
+        :extent (s167y / yangi))
+    :actor (s167u / U))
+
+# alignment:
+s167i: 4-4
+s167j1: 5-5
+s167o: 2-2
+s167u: 1-1
+s167y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt168
+Index: 1 2 3 4 5 6 7
+Words: U deraza yonida kelayotgan avtobusni kutdi .
+
+# sentence level graph:
+(s168k1 / kutdi
+    :actor (s168u / U)
+    :ARG0 (s168a / avtobusni
+        :extent (s168k / kelayotgan))
+        :manner (s168y / yonida)
+            :manner-of (s168d / deraza))
+
+# alignment:
+s168a: 5-5
+s168d: 2-2
+s168k: 4-4
+s168k1: 6-6
+s168u: 1-1
+s168y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt169
+Index: 1 2 3 4 5
+Words: Robiya chakmonni yelkasiga tushirdi .
+
+# sentence level graph:
+(s169t1 / tushirdi
+    :ARG1 (s169c / chakmonni)
+    :ARG0 (s169y / yelkasiga)
+    :actor (s169r / Robiya))
+
+# alignment:
+s169c: 2-2
+s169r: 1-1
+s169t1: 4-4
+s169y: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt170
+Index: 1 2 3 4
+Words: Qon tirqirab ketdi .
+
+# sentence level graph:
+(s170t1 / tirqirab-ketdi
+    :theme (s170q / Qon))
+
+# alignment:
+s170q: 1-1
+s170t1: 2-2-3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt171
+Index: 1 2 3 4 5
+Words: Otam doim shunday deydi .
+
+# sentence level graph:
+(s171d1 / deydi
+    :manner (s171s / shunday)
+    :manner (s171d / doim)
+    :actor (s171o / Otam))
+
+# alignment:
+s171d: 2-2
+s171d1: 4-4
+s171o: 1-1
+s171s: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt172
+Index: 1 2 3 4 5
+Words: Yangi yilingiz omadli kelsin .
+
+# sentence level graph:
+(s172k1 / kelsin
+    :theme (s172y / Yangi-yilingiz)
+    :manner (s172o / omadli))
+
+# alignment:
+s172k1: 4-4
+s172o: 3-3
+s172y: 1-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt173
+Index: 1 2 3 4 5 6 7 8
+Words: Bugun ertalab kichik qush deraza oldida sayradi .
+
+# sentence level graph:
+(s173s1 / sayradi
+    :day (s173b / Bugun)
+    :place (s173o / oldida
+        :place-of (s173d / deraza))
+    :theme (s173q / qush)
+        :quant (s173k / kichik))
+
+# alignment:
+s173b: 1-1
+s173d: 5-5
+s173k: 3-3
+s173o: 6-6
+s173q: 4-4
+s173s1: 7-7
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt174
+Index: 1 2 3 4 5
+Words: Oppoq bulutlar osmonni qoplab_oldi .
+
+# sentence level graph:
+(s174q1 / qoplab_oldi
+    :ARG0 (s174o / osmonni)
+    :group (s174b / bulutlar)
+        :mod (s174o1 / Oppoq))
+
+# alignment:
+s174b: 2-2
+s174o: 3-3
+s174o1: 1-1
+s174q1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt175
+Index: 1 2 3 4 5 6
+Words: U yangi daftarni sumkasiga joyladi .
+
+# sentence level graph:
+(s175j1 / joyladi
+    :ARG1 (s175d / daftarni
+        :extent (s175y / yangi))
+    :ARG0 (s175s / sumkasiga)
+    :actor-of (s175u / U))
+
+# alignment:
+s175d: 3-3
+s175j1: 5-5
+s175s: 4-4
+s175u: 1-1
+s175y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt176
+Index: 1 2 3 4 5 6
+Words: Men ertalabki ishimni vaqtida tugatdim .
+
+# sentence level graph:
+(s176t1 / tugatdim
+    :time (s176v / vaqtida
+        :ARG0 (s176i / ishimni)
+            :extent (s176e / ertalabki))
+    :actor (s176m / Men))
+
+# alignment:
+s176e: 2-2
+s176i: 3-3
+s176m: 1-1
+s176t1: 5-5
+s176v: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt177
+Index: 1 2 3 4 5 6 7 8
+Words: Har xil gullar bog‘ni yana-da chiroyli qildi .
+
+# sentence level graph:
+(s177c1 / chiroyli-qildi
+    :place (s177b / bog)
+    :group (s177g / gullar
+        :mod (s177h / Har-xil))
+    :manner (s177y / yana-da))
+
+# alignment:
+s177b: 4-4
+s177c1: 6-6-7-7
+s177g: 3-3
+s177h: 1-2
+s177y: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt178
+Index: 1 2 3 4 5 6
+Words: Singlim issiq choyni sekin ichdi .
+
+# sentence level graph:
+(s178i1 / ichdi
+    :quant (s178s1 / sekin)
+    :ARG0 (s178c / choyni
+        :extent (s178i / issiq))
+    :actor (s178s / Singlim))
+
+# alignment:
+s178c: 3-3
+s178i: 2-2
+s178i1: 5-5
+s178s: 1-1
+s178s1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt179
+Index: 1 2 3 4 5
+Words: U muzdek suvni ichdi .
+
+# sentence level graph:
+(s179i1 / ichdi
+    :ARG0 (s179s / suvni
+        :extent (s179m / muzdek))
+    :actor (s179u / U))
+
+# alignment:
+s179i1: 4-4
+s179m: 2-2
+s179s: 3-3
+s179u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt180
+Index: 1 2 3 4 5 6
+Words: U muzdek suvni tez-tez ichdi .
+
+# sentence level graph:
+(s180i1 / ichdi
+    :ARG0 (s180s / suvni
+        :mod (s180m / muzdek))
+    :manner (s180t / tez-tez)
+    :actor (s180u / U))
+
+# alignment:
+s180i1: 5-5
+s180m: 2-2
+s180s: 3-3
+s180t: 4-4
+s180u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt181
+Index: 1 2 3 4 5 6
+Words: Kichik bolakay maydonda yugurib yurdi .
+
+# sentence level graph:
+(s181y1 / yurdi
+    :actor (s181b / bolakay
+        :extent (s181k / Kichik))
+    :place (s181m / maydonda)
+    :manner (s181y / yugurib))
+
+# alignment:
+s181b: 2-2
+s181k: 1-1
+s181m: 3-3
+s181y: 4-4
+s181y1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt182
+Index: 1 2 3 4 5 6
+Words: Men yaxshi xabarni onamdan eshitdim .
+
+# sentence level graph:
+(s182e1 / eshitdim
+    :ARG1 (s182x / xabarni
+        :mod (s182y / yaxshi))
+    :ARG0 (s182o / onamdan)
+    :actor (s182m / Men))
+
+# alignment:
+s182e1: 5-5
+s182m: 1-1
+s182o: 4-4
+s182x: 3-3
+s182y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt183
+Index: 1 2 3 4 5 6 7
+Words: U katta daftar ichiga eslatma yozdi .
+
+# sentence level graph:
+(s183y1 / yozdi
+    :place (s183i / ichiga
+        :place-of (s183d / daftar)
+            :mod (s183k / katta))
+    :ARG0 (s183e / eslatma)
+    :actor (s183u / U))
+
+# alignment:
+s183d: 3-3
+s183e: 5-5
+s183i: 4-4
+s183k: 2-2
+s183u: 1-1
+s183y1: 6-6
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt184
+Index: 1 2 3 4 5
+Words: U kechagi voqeani tushuntirib_berdi .
+
+# sentence level graph:
+(s184t1 / tushuntirib_berdi
+    :ARG0 (s184v / voqeani
+        :mod (s184k / kechagi))
+    :actor (s184u / U))
+
+# alignment:
+s184k: 2-2
+s184t1: 4-4
+s184u: 1-1
+s184v: 3-3
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt185
+Index: 1 2 3 4 5 6 7
+Words: Issiq non hidi butun uyga taraldi .
+
+# sentence level graph:
+(s185t1 / taraldi
+    :theme (s185h / hidi
+        :theme-of (s185n / non)
+            :mod (s185i / Issiq))
+    :place (s185u / uyga)
+        :extent (s185b / butun))
+
+# alignment:
+s185b: 4-4
+s185h: 3-3
+s185i: 1-1
+s185n: 2-2
+s185t1: 6-6
+s185u: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt186
+Index: 1 2 3 4 5 6
+Words: Men yangi telefonni ehtiyotlab ishlataman .
+
+# sentence level graph:
+(s186i1 / ishlataman
+    :ARG0 (s186t / telefonni
+        :mod (s186y / yangi))
+    :manner (s186e / ehtiyotlab)
+    :actor (s186m / Men))
+
+# alignment:
+s186e: 4-4
+s186i1: 5-5
+s186m: 1-1
+s186t: 3-3
+s186y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt187
+Index: 1 2 3 4 5 6 7
+Words: U tezkor javob bilan barchani hayratda_qoldirdi .
+
+# sentence level graph:
+(s187h1 / hayratda_qoldirdi
+    :ARG1 (s187j / javob-bilan
+        :mod (s187t / tezkor))
+    :ARG0 (s187b / barchani)
+    :actor (s187u / U))
+
+# alignment:
+s187b: 5-5
+s187h1: 6-6
+s187j: 3-4
+s187t: 2-2
+s187u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt188
+Index: 1 2 3 4 5 6
+Words: Men yoqimli musiqa ostida ishladim .
+
+# sentence level graph:
+(s188i1 / ishladim
+    :place (s188o / ostida
+        :place-of (s188m1 / musiqa)
+            :quant (s188y / yoqimli))
+    :actor (s188m / Men))
+
+# alignment:
+s188i1: 5-5
+s188m: 1-1
+s188m1: 3-3
+s188o: 4-4
+s188y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt189
+Index: 1 2 3 4 5 6
+Words: Yangi kelgan talabalar kutubxonani aylanib_chiqishdi .
+
+# sentence level graph:
+(s189a1 / aylanib_chiqishdi
+    :ARG0 (s189k1 / kutubxonani)
+    :actor (s189t / talabalar
+        :quant (s189y / Yangi))
+        :quant (s189k / kelgan))
+
+# alignment:
+s189a1: 5-5
+s189k: 2-2
+s189k1: 4-4
+s189t: 3-3
+s189y: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt190
+Index: 1 2 3 4 5 6 7
+Words: U mazali palovni mazza qilib yedi .
+
+# sentence level graph:
+(s190y1 / yedi
+    :ARG0 (s190p / palovni
+        :extent (s190m1 / mazali))
+    :manner (s190m / mazza-qilib)
+    :actor (s190u / U))
+
+# alignment:
+s190m: 4-5
+s190m1: 2-2
+s190p: 3-3
+s190u: 1-1
+s190y1: 6-6
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt191
+Index: 1 2 3 4 5 6
+Words: Men kechki shamolni juda yoqtiraman .
+
+# sentence level graph:
+(s191y1 / yoqtiraman
+    :quant (s191j / juda)
+    :ARG0 (s191s / shamolni
+        :quant (s191k / kechki))
+    :actor (s191m / Men))
+
+# alignment:
+s191j: 4-4
+s191k: 2-2
+s191m: 1-1
+s191s: 3-3
+s191y1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt192
+Index: 1 2 3 4 5
+Words: Shinam xona menga xotirjamlik_beradi .
+
+# sentence level graph:
+(s192x1 / xotirjamlik_beradi
+    :theme (s192x / xona
+        :quant (s192s / Shinam))
+    :ARG0 (s192m / menga))
+
+# alignment:
+s192m: 3-3
+s192s: 1-1
+s192x: 2-2
+s192x1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt193
+Index: 1 2 3 4 5 6
+Words: Ular tezkor yordamni vaqtida yetkazishdi .
+
+# sentence level graph:
+(s193y1 / yetkazishdi
+    :actor (s193u / Ular)
+    :ARG0 (s193y / yordamni
+        :quant (s193t / tezkor))
+    :time (s193v / vaqtida))
+
+# alignment:
+s193t: 2-2
+s193u: 1-1
+s193v: 4-4
+s193y: 3-3
+s193y1: 5-5
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt194
+Index: 1 2 3 4 5 6 7
+Words: Men issiq quyosh ostida uzoq yurdim .
+
+# sentence level graph:
+(s194y1 / yurdim
+    :place (s194o / ostida
+        :place-of (s194q / quyosh)
+            :quant (s194i / issiq))
+    :extent (s194u / uzoq)
+    :actor (s194m / Men))
+
+# alignment:
+s194i: 2-2
+s194m: 1-1
+s194o: 4-4
+s194q: 3-3
+s194u: 5-5
+s194y1: 6-6
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt195
+Index: 1 2 3 4 5
+Words: Lazzatli taomlar dasturxonga tortildi .
+
+# sentence level graph:
+(s195t1 / tortildi
+    :ARG0 (s195d / dasturxonga)
+    :theme (s195t / taomlar)
+        :quant (s195l / Lazzatli))
+
+# alignment:
+s195d: 3-3
+s195l: 1-1
+s195t: 2-2
+s195t1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt196
+Index: 1 2 3 4 5 6
+Words: Singlim shirin mevalarni savatga joyladi .
+
+# sentence level graph:
+(s196j1 / joyladi
+    :ARG1 (s196m / mevalarni
+        :quant (s196s2 / shirin))
+    :ARG0 (s196s1 / savatga)
+    :actor (s196s / Singlim))
+
+# alignment:
+s196j1: 5-5
+s196m: 3-3
+s196s: 1-1
+s196s1: 4-4
+s196s2: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt197
+Index: 1 2 3 4 5
+Words: Kutilmagan xabar hammani hayron_qoldirdi .
+
+# sentence level graph:
+(s197h1 / hayron_qoldirdi
+    :theme (s197x / xabar
+        :quant (s197k / Kutilmagan))
+    :group (s197h / hammani))
+
+# alignment:
+s197h: 3-3
+s197h1: 4-4
+s197k: 1-1
+s197x: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt198
+Index: 1 2 3 4 5 6
+Words: Men yangi maslahatni inobatga oldim .
+
+# sentence level graph:
+(s198i1 / inobatga-oldim
+    :ARG0 (s198m1 / maslahatni
+        :quant (s198y / yangi))
+    :actor (s198m / Men))
+
+# alignment:
+s198i1: 4-4-5-5
+s198m: 1-1
+s198m1: 3-3
+s198y: 2-2
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt199
+Index: 1 2 3 4 5 6
+Words: U musaffo havoda sayr qildi .
+
+# sentence level graph:
+(s199s1 / sayr-qildi
+    :ARG0 (s199h / havoda
+        :quant (s199m / musaffo))
+    :actor (s199u / U))
+
+# alignment:
+s199h: 3-3
+s199m: 2-2
+s199s1: 4-4-5-5
+s199u: 1-1
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt200
+Index: 1 2 3 4 5 6 7
+Words: Tinch kecha menga yaxshi uyqu berdi .
+
+# sentence level graph:
+(s200u1 / uyqu-berdi
+    :theme (s200k / kecha
+        :quant (s200t / Tinch))
+    :ARG0 (s200m / menga)
+    :manner (s200y / yaxshi))
+
+# alignment:
+s200k: 2-2
+s200m: 3-3
+s200t: 1-1
+s200u1: 5-5-6-6
+s200y: 4-4
+
+# document level annotation:
+()
+
+################################################################################
+# meta-info
+# :: snt201
+Index: 1 2 3 4 5
+Words: Qizaloq qizil sharfni taqib_oldi .
+
+# sentence level graph:
+(s201t1 / taqib_oldi
+    :ARG0 (s201s / sharfni
+        :quant (s201q1 / qizil))
+    :actor (s201q / Qizaloq))
+
+# alignment:
+s201q: 1-1
+s201q1: 2-2
+s201s: 3-3
+s201t1: 4-4
+
+# document level annotation:
+()
+
+################################################################################
